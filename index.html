@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>오늘 소개한 제품</title>
+  <style>
+    :root { color-scheme: light; --accent:#ff6f61; --ink:#20232a; --muted:#686d77; --bg:#f7f7fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,"Noto Sans KR",sans-serif; color:var(--ink); background:var(--bg); }
+    main { width:min(760px,100%); margin:auto; padding:28px 18px 60px; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:-1px; }
+    .lead { margin:0 0 18px; color:var(--muted); }
+    .notice { margin:0 0 22px; padding:14px 16px; border-radius:14px; background:#fff3e8; font-size:13px; line-height:1.55; }
+    .section-title { margin:24px 0 12px; font-size:20px; }
+    .grid { display:grid; gap:16px; }
+    article { display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px; border-radius:20px; background:white; box-shadow:0 8px 28px rgba(30,34,50,.08); }
+    article img { width:130px; height:130px; border-radius:14px; object-fit:contain; background:white; }
+    .category { color:var(--accent); font-weight:700; font-size:13px; }
+    h2 { margin:6px 0 8px; font-size:17px; line-height:1.4; }
+    .price { margin:0 0 12px; color:var(--muted); font-size:14px; }
+    a { display:inline-block; padding:11px 15px; border-radius:12px; color:white; background:var(--accent); text-decoration:none; font-weight:700; }
+    .empty { padding:42px 18px; text-align:center; color:var(--muted); background:white; border-radius:20px; }
+    @media (max-width:520px) { article { grid-template-columns:105px 1fr; } article img { width:105px; height:105px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>오늘 소개한 제품</h1>
+    <p class="lead">쇼츠에서 소개한 제품을 최신순으로 모았습니다.</p>
+    <p class="notice">이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 가격과 판매 여부는 쿠팡에서 변경될 수 있습니다.</p>
+
+    <h2 class="section-title">오늘 소개한 제품</h2>
+    <section id="today" class="grid"><div class="empty">상품을 불러오는 중입니다.</div></section>
+
+    <h2 class="section-title">이전에 소개한 제품</h2>
+    <section id="past" class="grid"></section>
+  </main>
+  <script>
+    const todayRoot = document.querySelector('#today');
+    const pastRoot = document.querySelector('#past');
+
+    function renderCard(item) {
+      const card=document.createElement('article');
+      const image=document.createElement('img'); image.src=item.productImage; image.alt=item.productName; image.loading='lazy';
+      const content=document.createElement('div');
+      const category=document.createElement('div'); category.className='category'; category.textContent=item.categoryName || '생활꿀템';
+      const title=document.createElement('h2'); title.textContent=item.productName;
+      const price=document.createElement('p'); price.className='price'; price.textContent=item.priceSnapshot ? `업로드 당시 약 ${Number(item.priceSnapshot).toLocaleString('ko-KR')}원` : '';
+      const link=document.createElement('a'); link.href=item.productUrl; link.target='_blank'; link.rel='sponsored nofollow noopener'; link.textContent='제품 확인하기';
+      content.append(category,title,price,link); card.append(image,content); return card;
+    }
+
+    fetch('./catalog.json', {cache:'no-store'})
+      .then(response => { if (!response.ok) throw new Error('catalog'); return response.json(); })
+      .then(items => {
+        todayRoot.replaceChildren();
+        pastRoot.replaceChildren();
+        if (!items.length) { todayRoot.innerHTML='<div class="empty">첫 상품을 준비하고 있습니다.</div>'; return; }
+        const todayItems = items.slice(0,3);
+        const pastItems = items.slice(3);
+        todayItems.forEach(item => todayRoot.append(renderCard(item)));
+        pastItems.forEach(item => pastRoot.append(renderCard(item)));
+        if (!pastItems.length) pastRoot.innerHTML='<div class="empty">이전 소개 상품이 아직 없습니다.</div>';
+      })
+      .catch(() => { todayRoot.innerHTML='<div class="empty">상품 목록을 잠시 불러오지 못했습니다.</div>'; });
+  </script>
+</body>
+</html>

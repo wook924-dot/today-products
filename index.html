@@ -57,8 +57,8 @@
         todayRoot.replaceChildren();
         pastRoot.replaceChildren();
         if (!items.length) { todayRoot.innerHTML='<div class="empty">첫 상품을 준비하고 있습니다.</div>'; return; }
-        const todayItems = items.slice(0,3);
-        const pastItems = items.slice(3);
+        const todayItems = items.slice(0,6);
+        const pastItems = items.slice(6);
         todayItems.forEach(item => todayRoot.append(renderCard(item)));
         pastItems.forEach(item => pastRoot.append(renderCard(item)));
         if (!pastItems.length) pastRoot.innerHTML='<div class="empty">이전 소개 상품이 아직 없습니다.</div>';

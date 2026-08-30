@@ -1,6 +1,9 @@
 name: Prepare six V61 queue candidates
 
 on:
+  push:
+    paths:
+      - '.github/v61-prefill-trigger.json'
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:

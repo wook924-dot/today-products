@@ -49,7 +49,14 @@
 
     function renderCard(item) {
       const card=document.createElement('article');
-      const image=document.createElement('img'); image.src=item.productImage; image.alt=item.productName; image.loading='lazy';
+      const image=document.createElement('img');
+      image.alt=item.productName; image.loading='lazy'; image.referrerPolicy='no-referrer';
+      image.onerror=()=>{
+        image.onerror=null;
+        if (item.videoId) image.src=`https://i.ytimg.com/vi/${encodeURIComponent(item.videoId)}/hqdefault.jpg`;
+        else { image.removeAttribute('src'); image.alt=`${item.productName} 이미지 준비 중`; }
+      };
+      image.src=item.productImage;
       const content=document.createElement('div');
       const category=document.createElement('div'); category.className='category'; category.textContent=item.categoryName || '생활꿀템';
       const title=document.createElement('h2'); title.textContent=item.productName;

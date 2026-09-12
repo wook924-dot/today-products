@@ -1,5 +1,18 @@
 [
   {
+    "provider": "coupang",
+    "productId": "5486770953",
+    "productName": "[모텍스공식몰] 라벨메이커 또각이 101 + 베이비세트(리필)",
+    "productImage": "./media/products/coupang-5486770953.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=5486770953&itemId=8482198383&vendorItemId=75769726038&traceid=V0-153-74363321fab1a52e&requestid=20260912104415034231803735&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 15000,
+    "title": "라벨 정리가 쉬워지는 방법 #shorts",
+    "videoId": "lroHmfiiAMA",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-12T11:41:53.291159+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005008660106887",
     "productName": "가정용 전기 린트 리무버, 조정 가능한 LED 디지털 디스플레이 헤어볼 트리머, 무선 휴대용 스웨터 제모기, 3 단 기어, 신제품",

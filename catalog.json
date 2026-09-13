@@ -1,5 +1,18 @@
 [
   {
+    "provider": "coupang",
+    "productId": "7363229297",
+    "productName": "SaengQ 진공 포장기 식품 실러, 10 개 무료 포함, 백, 가정용 밀봉",
+    "productImage": "./media/products/coupang-7363229297.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7363229297&itemId=18975564819&vendorItemId=94306088508&traceid=V0-153-5e37371af3309f67&requestid=20260913042611284051129582&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 23300,
+    "title": "집에서 깔끔한 식품 보관 SaengQ 진공포장기 #shorts",
+    "videoId": "NMinvpUbInw",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-13T00:53:15.141787+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005007504277123",
     "productName": "진공 실러 고기 과일 야채 Sous Vide 요리 가방에 대한 식품 진공 저장 포장 가방 12/15/20/25/28cm 500cm/롤",

@@ -3,81 +3,305 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
   <title>오늘 소개한 제품</title>
   <style>
-    :root { color-scheme: light; --accent:#ff6f61; --ink:#20232a; --muted:#686d77; --bg:#f7f7fb; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Arial,"Noto Sans KR",sans-serif; color:var(--ink); background:var(--bg); }
-    main { width:min(760px,100%); margin:auto; padding:28px 18px 60px; }
-    h1 { margin:0 0 8px; font-size:30px; letter-spacing:-1px; }
-    .lead { margin:0 0 18px; color:var(--muted); }
-    .notice { margin:0 0 22px; padding:14px 16px; border-radius:14px; background:#fff3e8; font-size:13px; line-height:1.55; }
-    .section-title { margin:24px 0 12px; font-size:20px; }
-    .grid { display:grid; gap:16px; }
-    article { display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px; border-radius:20px; background:white; box-shadow:0 8px 28px rgba(30,34,50,.08); }
-    article img { width:130px; height:130px; border-radius:14px; object-fit:contain; background:white; }
-    .category { color:var(--accent); font-weight:700; font-size:13px; }
-    h2 { margin:6px 0 8px; font-size:17px; line-height:1.4; }
-    .price { margin:0 0 12px; color:var(--muted); font-size:14px; }
-    a { display:inline-block; padding:11px 15px; border-radius:12px; color:white; background:var(--accent); text-decoration:none; font-weight:700; }
-    .empty { padding:42px 18px; text-align:center; color:var(--muted); background:white; border-radius:20px; }
-    footer { margin-top:28px; padding-top:18px; border-top:1px solid #e5e7eb; color:var(--muted); font-size:13px; line-height:1.6; }
-    footer a { padding:0; color:var(--accent); background:none; font-weight:700; }
-    @media (max-width:520px) { article { grid-template-columns:105px 1fr; } article img { width:105px; height:105px; } }
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --surface: #ffffff;
+      --bg: #f3f5f8;
+      --accent: #ef4444;
+      --accent-soft: #fff1f1;
+      --accent-ink: #c62828;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% -12%, rgba(99,102,241,.10), transparent 30rem),
+        var(--bg);
+      font-family: Pretendard, "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    main { width: min(1040px, 100%); margin: auto; padding: 22px 16px 48px; }
+
+    .topbar { display: flex; align-items: center; gap: 11px; margin-bottom: 15px; }
+    .mark {
+      display: grid; place-items: center; flex: 0 0 38px; height: 38px;
+      border-radius: 12px; color: white; background: #111827;
+      font-size: 19px; font-weight: 900; letter-spacing: -.04em;
+      box-shadow: 0 7px 18px rgba(17,24,39,.18);
+    }
+    h1 { margin: 0; font-size: clamp(22px, 5vw, 29px); line-height: 1.15; letter-spacing: -.055em; }
+    .lead { margin: 3px 0 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+
+    .notice {
+      margin: 0 0 14px; padding: 10px 12px; border: 1px solid #e8eaf0;
+      border-radius: 12px; color: #69707d; background: rgba(255,255,255,.68);
+      font-size: 12px; line-height: 1.5;
+    }
+
+    .shop-tabs {
+      position: sticky; top: 0; z-index: 10;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;
+      margin: 0 -4px 15px; padding: 7px;
+      border: 1px solid rgba(229,231,235,.92); border-radius: 16px;
+      background: rgba(255,255,255,.87); box-shadow: 0 8px 26px rgba(17,24,39,.07);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    }
+    .tab {
+      min-height: 42px; padding: 8px 6px; border: 0; border-radius: 11px;
+      color: #6b7280; background: transparent; cursor: pointer;
+      font: inherit; font-size: 14px; font-weight: 750;
+      transition: color .18s ease, background .18s ease, transform .18s ease, box-shadow .18s ease;
+    }
+    .tab:active { transform: scale(.98); }
+    .tab[aria-selected="true"] { color: white; background: var(--accent); box-shadow: 0 5px 14px color-mix(in srgb, var(--accent) 30%, transparent); }
+    .tab-count { margin-left: 3px; opacity: .76; font-size: 12px; font-variant-numeric: tabular-nums; }
+
+    .list-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 2px 10px; }
+    .list-head h2 { margin: 0; font-size: 17px; line-height: 1.4; letter-spacing: -.035em; }
+    .list-head span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+
+    .product-card {
+      position: relative; display: flex; min-width: 0; flex-direction: column;
+      overflow: hidden; border: 1px solid var(--line); border-radius: 17px;
+      color: inherit; background: var(--surface); text-decoration: none;
+      box-shadow: 0 5px 18px rgba(17,24,39,.055);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .product-card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); box-shadow: 0 10px 26px rgba(17,24,39,.10); }
+    .product-card:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 28%, transparent); outline-offset: 2px; }
+    .thumb-wrap { position: relative; aspect-ratio: 1.28 / 1; overflow: hidden; background: #f8f9fb; }
+    .product-card img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .shop-badge {
+      position: absolute; top: 7px; left: 7px; padding: 4px 7px;
+      border-radius: 999px; color: var(--accent-ink); background: var(--accent-soft);
+      font-size: 11px; line-height: 1; font-weight: 800;
+      box-shadow: 0 1px 5px rgba(17,24,39,.09);
+    }
+    .card-body { display: flex; min-width: 0; flex: 1; flex-direction: column; padding: 10px 11px 11px; }
+    .product-name {
+      display: -webkit-box; min-height: 2.8em; margin: 0; overflow: hidden;
+      font-size: 14px; line-height: 1.4; font-weight: 750; letter-spacing: -.025em;
+      -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    }
+    .card-bottom { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 9px; }
+    .price { min-width: 0; overflow: hidden; color: #4b5563; font-size: 13px; font-weight: 700; white-space: nowrap; text-overflow: ellipsis; }
+    .go { flex: 0 0 auto; color: var(--accent-ink); font-size: 12px; font-weight: 800; }
+    .broken-image { object-fit: cover !important; }
+
+    .empty { grid-column: 1 / -1; padding: 56px 18px; border: 1px dashed #d8dce4; border-radius: 17px; text-align: center; color: var(--muted); background: rgba(255,255,255,.62); }
+    .empty strong { display: block; margin-bottom: 5px; color: #374151; font-size: 15px; }
+    footer { margin-top: 28px; padding: 17px 2px 0; border-top: 1px solid #dfe2e8; color: var(--muted); font-size: 12px; line-height: 1.6; }
+    footer p { margin: 0 0 7px; }
+    footer a { color: #4b5563; font-weight: 700; text-underline-offset: 3px; }
+
+    body[data-shop="aliexpress"] { --accent:#ef4444; --accent-soft:#fff0f0; --accent-ink:#c62828; }
+    body[data-shop="coupang"] { --accent:#3d5afe; --accent-soft:#eef1ff; --accent-ink:#2946d3; }
+    body[data-shop="naver"] { --accent:#03b95f; --accent-soft:#e9fbf2; --accent-ink:#008f48; }
+
+    @media (max-width: 760px) {
+      main { padding: 18px 12px 40px; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+      .product-card { min-height: 96px; flex-direction: row; border-radius: 14px; }
+      .thumb-wrap { flex: 0 0 78px; aspect-ratio: auto; }
+      .shop-badge { display: none; }
+      .card-body { justify-content: space-between; padding: 8px 8px 9px; }
+      .product-name { font-size: 13px; }
+      .card-bottom { margin-top: 6px; }
+      .price { font-size: 12px; }
+      .go { font-size: 0; }
+      .go::after { content: '↗'; font-size: 13px; }
+    }
+    @media (max-width: 360px) {
+      .grid { gap: 7px; }
+      .tab { font-size: 13px; }
+      .card-bottom { align-items: flex-end; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
   </style>
 </head>
-<body>
+<body data-shop="aliexpress">
   <main>
-    <h1>오늘 소개한 제품</h1>
-    <p class="lead">쇼츠에서 소개한 제품을 최신순으로 모았습니다.</p>
-    <p class="notice">이 페이지에는 쿠팡 파트너스 및 AliExpress 어필리에이트 링크가 포함될 수 있으며, 구매 시 일정액의 수수료를 제공받을 수 있습니다. 가격과 판매 여부는 각 판매처에서 변경될 수 있습니다.</p>
+    <header class="topbar">
+      <div class="mark" aria-hidden="true">P</div>
+      <div>
+        <h1>오늘 소개한 제품</h1>
+        <p class="lead">쇼츠 속 제품을 판매처별로 빠르게 확인하세요.</p>
+      </div>
+    </header>
 
-    <h2 class="section-title">오늘 소개한 제품</h2>
-    <section id="today" class="grid"><div class="empty">상품을 불러오는 중입니다.</div></section>
+    <p class="notice">일부 링크는 제휴 링크이며, 구매 시 운영자에게 일정액의 수수료가 제공될 수 있습니다. 가격과 판매 여부는 판매처에서 변경될 수 있습니다.</p>
 
-    <h2 class="section-title">이전에 소개한 제품</h2>
-    <section id="past" class="grid"></section>
+    <nav class="shop-tabs" role="tablist" aria-label="판매처 선택">
+      <button id="tab-aliexpress" class="tab" role="tab" type="button" data-provider="aliexpress" aria-selected="true" aria-controls="products">알리 <span class="tab-count" data-count="aliexpress"></span></button>
+      <button id="tab-coupang" class="tab" role="tab" type="button" tabindex="-1" data-provider="coupang" aria-selected="false" aria-controls="products">쿠팡 <span class="tab-count" data-count="coupang"></span></button>
+      <button id="tab-naver" class="tab" role="tab" type="button" tabindex="-1" data-provider="naver" aria-selected="false" aria-controls="products">네이버 <span class="tab-count" data-count="naver"></span></button>
+    </nav>
+
+    <div class="list-head">
+      <h2 id="list-title">알리 상품</h2>
+      <span id="result-count" aria-live="polite"></span>
+    </div>
+    <section id="products" class="grid" role="tabpanel" aria-labelledby="tab-aliexpress">
+      <div class="empty">상품을 불러오는 중입니다.</div>
+    </section>
 
     <footer>
-      <p><strong>YouTube Automation</strong>은 운영자가 YouTube Data API를 통해 상품 쇼츠를 자신의 채널에 업로드하고 관리하기 위한 비공개 자동화 도구입니다.</p>
+      <p><strong>YouTube Automation</strong>은 운영자가 상품 쇼츠를 업로드하고 관리하기 위한 자동화 도구입니다.</p>
       <a href="./privacy.html">개인정보처리방침</a> · <a href="./terms.html">서비스 이용약관</a>
     </footer>
   </main>
-  <script>
-    const todayRoot = document.querySelector('#today');
-    const pastRoot = document.querySelector('#past');
 
-    function renderCard(item) {
-      const card=document.createElement('article');
-      const image=document.createElement('img');
-      image.alt=item.productName; image.loading='lazy'; image.referrerPolicy='no-referrer';
-      image.onerror=()=>{
-        image.onerror=null;
-        if (item.videoId) image.src=`https://i.ytimg.com/vi/${encodeURIComponent(item.videoId)}/hqdefault.jpg`;
-        else { image.removeAttribute('src'); image.alt=`${item.productName} 이미지 준비 중`; }
-      };
-      image.src=item.productImage;
-      const content=document.createElement('div');
-      const category=document.createElement('div'); category.className='category'; category.textContent=item.categoryName || '생활꿀템';
-      const title=document.createElement('h2'); title.textContent=item.productName;
-      const price=document.createElement('p'); price.className='price'; price.textContent=item.priceSnapshot ? `업로드 당시 약 ${Number(item.priceSnapshot).toLocaleString('ko-KR')}원` : '';
-      const link=document.createElement('a'); link.href=item.productUrl; link.target='_blank'; link.rel='sponsored nofollow noopener'; link.textContent='제품 확인하기';
-      content.append(category,title,price,link); card.append(image,content); return card;
+  <script>
+    const providers = {
+      aliexpress: { label: '알리', empty: '알리 상품을 준비하고 있습니다.' },
+      coupang: { label: '쿠팡', empty: '쿠팡 상품을 준비하고 있습니다.' },
+      naver: { label: '네이버', empty: '네이버 상품을 준비하고 있습니다.' }
+    };
+    const productsRoot = document.querySelector('#products');
+    const listTitle = document.querySelector('#list-title');
+    const resultCount = document.querySelector('#result-count');
+    const tabs = [...document.querySelectorAll('.tab')];
+    let catalog = [];
+    let activeProvider = 'aliexpress';
+
+    function detectProvider(item) {
+      const declared = String(item.provider || '').toLowerCase();
+      if (declared === 'ali' || declared === 'aliexpress') return 'aliexpress';
+      if (declared === 'coupang') return 'coupang';
+      if (declared === 'naver') return 'naver';
+      const url = String(item.productUrl || '').toLowerCase();
+      if (url.includes('aliexpress')) return 'aliexpress';
+      if (url.includes('naver.')) return 'naver';
+      return 'coupang';
     }
 
-    fetch('./catalog.json', {cache:'no-store'})
+    function formatPrice(value) {
+      const price = Number(value);
+      return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '가격 확인';
+    }
+
+    function renderCard(item) {
+      const link = document.createElement('a');
+      link.className = 'product-card';
+      link.href = item.productUrl;
+      link.target = '_blank';
+      link.rel = 'sponsored nofollow noopener';
+      link.setAttribute('aria-label', `${item.productName} 제품 확인하기`);
+
+      const thumbWrap = document.createElement('div');
+      thumbWrap.className = 'thumb-wrap';
+      const image = document.createElement('img');
+      image.alt = '';
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.referrerPolicy = 'no-referrer';
+      image.onerror = () => {
+        image.onerror = null;
+        if (item.videoId) {
+          image.classList.add('broken-image');
+          image.src = `https://i.ytimg.com/vi/${encodeURIComponent(item.videoId)}/hqdefault.jpg`;
+        } else {
+          image.remove();
+        }
+      };
+      image.src = item.productImage || '';
+      const badge = document.createElement('span');
+      badge.className = 'shop-badge';
+      badge.textContent = providers[detectProvider(item)].label;
+      thumbWrap.append(image, badge);
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+      const name = document.createElement('p');
+      name.className = 'product-name';
+      name.textContent = item.productName;
+      const bottom = document.createElement('div');
+      bottom.className = 'card-bottom';
+      const price = document.createElement('span');
+      price.className = 'price';
+      price.textContent = formatPrice(item.priceSnapshot);
+      const go = document.createElement('span');
+      go.className = 'go';
+      go.textContent = '보러가기 ↗';
+      bottom.append(price, go);
+      body.append(name, bottom);
+      link.append(thumbWrap, body);
+      return link;
+    }
+
+    function updateCounts() {
+      Object.keys(providers).forEach(provider => {
+        const count = catalog.filter(item => detectProvider(item) === provider).length;
+        document.querySelector(`[data-count="${provider}"]`).textContent = count ? count.toLocaleString('ko-KR') : '';
+      });
+    }
+
+    function selectProvider(provider, updateUrl = true) {
+      if (!providers[provider]) return;
+      activeProvider = provider;
+      document.body.dataset.shop = provider;
+      tabs.forEach(tab => {
+        const selected = tab.dataset.provider === provider;
+        tab.setAttribute('aria-selected', String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+      });
+      productsRoot.setAttribute('aria-labelledby', `tab-${provider}`);
+      const items = catalog.filter(item => detectProvider(item) === provider);
+      listTitle.textContent = `${providers[provider].label} 상품`;
+      resultCount.textContent = items.length ? `${items.length.toLocaleString('ko-KR')}개` : '';
+      productsRoot.replaceChildren();
+      if (!items.length) {
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.innerHTML = `<strong>${providers[provider].label}</strong>${providers[provider].empty}`;
+        productsRoot.append(empty);
+      } else {
+        items.forEach(item => productsRoot.append(renderCard(item)));
+      }
+      if (updateUrl) {
+        const url = new URL(location.href);
+        url.searchParams.set('shop', provider);
+        history.replaceState(null, '', url);
+      }
+    }
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => selectProvider(tab.dataset.provider));
+      tab.addEventListener('keydown', event => {
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        const offset = event.key === 'ArrowRight' ? 1 : -1;
+        const next = tabs[(index + offset + tabs.length) % tabs.length];
+        selectProvider(next.dataset.provider);
+        next.focus();
+      });
+    });
+
+    fetch('./catalog.json', { cache: 'no-store' })
       .then(response => { if (!response.ok) throw new Error('catalog'); return response.json(); })
       .then(items => {
-        todayRoot.replaceChildren();
-        pastRoot.replaceChildren();
-        if (!items.length) { todayRoot.innerHTML='<div class="empty">첫 상품을 준비하고 있습니다.</div>'; return; }
-        const todayItems = items.slice(0,6);
-        const pastItems = items.slice(6);
-        todayItems.forEach(item => todayRoot.append(renderCard(item)));
-        pastItems.forEach(item => pastRoot.append(renderCard(item)));
-        if (!pastItems.length) pastRoot.innerHTML='<div class="empty">이전 소개 상품이 아직 없습니다.</div>';
+        catalog = Array.isArray(items) ? items : [];
+        updateCounts();
+        const requested = new URLSearchParams(location.search).get('shop');
+        const newestProvider = catalog.length ? detectProvider(catalog[0]) : 'aliexpress';
+        selectProvider(providers[requested] ? requested : newestProvider, false);
       })
-      .catch(() => { todayRoot.innerHTML='<div class="empty">상품 목록을 잠시 불러오지 못했습니다.</div>'; });
+      .catch(() => {
+        productsRoot.innerHTML = '<div class="empty"><strong>잠시 후 다시 확인해주세요</strong>상품 목록을 불러오지 못했습니다.</div>';
+        resultCount.textContent = '';
+      });
   </script>
 </body>
 </html>

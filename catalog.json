@@ -1,5 +1,18 @@
 [
   {
+    "provider": "coupang",
+    "productId": "8204461762",
+    "productName": "1인용모기장 야전침대모기장 캠핑용 휴대용 여행용 접이식 1인 싱글 모기장",
+    "productImage": "./media/products/coupang-8204461762.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8204461762&itemId=23529310164&vendorItemId=90877912464&traceid=V0-153-1c3eda3234ff4af3&requestid=20260914235256846140750289&token=31850C%7CMIXED&pt=0&slot=5",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 19700,
+    "title": "혼자 쓰기 좋은 1인용 팝업 모기장 추천 #shorts",
+    "videoId": "axJiEbBNzgA",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-14T23:46:22.858136+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005006860932354",
     "productName": "3 In 1 전기 우유 거품기 충전식 우유 거품 제조기 휴대용 거품기 고속 우유 거품기 음료 믹서 커피",
@@ -11,19 +24,6 @@
     "videoId": "rh1c-vEukLQ",
     "designVersion": "v62",
     "publishedAt": "2026-09-14T23:35:49.069099+00:00"
-  },
-  {
-    "provider": "coupang",
-    "productId": "8204461762",
-    "productName": "1인용모기장 야전침대모기장 캠핑용 휴대용 여행용 접이식 1인 싱글 모기장",
-    "productImage": "./media/products/coupang-8204461762.jpg",
-    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8204461762&itemId=23529310164&vendorItemId=90877912464&traceid=V0-153-1c3eda3234ff4af3&requestid=20260914235256846140750289&token=31850C%7CMIXED&pt=0&slot=5",
-    "categoryName": "가구/홈인테리어",
-    "priceSnapshot": 19700,
-    "title": "밤잠 지켜주는 1인용 휴대 모기장 추천 #shorts",
-    "videoId": "axJiEbBNzgA",
-    "designVersion": "v62",
-    "publishedAt": "2026-09-14T23:16:16.146426+00:00"
   },
   {
     "provider": "coupang",

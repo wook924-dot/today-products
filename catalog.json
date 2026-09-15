@@ -1,6 +1,19 @@
 [
   {
     "provider": "coupang",
+    "productId": "9084228838",
+    "productName": "오랑 무선 원터치 과일 야채 껍질 제거기 필링기 과일깎이 가정용 업소용, 1세트",
+    "productImage": "./media/products/coupang-9084228838.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9084228838&itemId=26689709043&vendorItemId=93661716682&traceid=V0-153-be150726f0714b08&clickBeacon=d9b2a580-b072-11f1-8c57-86b9fa658a42%7E3&requestid=20260915043114975185767369&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 49420,
+    "title": "껍질 깎기 쉬운 오랑 무선 원터치 필러 #shorts",
+    "videoId": "WJVVX0UgTZ8",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-15T09:59:04.970056+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8204461762",
     "productName": "1인용모기장 야전침대모기장 캠핑용 휴대용 여행용 접이식 1인 싱글 모기장",
     "productImage": "./media/products/coupang-8204461762.jpg",

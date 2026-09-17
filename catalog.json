@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8074757175",
+    "productName": "부띠끄38 페이스넷 침대용 얼굴 모기장 텐트 1인용 캠핑",
+    "productCode": "쿠팡-38",
+    "productSequence": 38,
+    "productImage": "./media/products/coupang-8074757175.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8074757175&itemId=23462486361&vendorItemId=90489162438&traceid=V0-153-bebbbbf011b359b1&requestid=20260916204915832167690312&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 10800,
+    "title": "침대 위 얼굴 모기 걱정엔 페이스넷 #shorts",
+    "videoId": "ML3mIAFinJk",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-17T19:44:49.271546+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9653099680",
     "productName": "실리콘 달걀 세척기 달걀 스크러버 1개세트 닭장 주방 다용도 달걀 과일 세척 브러시, 1개, 흰색",
     "productCode": "쿠팡-37",

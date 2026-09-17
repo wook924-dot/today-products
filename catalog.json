@@ -1,6 +1,21 @@
 [
   {
     "provider": "aliexpress",
+    "productId": "1005003251919527",
+    "productName": "자동 일회용 신발 커버 방수 오버슈즈 디스펜서 가정, 사무실, 슈퍼마켓, 공장을 위한 휴대용 핸즈프리 기계",
+    "productCode": "알리-30",
+    "productSequence": 30,
+    "productImage": "./media/products/aliexpress-1005003251919527.jpg",
+    "productUrl": "https://s.click.aliexpress.com/e/_c40g7yKZ",
+    "categoryName": "가정용품",
+    "priceSnapshot": 11250,
+    "title": "신발을 갈아 신기 번거로운 공간을 위한 자동 커버 디스펜서 #shorts",
+    "videoId": "CmHtuXCWEyc",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-17T12:37:41.938166+00:00"
+  },
+  {
+    "provider": "aliexpress",
     "productId": "1005006861030299",
     "productName": "가정용 전기 신발 건조기 타이밍 부츠 건조기 UV 탈취 살균 제습 휴대용 신발 건조기 기계 히터",
     "productImage": "./media/products/aliexpress-1005006861030299.jpg",

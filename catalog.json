@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9653099680",
+    "productName": "실리콘 달걀 세척기 달걀 스크러버 1개세트 닭장 주방 다용도 달걀 과일 세척 브러시, 1개, 흰색",
+    "productCode": "쿠팡-37",
+    "productSequence": 37,
+    "productImage": "./media/products/coupang-9653099680.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9653099680&itemId=28853518650&vendorItemId=95787218746&traceid=V0-153-dd1eb56cb5249d93&clickBeacon=7a5095d0-b18e-11f1-b873-2e3f0f60648a%7E3&requestid=20260916142132022268937145&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 8860,
+    "title": "달걀 세척을 간단하게 하는 실리콘 스크러버 #shorts",
+    "videoId": "vzw0ciQqwws",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-17T13:27:24.702654+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005003251919527",
     "productName": "자동 일회용 신발 커버 방수 오버슈즈 디스펜서 가정, 사무실, 슈퍼마켓, 공장을 위한 휴대용 핸즈프리 기계",

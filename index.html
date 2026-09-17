@@ -47,6 +47,21 @@
       font-size: 12px; line-height: 1.5;
     }
 
+    .product-search { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 7px; margin: 0 0 12px; }
+    .product-search label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    .product-search input {
+      min-width: 0; height: 44px; padding: 0 13px; border: 1px solid #d8dce4;
+      border-radius: 12px; color: var(--ink); background: rgba(255,255,255,.9);
+      font: inherit; font-size: 14px; outline: none;
+    }
+    .product-search input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent); }
+    .product-search button {
+      min-width: 70px; height: 44px; padding: 0 14px; border: 0; border-radius: 12px;
+      color: white; background: #111827; cursor: pointer; font: inherit; font-size: 14px; font-weight: 800;
+    }
+    .search-status { grid-column: 1 / -1; min-height: 0; margin: -1px 2px 0; color: var(--muted); font-size: 12px; }
+    .search-status:empty { display: none; }
+
     .shop-tabs {
       position: sticky; top: 0; z-index: 10;
       display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;
@@ -76,9 +91,11 @@
       color: inherit; background: var(--surface); text-decoration: none;
       box-shadow: 0 5px 18px rgba(17,24,39,.055);
       transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      scroll-margin-top: 78px;
     }
     .product-card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); box-shadow: 0 10px 26px rgba(17,24,39,.10); }
     .product-card:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 28%, transparent); outline-offset: 2px; }
+    .product-card.search-match { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), 0 10px 26px rgba(17,24,39,.10); }
     .thumb-wrap { position: relative; aspect-ratio: 1.28 / 1; overflow: hidden; background: #f8f9fb; }
     .product-card img { display: block; width: 100%; height: 100%; object-fit: contain; }
     .shop-badge {
@@ -113,7 +130,7 @@
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
       .product-card { min-height: 96px; flex-direction: row; border-radius: 14px; }
       .thumb-wrap { flex: 0 0 78px; aspect-ratio: auto; }
-      .shop-badge { display: none; }
+      .shop-badge { top: 5px; left: 5px; max-width: 68px; padding: 3px 5px; overflow: hidden; font-size: 9px; white-space: nowrap; text-overflow: ellipsis; }
       .card-body { justify-content: space-between; padding: 8px 8px 9px; }
       .product-name { font-size: 13px; }
       .card-bottom { margin-top: 6px; }
@@ -142,6 +159,13 @@
     </header>
 
     <p class="notice">일부 링크는 제휴 링크이며, 구매 시 운영자에게 일정액의 수수료가 제공될 수 있습니다. 가격과 판매 여부는 판매처에서 변경될 수 있습니다.</p>
+
+    <form class="product-search" id="product-search" role="search">
+      <label for="product-code">제품번호 검색</label>
+      <input id="product-code" name="product" type="search" inputmode="text" autocomplete="off" placeholder="제품번호 검색 (예: 네이버-2)">
+      <button type="submit">찾기</button>
+      <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+    </form>
 
     <nav class="shop-tabs" role="tablist" aria-label="판매처 선택">
       <button id="tab-aliexpress" class="tab" role="tab" type="button" data-provider="aliexpress" aria-selected="true" aria-controls="products">알리 <span class="tab-count" data-count="aliexpress"></span></button>
@@ -172,6 +196,9 @@
     const productsRoot = document.querySelector('#products');
     const listTitle = document.querySelector('#list-title');
     const resultCount = document.querySelector('#result-count');
+    const searchForm = document.querySelector('#product-search');
+    const searchInput = document.querySelector('#product-code');
+    const searchStatus = document.querySelector('#search-status');
     const tabs = [...document.querySelectorAll('.tab')];
     let catalog = [];
     let activeProvider = 'aliexpress';
@@ -192,13 +219,20 @@
       return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '가격 확인';
     }
 
+    function normalizeProductCode(value) {
+      const compact = String(value || '').trim().replace(/\s+/g, '');
+      const match = compact.match(/^(알리|쿠팡|네이버)-?(\d+)$/);
+      return match ? `${match[1]}-${Number(match[2])}` : compact;
+    }
+
     function renderCard(item) {
       const link = document.createElement('a');
       link.className = 'product-card';
       link.href = item.productUrl;
       link.target = '_blank';
       link.rel = 'sponsored nofollow noopener';
-      link.setAttribute('aria-label', `${item.productName} 제품 확인하기`);
+      link.dataset.productCode = item.productCode || '';
+      link.setAttribute('aria-label', `${item.productCode ? `${item.productCode} ` : ''}${item.productName} 제품 확인하기`);
 
       const thumbWrap = document.createElement('div');
       thumbWrap.className = 'thumb-wrap';
@@ -219,7 +253,7 @@
       image.src = item.productImage || '';
       const badge = document.createElement('span');
       badge.className = 'shop-badge';
-      badge.textContent = providers[detectProvider(item)].label;
+      badge.textContent = item.productCode || providers[detectProvider(item)].label;
       thumbWrap.append(image, badge);
 
       const body = document.createElement('div');
@@ -273,9 +307,42 @@
       if (updateUrl) {
         const url = new URL(location.href);
         url.searchParams.set('shop', provider);
+        url.searchParams.delete('product');
         history.replaceState(null, '', url);
       }
     }
+
+    function findProduct(value, updateUrl = true) {
+      const code = normalizeProductCode(value);
+      searchInput.value = code;
+      const item = catalog.find(row => normalizeProductCode(row.productCode) === code);
+      if (!item) {
+        searchStatus.textContent = code ? `${code} 제품을 찾지 못했습니다.` : '제품번호를 입력해주세요.';
+        return false;
+      }
+      const provider = detectProvider(item);
+      selectProvider(provider, false);
+      const card = [...productsRoot.querySelectorAll('.product-card')]
+        .find(element => element.dataset.productCode === item.productCode);
+      if (!card) return false;
+      searchStatus.textContent = `${item.productCode} 제품으로 이동했습니다.`;
+      card.classList.add('search-match');
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.focus({ preventScroll: true });
+      window.setTimeout(() => card.classList.remove('search-match'), 2400);
+      if (updateUrl) {
+        const url = new URL(location.href);
+        url.searchParams.set('shop', provider);
+        url.searchParams.set('product', item.productCode);
+        history.replaceState(null, '', url);
+      }
+      return true;
+    }
+
+    searchForm.addEventListener('submit', event => {
+      event.preventDefault();
+      findProduct(searchInput.value);
+    });
 
     tabs.forEach((tab, index) => {
       tab.addEventListener('click', () => selectProvider(tab.dataset.provider));
@@ -294,9 +361,13 @@
       .then(items => {
         catalog = Array.isArray(items) ? items : [];
         updateCounts();
-        const requested = new URLSearchParams(location.search).get('shop');
+        const params = new URLSearchParams(location.search);
+        const requestedProduct = params.get('product');
+        const requested = params.get('shop');
         const newestProvider = catalog.length ? detectProvider(catalog[0]) : 'aliexpress';
-        selectProvider(providers[requested] ? requested : newestProvider, false);
+        if (!requestedProduct || !findProduct(requestedProduct, false)) {
+          selectProvider(providers[requested] ? requested : newestProvider, false);
+        }
       })
       .catch(() => {
         productsRoot.innerHTML = '<div class="empty"><strong>잠시 후 다시 확인해주세요</strong>상품 목록을 불러오지 못했습니다.</div>';

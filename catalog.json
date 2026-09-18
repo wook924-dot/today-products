@@ -1,5 +1,20 @@
 [
   {
+    "provider": "aliexpress",
+    "productId": "1005009612877932",
+    "productName": "벽걸이형 지능형 유도 터치리스 자동 센서 비누 디스펜서 주방 욕실용 손 청소 세탁기",
+    "productCode": "알리-31",
+    "productSequence": 31,
+    "productImage": "./media/products/aliexpress-1005009612877932.jpg",
+    "productUrl": "https://s.click.aliexpress.com/e/_c37GUSPx",
+    "categoryName": "욕실용품",
+    "priceSnapshot": 17300,
+    "title": "손 씻는 공간을 간편하게 바꾸는 센서 디스펜서 #shorts",
+    "videoId": "90WaeW5-kIY",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-18T12:14:59.185005+00:00"
+  },
+  {
     "provider": "coupang",
     "productId": "9625052878",
     "productName": "생활방수 대용량 휴대용 여행 서브가방 접이식 백팩 블랙",

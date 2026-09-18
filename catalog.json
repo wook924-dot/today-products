@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "8043211745",
+    "productName": "씨엔와우 탈부착 필터캡 와인 디켄터 무연유리 분리세척 가능, 1개, 1.5L",
+    "productCode": "쿠팡-40",
+    "productSequence": 40,
+    "productImage": "./media/products/coupang-8043211745.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8043211745&itemId=22526709671&vendorItemId=89568816800&traceid=V0-153-01087091da56eca6&clickBeacon=48cfb2c0-b238-11f1-a432-1c7cc3add7df%7E3&requestid=20260917103703390157571285&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "주방용품",
+    "priceSnapshot": 36900,
+    "title": "눈에 보이는 와인 디캔터 추천 #shorts",
+    "videoId": "uDXp1HEBYMg",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-18T12:58:53.731427+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005009612877932",
     "productName": "벽걸이형 지능형 유도 터치리스 자동 센서 비누 디스펜서 주방 욕실용 손 청소 세탁기",

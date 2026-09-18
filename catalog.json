@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9625052878",
+    "productName": "생활방수 대용량 휴대용 여행 서브가방 접이식 백팩 블랙",
+    "productCode": "쿠팡-39",
+    "productSequence": 39,
+    "productImage": "./media/products/coupang-9625052878.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9625052878&itemId=28744352398&vendorItemId=95683533411&traceid=V0-153-e03434ab95b081fc&clickBeacon=e4a9f5a0-b244-11f1-8011-63fe329cc670%7E3&requestid=20260917120718824151163134&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "여성패션",
+    "priceSnapshot": 16800,
+    "title": "짐 늘어난 여행에 접어 챙기는 백팩 #shorts",
+    "videoId": "lVJQvPtUouQ",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-18T04:38:50.048064+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8074757175",
     "productName": "부띠끄38 페이스넷 침대용 얼굴 모기장 텐트 1인용 캠핑",
     "productCode": "쿠팡-38",

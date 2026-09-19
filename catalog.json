@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "8474274803",
+    "productName": "스마트 가글 디스펜서 가정용 구강청정 자동 가글디스펜서 용량조절, 1개, 화이트",
+    "productCode": "쿠팡-42",
+    "productSequence": 42,
+    "productImage": "./media/products/coupang-8474274803.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8474274803&itemId=24614533847&vendorItemId=91625765608&traceid=V0-153-21f7eb913cdcccda&clickBeacon=a919a760-b24e-11f1-a445-0ffe92a12cc3%7E3&requestid=20260917131713873135968115&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 27500,
+    "title": "벽에 붙여 쓰는 스마트 가글 디스펜서 #shorts",
+    "videoId": "EjQvqX4txZ0",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-19T12:30:21.160926+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005008571954216",
     "productName": "진공 밀봉 탱크 커피 콩 보관 유리 병 투명 식품 보관 용기 방습 추출 공기 밀폐 용기",

@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9555235418",
+    "productName": "이루앤 반려식물 물주기 급수기 튤립모양급수기, 핑크, 4개",
+    "productCode": "쿠팡-41",
+    "productSequence": 41,
+    "productImage": "./media/products/coupang-9555235418.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9555235418&itemId=28511606224&vendorItemId=95460562013&traceid=V0-153-1552ab9c51029a71&clickBeacon=4108a850-b245-11f1-83e8-821b044555da%7E3&requestid=20260917120953820323054171&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 8900,
+    "title": "화분 곁에 두는 튤립 급수기 #shorts",
+    "videoId": "SlW7I9KxpoU",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-19T04:34:43.555619+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005008571954216",
     "productName": "진공 밀봉 탱크 커피 콩 보관 유리 병 투명 식품 보관 용기 방습 추출 공기 밀폐 용기",
@@ -13,21 +28,6 @@
     "videoId": "SBBL0rjx1ps",
     "designVersion": "v62",
     "publishedAt": "2026-09-19T01:09:58.636736+00:00"
-  },
-  {
-    "provider": "coupang",
-    "productId": "9555235418",
-    "productName": "이루앤 반려식물 물주기 급수기 튤립모양급수기, 핑크, 4개",
-    "productCode": "쿠팡-41",
-    "productSequence": 41,
-    "productImage": "./media/products/coupang-9555235418.jpg",
-    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9555235418&itemId=28511606224&vendorItemId=95460562013&traceid=V0-153-1552ab9c51029a71&clickBeacon=4108a850-b245-11f1-83e8-821b044555da%7E3&requestid=20260917120953820323054171&token=31850C%7CMIXED&pt=1&slot=3",
-    "categoryName": "홈인테리어",
-    "priceSnapshot": 8900,
-    "title": "화분 곁에 두는 튤립 급수기 #shorts",
-    "videoId": "SlW7I9KxpoU",
-    "designVersion": "v62",
-    "publishedAt": "2026-09-18T19:03:27.531273+00:00"
   },
   {
     "provider": "aliexpress",

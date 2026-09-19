@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9136620760",
+    "productName": "2026년 4세대 르벨렌 EMS 페이스 롤러 디바이스 고주파 브이라인 경락 얼굴 마사지기",
+    "productCode": "쿠팡-43",
+    "productSequence": 43,
+    "productImage": "./media/products/coupang-9136620760.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9136620760&itemId=26890585946&vendorItemId=93860083930&traceid=V0-153-7ccd8c6cd9d7e36b&clickBeacon=7bb4ca90-b25b-11f1-80d4-398705272a7e%7E3&requestid=20260917144901175324047541&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 59000,
+    "title": "얼굴선 루틴을 간단하게 르벨렌 페이스 롤러 #shorts",
+    "videoId": "JjYJqZ03yQo",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-19T18:37:15.203835+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005001967571662",
     "productName": "주방 걸이형 정리대, 욕실 걸이, 벽걸이 접시 건조대, 뚜껑 보관함, 조리기구, 찬장 수납장 선반",

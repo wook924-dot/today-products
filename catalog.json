@@ -1,5 +1,20 @@
 [
   {
+    "provider": "aliexpress",
+    "productId": "1005008571954216",
+    "productName": "진공 밀봉 탱크 커피 콩 보관 유리 병 투명 식품 보관 용기 방습 추출 공기 밀폐 용기",
+    "productCode": "알리-33",
+    "productSequence": 33,
+    "productImage": "./media/products/aliexpress-1005008571954216.jpg",
+    "productUrl": "https://s.click.aliexpress.com/e/_c4Kcn04d",
+    "categoryName": "가정용 수납 및 정리",
+    "priceSnapshot": 7670,
+    "title": "재료가 한눈에 보이는 유리 보관병 #shorts",
+    "videoId": "SBBL0rjx1ps",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-19T11:56:52.129276+00:00"
+  },
+  {
     "provider": "coupang",
     "productId": "9555235418",
     "productName": "이루앤 반려식물 물주기 급수기 튤립모양급수기, 핑크, 4개",
@@ -13,21 +28,6 @@
     "videoId": "SlW7I9KxpoU",
     "designVersion": "v62",
     "publishedAt": "2026-09-19T04:34:43.555619+00:00"
-  },
-  {
-    "provider": "aliexpress",
-    "productId": "1005008571954216",
-    "productName": "진공 밀봉 탱크 커피 콩 보관 유리 병 투명 식품 보관 용기 방습 추출 공기 밀폐 용기",
-    "productCode": "알리-33",
-    "productSequence": 33,
-    "productImage": "./media/products/aliexpress-1005008571954216.jpg",
-    "productUrl": "https://s.click.aliexpress.com/e/_c4Kcn04d",
-    "categoryName": "가정용 수납 및 정리",
-    "priceSnapshot": 7670,
-    "title": "재료가 한눈에 보이는 유리 보관병 #shorts",
-    "videoId": "SBBL0rjx1ps",
-    "designVersion": "v62",
-    "publishedAt": "2026-09-19T01:09:58.636736+00:00"
   },
   {
     "provider": "aliexpress",

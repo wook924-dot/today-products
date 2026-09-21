@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "6210745485",
+    "productName": "글라스 오일 스프레이, 100ml, 2개",
+    "productCode": "쿠팡-47",
+    "productSequence": 47,
+    "productImage": "./media/products/coupang-6210745485.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=6210745485&itemId=28287151034&vendorItemId=95240092568&traceid=V0-153-6e638d973dc9177a&clickBeacon=43ecd6d0-b395-11f1-b415-97ca7238451e%7E3&requestid=20260919041509563257565423&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 7600,
+    "title": "글라스 오일 스프레이로 오일과 식초를 분사해요 #shorts",
+    "videoId": "bmVUfmo6F3E",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-21T04:52:47.973460+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005006820159052",
     "productName": "9 in 1 야채 커터 다기능 감자 수동으로 잘라 파쇄 슬라이서 강판 주방 용품 액세서리 도구",

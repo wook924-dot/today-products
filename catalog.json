@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9084187041",
+    "productName": "루베아 미니 행주 스쿼지 접이식 스펀지, 1개, 2개입",
+    "productCode": "쿠팡-48",
+    "productSequence": 48,
+    "productImage": "./media/products/coupang-9084187041.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9084187041&itemId=26452167088&vendorItemId=93427619320&traceid=V0-153-bb94fb8d93c8c46d&clickBeacon=00aa38d0-b413-11f1-bd54-f9157aa4efa4%7E3&requestid=20260919191513315046654927&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 13800,
+    "title": "작은 주방에 맞는 접이식 스펀지 스퀴지 #shorts",
+    "videoId": "oDwWFx9f76s",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-22T04:50:47.382681+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "6210745485",
     "productName": "글라스 오일 스프레이, 100ml, 2개",
     "productCode": "쿠팡-47",

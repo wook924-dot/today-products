@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9470339262",
+    "productName": "신형 자동 고양이 급식기, 개 밥그릇 겸 애완동물 사식통 일체형 급수기, 고양이 밥그릇 애완용품, 1개, 연한 회색, 3.3L",
+    "productCode": "쿠팡-49",
+    "productSequence": 49,
+    "productImage": "./media/products/coupang-9470339262.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9470339262&itemId=28187308428&vendorItemId=95141790569&traceid=V0-153-8e9eed3ed3b0bd9a&clickBeacon=bb65cb40-b42b-11f1-9495-843be4986285%7E3&requestid=20260919221214514219938261&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "반려동물용품",
+    "priceSnapshot": 14700,
+    "title": "사료와 물을 한자리에서 챙기는 급식기 #shorts",
+    "videoId": "agxYNxf71eo",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-22T13:25:09.495645+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005008669802010",
     "productName": "무선 세탁기 휴대용 속옷 세탁기 1L 미니 양말 세탁기 탈수 가능한 세탁 바구니",

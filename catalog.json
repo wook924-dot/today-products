@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9033918623",
+    "productName": "차쿠 남성 러닝 조깅 마라톤 조거팬츠 우븐 스판 트레이닝 헬스 바지 휴대폰 포켓 수납",
+    "productCode": "쿠팡-50",
+    "productSequence": 50,
+    "productImage": "./media/products/coupang-9033918623.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9033918623&itemId=26500402463&vendorItemId=93475157519&traceid=V0-153-ca777f816501c18c&clickBeacon=bfb6a830-b4c2-11f1-9e61-9d60420194c6%7E3&requestid=20260920161315748046657841&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "남성패션",
+    "priceSnapshot": 29800,
+    "title": "운동할 때 핏을 잡아주는 남성 조거팬츠 #shorts",
+    "videoId": "fd7oX2fw7Po",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-22T19:45:51.233844+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005009432205027",
     "productName": "플러그 스토퍼 주방 하수구 실리콘 욕실 바닥 욕조 워터 필터 홈 액세서리 샤워 배수구 헤어 캐쳐 싱크 스트레이너",

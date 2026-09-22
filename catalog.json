@@ -1,5 +1,20 @@
 [
   {
+    "provider": "aliexpress",
+    "productId": "1005008669802010",
+    "productName": "무선 세탁기 휴대용 속옷 세탁기 1L 미니 양말 세탁기 탈수 가능한 세탁 바구니",
+    "productCode": "알리-38",
+    "productSequence": 38,
+    "productImage": "./media/products/aliexpress-1005008669802010.jpg",
+    "productUrl": "https://s.click.aliexpress.com/e/_c42IxojF",
+    "categoryName": "소형 가전",
+    "priceSnapshot": 30100,
+    "title": "작은 빨래 전용 무선 미니 세탁기 #shorts",
+    "videoId": "_blNSlzAB3k",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-22T12:36:20.354781+00:00"
+  },
+  {
     "provider": "coupang",
     "productId": "9084187041",
     "productName": "루베아 미니 행주 스쿼지 접이식 스펀지, 1개, 2개입",

@@ -1,5 +1,20 @@
 [
   {
+    "provider": "naver",
+    "productId": "11705732817",
+    "productName": "캐치웰 CX PRO 매직타워 N : 캐치웰",
+    "productCode": "네이버-3",
+    "productSequence": 3,
+    "productImage": "./media/products/naver-11705732817.jpg",
+    "productUrl": "https://naver.me/5YoWndtE",
+    "categoryName": "생활용품",
+    "priceSnapshot": null,
+    "title": "따로 챙기던 청소기를 한곳에 #shorts",
+    "videoId": "6iPtGd_SXNY",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-23T06:01:10.953110+00:00"
+  },
+  {
     "provider": "coupang",
     "productId": "9033918623",
     "productName": "차쿠 남성 러닝 조깅 마라톤 조거팬츠 우븐 스판 트레이닝 헬스 바지 휴대폰 포켓 수납",

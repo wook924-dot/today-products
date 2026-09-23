@@ -1,5 +1,20 @@
 [
   {
+    "provider": "naver",
+    "productId": "11614107612",
+    "productName": "테이블형 실내자전거 미니 접이식 나혼자산다 전현무 바이크 웜 그레이 : REPIZ",
+    "productCode": "네이버-5",
+    "productSequence": 5,
+    "productImage": "./media/products/naver-11614107612.jpg",
+    "productUrl": "https://naver.me/FKGgOAfP",
+    "categoryName": "생활용품",
+    "priceSnapshot": null,
+    "title": "책상 앞 시간을 바꾸는 REPIZ 미니 바이크 #shorts",
+    "videoId": "V7ESv7gx19M",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-23T20:21:40.614356+00:00"
+  },
+  {
     "provider": "aliexpress",
     "productId": "1005005515241500",
     "productName": "1/2/3Pcs 주방 스크레이퍼 오일 얼룩 청소 실리콘 주걱 케이크 베이킹 과자 가제 더러운 팬 냄비 요리 클리너 도구",
@@ -13,21 +28,6 @@
     "videoId": "ffOZS69g7wU",
     "designVersion": "v62",
     "publishedAt": "2026-09-23T19:02:18.358548+00:00"
-  },
-  {
-    "provider": "naver",
-    "productId": "11614107612",
-    "productName": "테이블형 실내자전거 미니 접이식 나혼자산다 전현무 바이크 웜 그레이 : REPIZ",
-    "productCode": "네이버-5",
-    "productSequence": 5,
-    "productImage": "./media/products/naver-11614107612.jpg",
-    "productUrl": "https://naver.me/FKGgOAfP",
-    "categoryName": "생활용품",
-    "priceSnapshot": null,
-    "title": "책상 앞 시간을 바꾸는 REPIZ 미니 바이크 #shorts",
-    "videoId": "V7ESv7gx19M",
-    "designVersion": "v62",
-    "publishedAt": "2026-09-23T14:30:55.805346+00:00"
   },
   {
     "provider": "aliexpress",

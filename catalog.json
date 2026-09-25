@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9533797785",
+    "productName": "1/1+1스테인리스 다기능 필러 파절이 파채칼 만능 채칼 원목 손잡이 다기능 껍질 벗기 칼",
+    "productCode": "쿠팡-52",
+    "productSequence": 52,
+    "productImage": "./media/products/coupang-9533797785.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9533797785&itemId=28433539863&vendorItemId=95384388964&traceid=V0-153-e308579dbc5cf153&requestid=20260925140834678224494118&token=31850C%7CMIXED&pt=0&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 16900,
+    "title": "파채·양배추채 이거 하나로 끝 #shorts",
+    "videoId": "Wd170wjEri8",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T05:09:06.674223+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9734287969",
     "productName": "원형 투명 푸시업 케이크 슈터뚜껑 식품 등급 플라스틱 디저트 용기 아이스크림 몰딩 컵 베이킹",
     "productCode": "쿠팡-51",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9711999555",
+    "productName": "밤 까는 도구 밤 까는 기계 밤 칼집 도구 1위 밤까기 도구 밤 까는 기계 가정용 군밤 칼집 기계 밤 깎는 칼 생밤 까는 도구 밤 탈피기 선물 런덤 증정 HUIHAO",
+    "productCode": "쿠팡-56",
+    "productSequence": 56,
+    "productImage": "./media/products/coupang-9711999555.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9711999555&itemId=29058493028&vendorItemId=95985004428&traceid=V0-153-8cf92971b71cd927&requestid=20260926022759807097413624&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 11800,
+    "title": "밤 껍질 손질, 이렇게 하면 쉬워요 #shorts",
+    "videoId": "D_M_WpnfYDk",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T17:28:34.667067+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8639870644",
     "productName": "설거지 기계 소형 무설치 초음파 식기 세척기 속옷 빨래 회전식 USB",
     "productCode": "쿠팡-55",

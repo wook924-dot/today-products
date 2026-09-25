@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8639870644",
+    "productName": "설거지 기계 소형 무설치 초음파 식기 세척기 속옷 빨래 회전식 USB",
+    "productCode": "쿠팡-55",
+    "productSequence": 55,
+    "productImage": "./media/products/coupang-8639870644.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8639870644&itemId=25072377167&vendorItemId=95769160533&traceid=V0-153-ab90c26bee3ed0d5&requestid=20260925182938040074355329&token=31850C%7CMIXED&pt=0&slot=9",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 14120.0,
+    "title": "설거지 빨래 알아서 돌려 주는 미니 터빈 #shorts",
+    "videoId": "S-5hQBoZLnA",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T09:29:48.606385+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9328194147",
     "productName": "하루테 슬라이딩 후라이팬 정리함, 2개, 화이트",
     "productCode": "쿠팡-54",

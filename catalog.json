@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8028885823",
+    "productName": "가스렌지 화구은박커버 버너오염방지덮개 깔개 10p",
+    "productCode": "쿠팡-53",
+    "productSequence": 53,
+    "productImage": "./media/products/coupang-8028885823.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8028885823&itemId=22638846761&vendorItemId=89679577566&traceid=V0-153-bde5f6fcfbad3e51&requestid=20260925182313753197056044&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "주방용품",
+    "priceSnapshot": 1980.0,
+    "title": "국물 넘쳐도 가스레인지 청소 끝 #shorts",
+    "videoId": "ThQ8Iv1tXcw",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T09:23:49.168832+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9533797785",
     "productName": "1/1+1스테인리스 다기능 필러 파절이 파채칼 만능 채칼 원목 손잡이 다기능 껍질 벗기 칼",
     "productCode": "쿠팡-52",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9542898557",
+    "productName": "LJL KC인증 시아노타입 햇빛 감광지 청사진 엽서 만들기 DIY 키트 15장 세트, 15개, 블루",
+    "productCode": "쿠팡-57",
+    "productSequence": 57,
+    "productImage": "./media/products/coupang-9542898557.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9542898557&itemId=28466817706&vendorItemId=95417155791&traceid=V0-153-8077c7c9d5274a80&clickBeacon=bf48aef0-b906-11f1-8cec-a3c09af0c90d%7E3&requestid=20260926023005467002808035&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "문구/오피스",
+    "priceSnapshot": 10900,
+    "title": "햇빛에 그린 잎그림 DIY #shorts",
+    "videoId": "M6rOQliCFXQ",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T17:30:14.595672+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9711999555",
     "productName": "밤 까는 도구 밤 까는 기계 밤 칼집 도구 1위 밤까기 도구 밤 까는 기계 가정용 군밤 칼집 기계 밤 깎는 칼 생밤 까는 도구 밤 탈피기 선물 런덤 증정 HUIHAO",
     "productCode": "쿠팡-56",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9328194147",
+    "productName": "하루테 슬라이딩 후라이팬 정리함, 2개, 화이트",
+    "productCode": "쿠팡-54",
+    "productSequence": 54,
+    "productImage": "./media/products/coupang-9328194147.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9328194147&itemId=27653504712&vendorItemId=94615946976&traceid=V0-153-1d817b0a8ff6c2db&clickBeacon=ec5e3840-b8c2-11f1-94cb-c839839872ac%7E3&requestid=20260925182435329000249716&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 13900,
+    "title": "하부장 냄비 정리 이거 하나로 끝 #shorts",
+    "videoId": "Dlep4ou-Jss",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T09:24:45.477693+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8028885823",
     "productName": "가스렌지 화구은박커버 버너오염방지덮개 깔개 10p",
     "productCode": "쿠팡-53",

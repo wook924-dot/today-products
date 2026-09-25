@@ -1,5 +1,20 @@
 [
   {
+    "provider": "coupang",
+    "productId": "9734287969",
+    "productName": "원형 투명 푸시업 케이크 슈터뚜껑 식품 등급 플라스틱 디저트 용기 아이스크림 몰딩 컵 베이킹",
+    "productCode": "쿠팡-51",
+    "productSequence": 51,
+    "productImage": "./media/products/coupang-9734287969.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9734287969&itemId=29130931162&vendorItemId=96054959072&traceid=V0-153-dcf207592bcbd329&requestid=20260925035007617102855874&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "생활용품",
+    "priceSnapshot": 11600,
+    "title": "남은 케이크로 만드는 푸시업 케이크 #shorts",
+    "videoId": "owPSXfNTqro",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-25T03:01:18.724066+00:00"
+  },
+  {
     "provider": "naver",
     "productId": "11614107612",
     "productName": "테이블형 실내자전거 미니 접이식 나혼자산다 전현무 바이크 웜 그레이 : REPIZ",

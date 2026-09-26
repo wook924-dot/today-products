@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9699849648",
+    "productName": "iCHOMKE 창의적인 차량용 다기능 테이블, 자동차 360도 회전 테이블 플로팅 미니 테이블 사무용 식사용 QK-A22-A, 블랙, 1개",
+    "productCode": "쿠팡-58",
+    "productSequence": 58,
+    "productImage": "./media/products/coupang-9699849648.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9699849648&itemId=29015895546&vendorItemId=95943866637&traceid=V0-153-b83b5ea1198e03ce&clickBeacon=9c61b500-b94f-11f1-966c-956f2e1f9614%7E3&requestid=20260926111140213002805501&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 38990,
+    "title": "차 안에 펼치는 회전 테이블 #shorts",
+    "videoId": "yD4KtCqvi_c",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-26T02:12:14.095334+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9542898557",
     "productName": "LJL KC인증 시아노타입 햇빛 감광지 청사진 엽서 만들기 DIY 키트 15장 세트, 15개, 블루",
     "productCode": "쿠팡-57",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8724107800",
+    "productName": "사과 돌려 까기+커터기 세트 과일 깎이",
+    "productCode": "쿠팡-60",
+    "productSequence": 60,
+    "productImage": "./media/products/coupang-8724107800.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8724107800&itemId=25343634186&vendorItemId=94921873396&traceid=V0-153-0dc1ebac1930fbcb&requestid=20260927220202479023963952&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "주방용품",
+    "priceSnapshot": 9940.0,
+    "title": "사과 껍질, 돌리기만 하면 끝 #shorts",
+    "videoId": "ympcHXQK38o",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-27T13:02:36.618787+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7881222312",
     "productName": "카멜 터치 클라우드 디지털 액자, CPF1010IPS, 화이트",
     "productCode": "쿠팡-59",

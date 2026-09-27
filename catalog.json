@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9523291323",
+    "productName": "태은랩 방충망 청소솔 길이조절 신축형 베란다 창문 청소 브러쉬",
+    "productCode": "쿠팡-61",
+    "productSequence": 61,
+    "productImage": "./media/products/coupang-9523291323.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9523291323&itemId=28391889830&vendorItemId=95337620960&traceid=V0-153-6301cd4982b64d74&requestid=20260927220325697102859297&token=31850C%7CGM&pt=0&slot=7",
+    "categoryName": "생활용품",
+    "priceSnapshot": 11900.0,
+    "title": "방충망 안 떼고 쓱, 청소 끝 #shorts",
+    "videoId": "z1VMXg6Naaw",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-27T13:03:38.548792+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8724107800",
     "productName": "사과 돌려 까기+커터기 세트 과일 깎이",
     "productCode": "쿠팡-60",

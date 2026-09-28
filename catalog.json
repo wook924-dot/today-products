@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8302373076",
+    "productName": "NOVA 450용 하이드 코너선반 하부코너장 공간활용 바스켓 인출식 빌트인 댐핑 언더레일, Drak grey",
+    "productCode": "쿠팡-63",
+    "productSequence": 63,
+    "productImage": "./media/products/coupang-8302373076.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8302373076&itemId=23952424865&vendorItemId=91626080282&traceid=V0-153-5fb5f6b0a1ce17dc&clickBeacon=f09b2e00-bad8-11f1-aa69-85e7fe126503%7E3&requestid=20260928100713671102855217&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 225000,
+    "title": "코너 하부장, 끝까지 당겨 쓰세요 #shorts",
+    "videoId": "pUSLjpqoJcQ",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-28T01:07:25.129235+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9534088605",
     "productName": "아크릴 화장품서랍 칸막이조절 정리함 시트 KIFFJOIT",
     "productCode": "쿠팡-62",

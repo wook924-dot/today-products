@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9534088605",
+    "productName": "아크릴 화장품서랍 칸막이조절 정리함 시트 KIFFJOIT",
+    "productCode": "쿠팡-62",
+    "productSequence": 62,
+    "productImage": "./media/products/coupang-9534088605.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9534088605&itemId=28434533903&vendorItemId=95969421562&traceid=V0-153-9f00d56ab344d888&requestid=20260928100530717176747987&token=31850C%7CMIXED&pt=0&slot=1",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 14170.0,
+    "title": "서랍 정리, 투명 칸막이로 끝 #shorts",
+    "videoId": "Z7WKDeiRgPg",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-28T01:06:06.263531+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9523291323",
     "productName": "태은랩 방충망 청소솔 길이조절 신축형 베란다 창문 청소 브러쉬",
     "productCode": "쿠팡-61",

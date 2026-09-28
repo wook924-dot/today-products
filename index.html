@@ -62,6 +62,7 @@
     .search-status { grid-column: 1 / -1; min-height: 0; margin: -1px 2px 0; color: var(--muted); font-size: 12px; }
     .search-status:empty { display: none; }
 
+    .shop-tabs[hidden] { display: none; }
     .shop-tabs {
       position: sticky; top: 0; z-index: 10;
       display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;
@@ -154,7 +155,7 @@
       <div class="mark" aria-hidden="true">P</div>
       <div>
         <h1>오늘 소개한 제품</h1>
-        <p class="lead">쇼츠 속 쿠팡 제품을 빠르게 확인하세요.</p>
+        <p class="lead">쇼츠에서 소개한 제품을 번호로 빠르게 확인하세요.</p>
       </div>
     </header>
 
@@ -162,17 +163,17 @@
 
     <form class="product-search" id="product-search" role="search">
       <label for="product-code">제품번호 검색</label>
-      <input id="product-code" name="product" type="search" inputmode="text" autocomplete="off" placeholder="제품번호 검색 (예: 쿠팡-63)">
+      <input id="product-code" name="product" type="search" inputmode="text" autocomplete="off" placeholder="제품번호 검색 (예: 63)">
       <button type="submit">찾기</button>
       <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
     </form>
 
-    <nav class="shop-tabs" role="tablist" aria-label="판매처 선택">
-      <button id="tab-coupang" class="tab" role="tab" type="button" data-provider="coupang" aria-selected="true" aria-controls="products">쿠팡 <span class="tab-count" data-count="coupang"></span></button>
+    <nav class="shop-tabs" role="tablist" aria-label="제품 목록" hidden>
+      <button id="tab-coupang" class="tab" role="tab" type="button" data-provider="coupang" aria-selected="true" aria-controls="products">전체 제품 <span class="tab-count" data-count="coupang"></span></button>
     </nav>
 
     <div class="list-head">
-      <h2 id="list-title">쿠팡 상품</h2>
+      <h2 id="list-title">소개한 제품</h2>
       <span id="result-count" aria-live="polite"></span>
     </div>
     <section id="products" class="grid" role="tabpanel" aria-labelledby="tab-coupang">
@@ -187,7 +188,7 @@
 
   <script>
     const providers = {
-      coupang: { label: '쿠팡', empty: '쿠팡 상품을 준비하고 있습니다.' }
+      coupang: { label: '소개한 제품', empty: '제품을 준비하고 있습니다.' }
     };
     const productsRoot = document.querySelector('#products');
     const listTitle = document.querySelector('#list-title');
@@ -215,10 +216,16 @@
       return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '가격 확인';
     }
 
+    // Codes are shown and searched as plain numbers ("63번"); "쿠팡-63", "63번" and "63" all match.
     function normalizeProductCode(value) {
       const compact = String(value || '').trim().replace(/\s+/g, '');
-      const match = compact.match(/^(알리|쿠팡|네이버)-?(\d+)$/);
-      return match ? `${match[1]}-${Number(match[2])}` : compact;
+      const match = compact.match(/^(?:(?:알리|쿠팡|네이버)-?)?(\d+)번?$/);
+      return match ? String(Number(match[1])) : compact;
+    }
+
+    function displayCode(code) {
+      const number = normalizeProductCode(code);
+      return /^\d+$/.test(number) ? `${number}번` : String(code || '');
     }
 
     function renderCard(item) {
@@ -228,7 +235,7 @@
       link.target = '_blank';
       link.rel = 'sponsored nofollow noopener';
       link.dataset.productCode = item.productCode || '';
-      link.setAttribute('aria-label', `${item.productCode ? `${item.productCode} ` : ''}${item.productName} 제품 확인하기`);
+      link.setAttribute('aria-label', `${item.productCode ? `${displayCode(item.productCode)} ` : ''}${item.productName} 제품 확인하기`);
 
       const thumbWrap = document.createElement('div');
       thumbWrap.className = 'thumb-wrap';
@@ -249,7 +256,7 @@
       image.src = item.productImage || '';
       const badge = document.createElement('span');
       badge.className = 'shop-badge';
-      badge.textContent = item.productCode || providers[detectProvider(item)].label;
+      badge.textContent = item.productCode ? displayCode(item.productCode) : providers[detectProvider(item)].label;
       thumbWrap.append(image, badge);
 
       const body = document.createElement('div');
@@ -289,7 +296,7 @@
       });
       productsRoot.setAttribute('aria-labelledby', `tab-${provider}`);
       const items = catalog.filter(item => detectProvider(item) === provider);
-      listTitle.textContent = `${providers[provider].label} 상품`;
+      listTitle.textContent = providers[provider].label;
       resultCount.textContent = items.length ? `${items.length.toLocaleString('ko-KR')}개` : '';
       productsRoot.replaceChildren();
       if (!items.length) {
@@ -314,7 +321,7 @@
       const item = catalog.find(row => normalizeProductCode(row.productCode) === code
         && providers[detectProvider(row)]);
       if (!item) {
-        searchStatus.textContent = code ? `${code} 제품을 찾지 못했습니다.` : '제품번호를 입력해주세요.';
+        searchStatus.textContent = code ? `${displayCode(code)} 제품을 찾지 못했습니다.` : '제품번호를 입력해주세요.';
         return false;
       }
       const provider = detectProvider(item);
@@ -322,7 +329,7 @@
       const card = [...productsRoot.querySelectorAll('.product-card')]
         .find(element => element.dataset.productCode === item.productCode);
       if (!card) return false;
-      searchStatus.textContent = `${item.productCode} 제품으로 이동했습니다.`;
+      searchStatus.textContent = `${displayCode(item.productCode)} 제품으로 이동했습니다.`;
       card.classList.add('search-match');
       card.scrollIntoView({ behavior: 'smooth', block: 'center' });
       card.focus({ preventScroll: true });
@@ -330,7 +337,7 @@
       if (updateUrl) {
         const url = new URL(location.href);
         url.searchParams.set('shop', provider);
-        url.searchParams.set('product', item.productCode);
+        url.searchParams.set('product', normalizeProductCode(item.productCode));
         history.replaceState(null, '', url);
       }
       return true;

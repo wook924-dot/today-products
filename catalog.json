@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8238776085",
+    "productName": "국내발송 VoltMate 무선 고압세척기 고압세차기 휴대용 세차기 6in1 다기능 4000mAh 듀얼 배터리 5m 호스, 접이식 물통 등 세트 포함, 블랙, 8107",
+    "productCode": "쿠팡-65",
+    "productSequence": 65,
+    "productImage": "./media/products/coupang-8238776085.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8238776085&itemId=23711599939&vendorItemId=95659908036&traceid=V0-153-3c6cf9aa5c2aee55&clickBeacon=bbab7410-bbb0-11f1-863f-1bbfd77d8a47%7E3&requestid=20260929115156221288219128&token=31850C%7CMIXED&pt=1&slot=5",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 106850,
+    "title": "세차장 말고, 집 앞에서 끝 #shorts",
+    "videoId": "-pn9anwJO9Y",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-29T02:52:08.261808+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9661565226",
     "productName": "CLS 3초설치 초강력햇빛차단 우산형 햇빛가리개 원터치 썬쉐이드, 1개, 라이트 실버",
     "productCode": "쿠팡-64",

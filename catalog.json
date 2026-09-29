@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9661565226",
+    "productName": "CLS 3초설치 초강력햇빛차단 우산형 햇빛가리개 원터치 썬쉐이드, 1개, 라이트 실버",
+    "productCode": "쿠팡-64",
+    "productSequence": 64,
+    "productImage": "./media/products/coupang-9661565226.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9661565226&itemId=28883111519&vendorItemId=95816002527&traceid=V0-153-6a7ad29416aeda76&clickBeacon=85ad2070-bbb0-11f1-b0eb-7b7f95562830%7E3&requestid=20260929115025623287553666&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 16900,
+    "title": "차 안 찜통, 3초면 막아요 #shorts",
+    "videoId": "6smW7zMlWoU",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-29T02:51:06.175039+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8302373076",
     "productName": "NOVA 450용 하이드 코너선반 하부코너장 공간활용 바스켓 인출식 빌트인 댐핑 언더레일, Drak grey",
     "productCode": "쿠팡-63",

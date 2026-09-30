@@ -336,7 +336,7 @@
       body.append(el('p', 'spot-price num', price(item.priceSnapshot)));
 
       const actions = el('div', 'spot-actions');
-      const go = el('a', 'btn', '쿠팡에서 보기');
+      const go = el('a', 'btn', '제품 보러 가기');
       go.href = item.productUrl;
       go.target = '_blank';
       go.rel = 'sponsored nofollow noopener';
@@ -358,7 +358,7 @@
       link.target = '_blank';
       link.rel = 'sponsored nofollow noopener';
       link.dataset.code = codeNumber(item.productCode);
-      link.setAttribute('aria-label', `${codeNumber(item.productCode)}번 ${item.productName}, 쿠팡에서 보기`);
+      link.setAttribute('aria-label', `${codeNumber(item.productCode)}번 ${item.productName}, 제품 보러 가기`);
       const media = el('div', 'card-media');
       const img = image(item);
       img.loading = 'lazy';

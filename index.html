@@ -19,9 +19,12 @@
       --ink: #18181b;
       --muted: #63636b;
       --line: #e1e1e5;
-      --accent: #e8491d;
-      --accent-ink: #b8360f;
-      --on-accent: #fffaf8;
+      /* Brand colors from the PETIT.FUL logo: green for actions, yellow as a highlight */
+      --accent: #00843f;
+      --accent-ink: #00783a;
+      --on-accent: #fbfffc;
+      --highlight: #f9a61e;
+      --danger: #c2410c;
       --shadow: 0 1px 2px rgb(24 24 27 / .05), 0 8px 24px rgb(24 24 27 / .06);
       --radius: 14px;
     }
@@ -33,9 +36,11 @@
         --ink: #f1f1f3;
         --muted: #a4a4ad;
         --line: #2b2b30;
-        --accent: #ff6a3d;
-        --accent-ink: #ff8a66;
-        --on-accent: #1a0c07;
+        --accent: #1fb862;
+        --accent-ink: #4fd18a;
+        --on-accent: #04170c;
+        --highlight: #f9a61e;
+        --danger: #ff8a66;
         --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 10px 28px rgb(0 0 0 / .35);
       }
     }
@@ -71,7 +76,7 @@
       margin: 0; font-size: clamp(32px, 8.4vw, 56px); line-height: 1.08;
       letter-spacing: -.045em; font-weight: 850;
     }
-    h1 em { font-style: normal; color: var(--accent); }
+    h1 em { font-style: normal; background: linear-gradient(transparent 60%, color-mix(in srgb, var(--highlight) 75%, transparent) 60%, color-mix(in srgb, var(--highlight) 75%, transparent) 92%, transparent 92%); }
     .lead { margin: 12px 0 0; max-width: 34ch; color: var(--muted); font-size: 16px; line-height: 1.55; }
 
     .finder { align-self: end; }
@@ -103,7 +108,7 @@
     .btn:active { transform: scale(.98); }
     .btn:focus-visible, .text-link:focus-visible, .card:focus-visible, .field input:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 2px; }
     .status { min-height: 22px; margin: 10px 4px 0; color: var(--muted); font-size: 14px; }
-    .status.error { color: var(--accent-ink); font-weight: 700; }
+    .status.error { color: var(--danger); font-weight: 700; }
     .disclosure { margin: 6px 4px 0; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
 
     /* Spotlight: newest product, or the one the visitor searched for */

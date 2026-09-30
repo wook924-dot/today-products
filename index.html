@@ -2,380 +2,439 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111827">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f4f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0f11" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="쇼츠에서 소개한 제품을 번호로 바로 찾아보세요.">
   <title>오늘 소개한 제품</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <style>
+    /* Monochrome base + one accent. Tokens swap for dark mode; the page follows the system theme. */
     :root {
-      color-scheme: light;
-      --ink: #111827;
-      --muted: #6b7280;
-      --line: #e5e7eb;
-      --surface: #ffffff;
-      --bg: #f3f5f8;
-      --accent: #ef4444;
-      --accent-soft: #fff1f1;
-      --accent-ink: #c62828;
+      color-scheme: light dark;
+      --bg: #f4f4f5;
+      --surface: #fcfcfc;
+      --surface-2: #ececee;
+      --ink: #18181b;
+      --muted: #63636b;
+      --line: #e1e1e5;
+      --accent: #e8491d;
+      --accent-ink: #b8360f;
+      --on-accent: #fffaf8;
+      --shadow: 0 1px 2px rgb(24 24 27 / .05), 0 8px 24px rgb(24 24 27 / .06);
+      --radius: 14px;
     }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f11;
+        --surface: #18181b;
+        --surface-2: #222226;
+        --ink: #f1f1f3;
+        --muted: #a4a4ad;
+        --line: #2b2b30;
+        --accent: #ff6a3d;
+        --accent-ink: #ff8a66;
+        --on-accent: #1a0c07;
+        --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 10px 28px rgb(0 0 0 / .35);
+      }
+    }
+
     * { box-sizing: border-box; }
-    html { background: var(--bg); }
+    html { background: var(--bg); -webkit-text-size-adjust: 100%; }
     body {
       margin: 0;
       color: var(--ink);
-      background:
-        radial-gradient(circle at 12% -12%, rgba(99,102,241,.10), transparent 30rem),
-        var(--bg);
-      font-family: Pretendard, "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      font-feature-settings: "tnum" 0;
       -webkit-font-smoothing: antialiased;
+      word-break: keep-all;
     }
-    button, a { -webkit-tap-highlight-color: transparent; }
-    main { width: min(1040px, 100%); margin: auto; padding: 22px 16px 48px; }
+    a, button { -webkit-tap-highlight-color: transparent; }
+    img { display: block; max-width: 100%; }
+    .num { font-variant-numeric: tabular-nums; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 
-    .topbar { display: flex; align-items: center; gap: 11px; margin-bottom: 15px; }
-    .mark {
-      display: grid; place-items: center; flex: 0 0 38px; height: 38px;
-      border-radius: 12px; color: white; background: #111827;
-      font-size: 19px; font-weight: 900; letter-spacing: -.04em;
-      box-shadow: 0 7px 18px rgba(17,24,39,.18);
-    }
-    h1 { margin: 0; font-size: clamp(22px, 5vw, 29px); line-height: 1.15; letter-spacing: -.055em; }
-    .lead { margin: 3px 0 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .wrap { width: min(1120px, 100%); margin: 0 auto; padding: 0 16px; }
 
-    .notice {
-      margin: 0 0 14px; padding: 10px 12px; border: 1px solid #e8eaf0;
-      border-radius: 12px; color: #69707d; background: rgba(255,255,255,.68);
-      font-size: 12px; line-height: 1.5;
+    /* Top bar */
+    .bar { display: flex; align-items: center; gap: 10px; height: 60px; }
+    .brand { display: flex; align-items: center; gap: 9px; color: inherit; text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
+    .brand-mark {
+      display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px;
+      color: var(--on-accent); background: var(--accent); font-size: 16px; font-weight: 900;
     }
 
-    .product-search { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 7px; margin: 0 0 12px; }
-    .product-search label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
-    .product-search input {
-      min-width: 0; height: 44px; padding: 0 13px; border: 1px solid #d8dce4;
-      border-radius: 12px; color: var(--ink); background: rgba(255,255,255,.9);
-      font: inherit; font-size: 14px; outline: none;
+    /* Hero: title + number search, fits the first screen on phones */
+    .hero { padding: 18px 0 8px; }
+    .hero-grid { display: grid; gap: 22px; }
+    h1 {
+      margin: 0; font-size: clamp(32px, 8.4vw, 56px); line-height: 1.08;
+      letter-spacing: -.045em; font-weight: 850;
     }
-    .product-search input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent); }
-    .product-search button {
-      min-width: 70px; height: 44px; padding: 0 14px; border: 0; border-radius: 12px;
-      color: white; background: #111827; cursor: pointer; font: inherit; font-size: 14px; font-weight: 800;
-    }
-    .search-status { grid-column: 1 / -1; min-height: 0; margin: -1px 2px 0; color: var(--muted); font-size: 12px; }
-    .search-status:empty { display: none; }
+    h1 em { font-style: normal; color: var(--accent); }
+    .lead { margin: 12px 0 0; max-width: 34ch; color: var(--muted); font-size: 16px; line-height: 1.55; }
 
-    .shop-tabs[hidden] { display: none; }
-    .shop-tabs {
-      position: sticky; top: 0; z-index: 10;
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;
-      margin: 0 -4px 15px; padding: 7px;
-      border: 1px solid rgba(229,231,235,.92); border-radius: 16px;
-      background: rgba(255,255,255,.87); box-shadow: 0 8px 26px rgba(17,24,39,.07);
-      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    .finder { align-self: end; }
+    .finder-row {
+      display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px;
+      padding: 8px; border: 1px solid var(--line); border-radius: calc(var(--radius) + 6px);
+      background: var(--surface); box-shadow: var(--shadow);
     }
-    .tab {
-      min-height: 42px; padding: 8px 6px; border: 0; border-radius: 11px;
-      color: #6b7280; background: transparent; cursor: pointer;
-      font: inherit; font-size: 14px; font-weight: 750;
-      transition: color .18s ease, background .18s ease, transform .18s ease, box-shadow .18s ease;
+    .field { position: relative; display: flex; align-items: center; min-width: 0; }
+    .field input {
+      width: 100%; min-width: 0; height: 60px; padding: 0 52px 0 16px;
+      border: 1px solid transparent; border-radius: var(--radius); outline: none;
+      color: var(--ink); background: var(--surface-2);
+      font: inherit; font-size: 26px; font-weight: 800; letter-spacing: -.02em;
+      font-variant-numeric: tabular-nums;
     }
-    .tab:active { transform: scale(.98); }
-    .tab[aria-selected="true"] { color: white; background: var(--accent); box-shadow: 0 5px 14px color-mix(in srgb, var(--accent) 30%, transparent); }
-    .tab-count { margin-left: 3px; opacity: .76; font-size: 12px; font-variant-numeric: tabular-nums; }
+    .field input::placeholder { color: var(--muted); font-weight: 600; font-size: 17px; letter-spacing: 0; }
+    .field input:focus-visible { border-color: var(--accent); }
+    .field-unit { position: absolute; right: 16px; color: var(--muted); font-size: 18px; font-weight: 700; pointer-events: none; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      min-height: 48px; padding: 0 20px; border: 0; border-radius: var(--radius);
+      color: var(--on-accent); background: var(--accent); cursor: pointer; text-decoration: none;
+      font: inherit; font-size: 16px; font-weight: 800; white-space: nowrap;
+      transition: transform .15s ease, filter .15s ease;
+    }
+    .finder .btn { height: 60px; padding: 0 24px; font-size: 17px; }
+    .btn:hover { filter: brightness(1.05); }
+    .btn:active { transform: scale(.98); }
+    .btn:focus-visible, .text-link:focus-visible, .card:focus-visible, .field input:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 2px; }
+    .status { min-height: 22px; margin: 10px 4px 0; color: var(--muted); font-size: 14px; }
+    .status.error { color: var(--accent-ink); font-weight: 700; }
+    .disclosure { margin: 6px 4px 0; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
 
-    .list-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 2px 10px; }
-    .list-head h2 { margin: 0; font-size: 17px; line-height: 1.4; letter-spacing: -.035em; }
-    .list-head span { color: var(--muted); font-size: 12px; }
-    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    /* Spotlight: newest product, or the one the visitor searched for */
+    .spot { margin: 28px 0 8px; scroll-margin-top: 16px; }
+    .spot-card {
+      display: grid; overflow: hidden; border: 1px solid var(--line); border-radius: calc(var(--radius) + 6px);
+      background: var(--surface); box-shadow: var(--shadow);
+    }
+    .spot-media { position: relative; aspect-ratio: 4 / 3; background: #fff; }
+    .spot-media img { width: 100%; height: 100%; object-fit: contain; }
+    .spot-body { display: flex; flex-direction: column; gap: 12px; padding: 20px; }
+    .spot-label { margin: 0; color: var(--accent-ink); font-size: 14px; font-weight: 800; }
+    .spot-code { margin: 0; font-size: clamp(44px, 12vw, 72px); line-height: .95; font-weight: 900; letter-spacing: -.05em; }
+    .spot-code small { margin-left: 2px; font-size: .42em; font-weight: 800; letter-spacing: -.02em; color: var(--muted); }
+    .spot-title { margin: 0; font-size: 21px; line-height: 1.35; font-weight: 800; letter-spacing: -.03em; }
+    .spot-name { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+    .spot-price { margin: 0; font-size: 20px; font-weight: 800; }
+    .spot-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding: 0 20px 20px; }
+    .spot-actions .btn { min-height: 54px; padding: 0 26px; font-size: 17px; }
+    .text-link { color: var(--ink); font-size: 15px; font-weight: 700; text-underline-offset: 4px; }
+    .spot-card.swap { animation: swap .35s cubic-bezier(.16, 1, .3, 1); }
+    @keyframes swap { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 
-    .product-card {
-      position: relative; display: flex; min-width: 0; flex-direction: column;
-      overflow: hidden; border: 1px solid var(--line); border-radius: 17px;
+    /* All products */
+    .list { padding: 40px 0 8px; }
+    .list-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+    h2 { margin: 0; font-size: 22px; letter-spacing: -.035em; }
+    .count { color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .card {
+      display: flex; flex-direction: column; min-width: 0; overflow: hidden;
+      border: 1px solid var(--line); border-radius: var(--radius);
       color: inherit; background: var(--surface); text-decoration: none;
-      box-shadow: 0 5px 18px rgba(17,24,39,.055);
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-      scroll-margin-top: 78px;
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+      scroll-margin-top: 20px;
     }
-    .product-card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); box-shadow: 0 10px 26px rgba(17,24,39,.10); }
-    .product-card:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 28%, transparent); outline-offset: 2px; }
-    .product-card.search-match { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), 0 10px 26px rgba(17,24,39,.10); }
-    .thumb-wrap { position: relative; aspect-ratio: 1.28 / 1; overflow: hidden; background: #f8f9fb; }
-    .product-card img { display: block; width: 100%; height: 100%; object-fit: contain; }
-    .shop-badge {
-      position: absolute; top: 7px; left: 7px; padding: 4px 7px;
-      border-radius: 999px; color: var(--accent-ink); background: var(--accent-soft);
-      font-size: 11px; line-height: 1; font-weight: 800;
-      box-shadow: 0 1px 5px rgba(17,24,39,.09);
-    }
-    .card-body { display: flex; min-width: 0; flex: 1; flex-direction: column; padding: 10px 11px 11px; }
-    .product-name {
-      display: -webkit-box; min-height: 2.8em; margin: 0; overflow: hidden;
-      font-size: 14px; line-height: 1.4; font-weight: 750; letter-spacing: -.025em;
-      -webkit-box-orient: vertical; -webkit-line-clamp: 2;
-    }
-    .card-bottom { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 9px; }
-    .price { min-width: 0; overflow: hidden; color: #4b5563; font-size: 13px; font-weight: 700; white-space: nowrap; text-overflow: ellipsis; }
-    .go { flex: 0 0 auto; color: var(--accent-ink); font-size: 12px; font-weight: 800; }
-    .broken-image { object-fit: cover !important; }
+    .card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); box-shadow: var(--shadow); }
+    .card:active { transform: scale(.99); }
+    .card.match { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+    .card-media { aspect-ratio: 1 / 1; background: #fff; }
+    .card-media img { width: 100%; height: 100%; object-fit: contain; }
+    .card-body { display: flex; flex: 1; flex-direction: column; gap: 6px; padding: 11px 12px 13px; }
+    .card-code { margin: 0; font-size: 22px; line-height: 1; font-weight: 900; letter-spacing: -.04em; }
+    .card-code small { font-size: 13px; font-weight: 800; color: var(--muted); margin-left: 1px; }
+    .card-title { margin: 0; font-size: 14.5px; line-height: 1.4; font-weight: 700; letter-spacing: -.02em; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+    .card-price { margin: auto 0 0; padding-top: 4px; color: var(--muted); font-size: 13.5px; font-weight: 700; }
+    .img-fallback { object-fit: cover !important; }
 
-    .empty { grid-column: 1 / -1; padding: 56px 18px; border: 1px dashed #d8dce4; border-radius: 17px; text-align: center; color: var(--muted); background: rgba(255,255,255,.62); }
-    .empty strong { display: block; margin-bottom: 5px; color: #374151; font-size: 15px; }
-    footer { margin-top: 28px; padding: 17px 2px 0; border-top: 1px solid #dfe2e8; color: var(--muted); font-size: 12px; line-height: 1.6; }
-    footer p { margin: 0 0 7px; }
-    footer a { color: #4b5563; font-weight: 700; text-underline-offset: 3px; }
+    /* Loading and empty states */
+    .skeleton { border-radius: var(--radius); background: linear-gradient(100deg, var(--surface-2) 30%, var(--surface) 50%, var(--surface-2) 70%) 0 0 / 300% 100%; animation: shimmer 1.4s linear infinite; }
+    .skeleton.card-sk { aspect-ratio: 3 / 4.3; }
+    .skeleton.spot-sk { height: 420px; border-radius: calc(var(--radius) + 6px); }
+    @keyframes shimmer { to { background-position: -150% 0; } }
+    .empty { grid-column: 1 / -1; padding: 48px 20px; border: 1px dashed var(--line); border-radius: var(--radius); text-align: center; color: var(--muted); }
+    .empty strong { display: block; margin-bottom: 6px; color: var(--ink); font-size: 16px; }
 
-    body[data-shop="aliexpress"] { --accent:#ef4444; --accent-soft:#fff0f0; --accent-ink:#c62828; }
-    body[data-shop="coupang"] { --accent:#3d5afe; --accent-soft:#eef1ff; --accent-ink:#2946d3; }
-    body[data-shop="naver"] { --accent:#03b95f; --accent-soft:#e9fbf2; --accent-ink:#008f48; }
+    footer { margin-top: 48px; padding: 22px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; line-height: 1.7; }
+    footer p { margin: 0 0 8px; }
+    footer a { color: var(--ink); font-weight: 700; text-underline-offset: 3px; }
+    .foot-links { display: flex; gap: 16px; }
 
-    @media (max-width: 760px) {
-      main { padding: 18px 12px 40px; }
-      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
-      .product-card { min-height: 96px; flex-direction: row; border-radius: 14px; }
-      .thumb-wrap { flex: 0 0 78px; aspect-ratio: auto; }
-      .shop-badge { top: 5px; left: 5px; max-width: 68px; padding: 3px 5px; overflow: hidden; font-size: 9px; white-space: nowrap; text-overflow: ellipsis; }
-      .card-body { justify-content: space-between; padding: 8px 8px 9px; }
-      .product-name { font-size: 13px; }
-      .card-bottom { margin-top: 6px; }
-      .price { font-size: 12px; }
-      .go { font-size: 0; }
-      .go::after { content: '↗'; font-size: 13px; }
+    /* Phones and tablets: compact horizontal spotlight so the list starts right after it */
+    @media (max-width: 899px) {
+      .spot { margin-top: 18px; }
+      .spot-card { grid-template-columns: 128px minmax(0, 1fr); }
+      .spot-media { aspect-ratio: 1 / 1; align-self: start; margin: 12px 0 0 12px; border-radius: 10px; overflow: hidden; }
+      .spot-body { gap: 5px; padding: 12px 14px 12px 12px; }
+      .spot-label { font-size: 12px; }
+      .spot-code { font-size: 34px; }
+      .spot-title { font-size: 16px; line-height: 1.35; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+      .spot-name { display: none; }
+      .spot-price { font-size: 15px; }
+      .spot-actions { grid-column: 1 / -1; justify-content: space-between; gap: 12px; margin: 0; padding: 0 12px 12px; }
+      .spot-actions .btn { flex: 1; min-height: 48px; padding: 0 16px; font-size: 16px; }
+      .text-link { font-size: 14px; }
+      .list { padding-top: 28px; }
     }
-    @media (max-width: 360px) {
-      .grid { gap: 7px; }
-      .tab { font-size: 13px; }
-      .card-bottom { align-items: flex-end; }
+    @media (min-width: 640px) {
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    }
+    @media (min-width: 900px) {
+      .wrap { padding: 0 28px; }
+      .bar { height: 68px; }
+      .hero { padding: 40px 0 8px; }
+      .hero-grid { grid-template-columns: 1.1fr 1fr; align-items: end; gap: 48px; }
+      .spot-card { grid-template-columns: 1.05fr 1fr; grid-template-rows: 1fr auto; }
+      .spot-media { grid-row: 1 / 3; aspect-ratio: auto; min-height: 440px; }
+      .spot-body { justify-content: flex-end; padding: 40px 44px 0; gap: 14px; }
+      .spot-actions { margin: 0; padding: 22px 44px 40px; }
+      .spot-title { font-size: 26px; }
+      .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+      *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
     }
   </style>
 </head>
-<body data-shop="coupang">
-  <main>
-    <header class="topbar">
-      <div class="mark" aria-hidden="true">P</div>
-      <div>
-        <h1>오늘 소개한 제품</h1>
-        <p class="lead">쇼츠에서 소개한 제품을 번호로 빠르게 확인하세요.</p>
-      </div>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="brand" href="./" aria-label="오늘 소개한 제품 처음으로">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>PetitFul</span>
+      </a>
     </header>
 
-    <p class="notice">일부 링크는 제휴 링크이며, 구매 시 운영자에게 일정액의 수수료가 제공될 수 있습니다. 가격과 판매 여부는 판매처에서 변경될 수 있습니다.</p>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid">
+          <div>
+            <h1 id="page-title">오늘 소개한 제품,<br><em>번호</em>로 찾으세요</h1>
+            <p class="lead">쇼츠 마지막에 나온 제품번호를 입력하면 바로 보여드려요.</p>
+          </div>
+          <form class="finder" id="product-search" role="search" novalidate>
+            <label class="sr-only" for="product-code">제품번호</label>
+            <div class="finder-row">
+              <div class="field">
+                <input id="product-code" name="product" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" enterkeyhint="search" placeholder="예: 63" aria-describedby="search-status">
+                <span class="field-unit" aria-hidden="true">번</span>
+              </div>
+              <button class="btn" type="submit">찾기</button>
+            </div>
+            <p class="status" id="search-status" role="status" aria-live="polite"></p>
+            <p class="disclosure">일부 링크는 제휴 링크이며, 구매 시 운영자에게 일정액의 수수료가 제공될 수 있습니다. 가격과 판매 여부는 판매처에서 변경될 수 있습니다.</p>
+          </form>
+        </div>
+      </section>
 
-    <form class="product-search" id="product-search" role="search">
-      <label for="product-code">제품번호 검색</label>
-      <input id="product-code" name="product" type="search" inputmode="text" autocomplete="off" placeholder="제품번호 검색 (예: 63)">
-      <button type="submit">찾기</button>
-      <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
-    </form>
+      <section class="spot" id="spotlight" aria-live="polite" aria-label="선택한 제품">
+        <div class="skeleton spot-sk" aria-hidden="true"></div>
+      </section>
 
-    <nav class="shop-tabs" role="tablist" aria-label="제품 목록" hidden>
-      <button id="tab-coupang" class="tab" role="tab" type="button" data-provider="coupang" aria-selected="true" aria-controls="products">전체 제품 <span class="tab-count" data-count="coupang"></span></button>
-    </nav>
-
-    <div class="list-head">
-      <h2 id="list-title">소개한 제품</h2>
-      <span id="result-count" aria-live="polite"></span>
-    </div>
-    <section id="products" class="grid" role="tabpanel" aria-labelledby="tab-coupang">
-      <div class="empty">상품을 불러오는 중입니다.</div>
-    </section>
+      <section class="list" aria-labelledby="list-title">
+        <div class="list-head">
+          <h2 id="list-title">전체 제품</h2>
+          <span class="count num" id="result-count"></span>
+        </div>
+        <div class="grid" id="products">
+          <div class="skeleton card-sk" aria-hidden="true"></div>
+          <div class="skeleton card-sk" aria-hidden="true"></div>
+          <div class="skeleton card-sk" aria-hidden="true"></div>
+          <div class="skeleton card-sk" aria-hidden="true"></div>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <p><strong>YouTube Automation</strong>은 운영자가 상품 쇼츠를 업로드하고 관리하기 위한 자동화 도구입니다.</p>
-      <a href="./privacy.html">개인정보처리방침</a> · <a href="./terms.html">서비스 이용약관</a>
+      <div class="foot-links">
+        <a href="./privacy.html">개인정보처리방침</a>
+        <a href="./terms.html">서비스 이용약관</a>
+      </div>
     </footer>
-  </main>
+  </div>
 
   <script>
-    const providers = {
-      coupang: { label: '소개한 제품', empty: '제품을 준비하고 있습니다.' }
-    };
-    const productsRoot = document.querySelector('#products');
-    const listTitle = document.querySelector('#list-title');
+    const spotlight = document.querySelector('#spotlight');
+    const grid = document.querySelector('#products');
     const resultCount = document.querySelector('#result-count');
-    const searchForm = document.querySelector('#product-search');
-    const searchInput = document.querySelector('#product-code');
-    const searchStatus = document.querySelector('#search-status');
-    const tabs = [...document.querySelectorAll('.tab')];
+    const form = document.querySelector('#product-search');
+    const input = document.querySelector('#product-code');
+    const status = document.querySelector('#search-status');
     let catalog = [];
-    let activeProvider = 'coupang';
 
-    function detectProvider(item) {
+    // Only Coupang products are listed (2026-09-28).
+    function isCoupang(item) {
       const declared = String(item.provider || '').toLowerCase();
-      if (declared === 'ali' || declared === 'aliexpress') return 'aliexpress';
-      if (declared === 'coupang') return 'coupang';
-      if (declared === 'naver') return 'naver';
-      const url = String(item.productUrl || '').toLowerCase();
-      if (url.includes('aliexpress')) return 'aliexpress';
-      if (url.includes('naver.')) return 'naver';
-      return 'coupang';
+      if (declared) return declared === 'coupang';
+      return !/aliexpress|naver\./i.test(String(item.productUrl || ''));
     }
 
-    function formatPrice(value) {
-      const price = Number(value);
-      return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '가격 확인';
-    }
-
-    // Codes are shown and searched as plain numbers ("63번"); "쿠팡-63", "63번" and "63" all match.
-    function normalizeProductCode(value) {
+    // "쿠팡-63", "63번" and "63" all mean product 63.
+    function codeNumber(value) {
       const compact = String(value || '').trim().replace(/\s+/g, '');
       const match = compact.match(/^(?:(?:알리|쿠팡|네이버)-?)?(\d+)번?$/);
-      return match ? String(Number(match[1])) : compact;
+      return match ? String(Number(match[1])) : '';
     }
 
-    function displayCode(code) {
-      const number = normalizeProductCode(code);
-      return /^\d+$/.test(number) ? `${number}번` : String(code || '');
+    function price(value) {
+      const n = Number(value);
+      return Number.isFinite(n) && n > 0 ? `${Math.round(n).toLocaleString('ko-KR')}원` : '가격은 판매처에서 확인';
+    }
+
+    function hook(item) {
+      return String(item.title || '').replace(/#shorts/gi, '').replace(/\s+/g, ' ').trim() || item.productName;
+    }
+
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function image(item) {
+      const img = el('img');
+      img.alt = '';
+      img.decoding = 'async';
+      img.referrerPolicy = 'no-referrer';
+      img.onerror = () => {
+        img.onerror = null;
+        if (item.videoId) {
+          img.classList.add('img-fallback');
+          img.src = `https://i.ytimg.com/vi/${encodeURIComponent(item.videoId)}/hqdefault.jpg`;
+        } else {
+          img.remove();
+        }
+      };
+      img.src = item.productImage || '';
+      return img;
+    }
+
+    function codeLine(className, item) {
+      const line = el('p', `${className} num`, codeNumber(item.productCode));
+      line.append(el('small', '', '번'));
+      return line;
+    }
+
+    function renderSpotlight(item, found) {
+      const card = el('article', 'spot-card swap');
+      const media = el('div', 'spot-media');
+      const img = image(item);
+      img.fetchPriority = 'high';
+      media.append(img);
+
+      const body = el('div', 'spot-body');
+      body.append(el('p', 'spot-label', found ? '찾은 제품' : '가장 최근에 소개한 제품'));
+      body.append(codeLine('spot-code', item));
+      body.append(el('h2', 'spot-title', hook(item)));
+      body.append(el('p', 'spot-name', item.productName));
+      body.append(el('p', 'spot-price num', price(item.priceSnapshot)));
+
+      const actions = el('div', 'spot-actions');
+      const go = el('a', 'btn', '쿠팡에서 보기');
+      go.href = item.productUrl;
+      go.target = '_blank';
+      go.rel = 'sponsored nofollow noopener';
+      actions.append(go);
+      if (item.videoId) {
+        const video = el('a', 'text-link', '영상 다시 보기');
+        video.href = `https://www.youtube.com/shorts/${encodeURIComponent(item.videoId)}`;
+        video.target = '_blank';
+        video.rel = 'noopener';
+        actions.append(video);
+      }
+      card.append(media, body, actions);
+      spotlight.replaceChildren(card);
     }
 
     function renderCard(item) {
-      const link = document.createElement('a');
-      link.className = 'product-card';
+      const link = el('a', 'card');
       link.href = item.productUrl;
       link.target = '_blank';
       link.rel = 'sponsored nofollow noopener';
-      link.dataset.productCode = item.productCode || '';
-      link.setAttribute('aria-label', `${item.productCode ? `${displayCode(item.productCode)} ` : ''}${item.productName} 제품 확인하기`);
-
-      const thumbWrap = document.createElement('div');
-      thumbWrap.className = 'thumb-wrap';
-      const image = document.createElement('img');
-      image.alt = '';
-      image.loading = 'lazy';
-      image.decoding = 'async';
-      image.referrerPolicy = 'no-referrer';
-      image.onerror = () => {
-        image.onerror = null;
-        if (item.videoId) {
-          image.classList.add('broken-image');
-          image.src = `https://i.ytimg.com/vi/${encodeURIComponent(item.videoId)}/hqdefault.jpg`;
-        } else {
-          image.remove();
-        }
-      };
-      image.src = item.productImage || '';
-      const badge = document.createElement('span');
-      badge.className = 'shop-badge';
-      badge.textContent = item.productCode ? displayCode(item.productCode) : providers[detectProvider(item)].label;
-      thumbWrap.append(image, badge);
-
-      const body = document.createElement('div');
-      body.className = 'card-body';
-      const name = document.createElement('p');
-      name.className = 'product-name';
-      name.textContent = item.productName;
-      const bottom = document.createElement('div');
-      bottom.className = 'card-bottom';
-      const price = document.createElement('span');
-      price.className = 'price';
-      price.textContent = formatPrice(item.priceSnapshot);
-      const go = document.createElement('span');
-      go.className = 'go';
-      go.textContent = '보러가기 ↗';
-      bottom.append(price, go);
-      body.append(name, bottom);
-      link.append(thumbWrap, body);
+      link.dataset.code = codeNumber(item.productCode);
+      link.setAttribute('aria-label', `${codeNumber(item.productCode)}번 ${item.productName}, 쿠팡에서 보기`);
+      const media = el('div', 'card-media');
+      const img = image(item);
+      img.loading = 'lazy';
+      media.append(img);
+      const body = el('div', 'card-body');
+      body.append(codeLine('card-code', item), el('p', 'card-title', hook(item)), el('p', 'card-price num', price(item.priceSnapshot)));
+      link.append(media, body);
       return link;
     }
 
-    function updateCounts() {
-      Object.keys(providers).forEach(provider => {
-        const count = catalog.filter(item => detectProvider(item) === provider).length;
-        document.querySelector(`[data-count="${provider}"]`).textContent = count ? count.toLocaleString('ko-KR') : '';
-      });
+    function setUrl(code) {
+      const url = new URL(location.href);
+      url.searchParams.set('shop', 'coupang');
+      if (code) url.searchParams.set('product', code); else url.searchParams.delete('product');
+      history.replaceState(null, '', url);
     }
 
-    function selectProvider(provider, updateUrl = true) {
-      if (!providers[provider]) return;
-      activeProvider = provider;
-      document.body.dataset.shop = provider;
-      tabs.forEach(tab => {
-        const selected = tab.dataset.provider === provider;
-        tab.setAttribute('aria-selected', String(selected));
-        tab.tabIndex = selected ? 0 : -1;
-      });
-      productsRoot.setAttribute('aria-labelledby', `tab-${provider}`);
-      const items = catalog.filter(item => detectProvider(item) === provider);
-      listTitle.textContent = providers[provider].label;
-      resultCount.textContent = items.length ? `${items.length.toLocaleString('ko-KR')}개` : '';
-      productsRoot.replaceChildren();
-      if (!items.length) {
-        const empty = document.createElement('div');
-        empty.className = 'empty';
-        empty.innerHTML = `<strong>${providers[provider].label}</strong>${providers[provider].empty}`;
-        productsRoot.append(empty);
-      } else {
-        items.forEach(item => productsRoot.append(renderCard(item)));
-      }
-      if (updateUrl) {
-        const url = new URL(location.href);
-        url.searchParams.set('shop', provider);
-        url.searchParams.delete('product');
-        history.replaceState(null, '', url);
-      }
-    }
-
-    function findProduct(value, updateUrl = true) {
-      const code = normalizeProductCode(value);
-      searchInput.value = code;
-      const item = catalog.find(row => normalizeProductCode(row.productCode) === code
-        && providers[detectProvider(row)]);
-      if (!item) {
-        searchStatus.textContent = code ? `${displayCode(code)} 제품을 찾지 못했습니다.` : '제품번호를 입력해주세요.';
+    function find(value, fromUser) {
+      const code = codeNumber(value);
+      input.value = code || String(value || '').trim();
+      status.classList.remove('error');
+      if (!code) {
+        status.textContent = '숫자로 된 제품번호를 입력해주세요.';
+        status.classList.add('error');
         return false;
       }
-      const provider = detectProvider(item);
-      selectProvider(provider, false);
-      const card = [...productsRoot.querySelectorAll('.product-card')]
-        .find(element => element.dataset.productCode === item.productCode);
-      if (!card) return false;
-      searchStatus.textContent = `${displayCode(item.productCode)} 제품으로 이동했습니다.`;
-      card.classList.add('search-match');
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      card.focus({ preventScroll: true });
-      window.setTimeout(() => card.classList.remove('search-match'), 2400);
-      if (updateUrl) {
-        const url = new URL(location.href);
-        url.searchParams.set('shop', provider);
-        url.searchParams.set('product', normalizeProductCode(item.productCode));
-        history.replaceState(null, '', url);
+      const item = catalog.find(row => codeNumber(row.productCode) === code);
+      if (!item) {
+        status.textContent = `${code}번 제품을 찾지 못했어요. 번호를 다시 확인해주세요.`;
+        status.classList.add('error');
+        return false;
+      }
+      status.textContent = `${code}번 제품이에요.`;
+      renderSpotlight(item, true);
+      grid.querySelectorAll('.card.match').forEach(card => card.classList.remove('match'));
+      const card = grid.querySelector(`.card[data-code="${code}"]`);
+      if (card) card.classList.add('match');
+      if (fromUser) {
+        setUrl(code);
+        spotlight.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        input.blur();
       }
       return true;
     }
 
-    searchForm.addEventListener('submit', event => {
+    form.addEventListener('submit', event => {
       event.preventDefault();
-      findProduct(searchInput.value);
-    });
-
-    tabs.forEach((tab, index) => {
-      tab.addEventListener('click', () => selectProvider(tab.dataset.provider));
-      tab.addEventListener('keydown', event => {
-        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-        event.preventDefault();
-        const offset = event.key === 'ArrowRight' ? 1 : -1;
-        const next = tabs[(index + offset + tabs.length) % tabs.length];
-        selectProvider(next.dataset.provider);
-        next.focus();
-      });
+      find(input.value, true);
     });
 
     fetch('./catalog.json', { cache: 'no-store' })
       .then(response => { if (!response.ok) throw new Error('catalog'); return response.json(); })
       .then(items => {
-        // Coupang only (2026-09-28): other sellers are no longer shown.
-        catalog = (Array.isArray(items) ? items : []).filter(item => providers[detectProvider(item)]);
-        updateCounts();
-        const params = new URLSearchParams(location.search);
-        const requestedProduct = params.get('product');
-        const requested = params.get('shop');
-        const newestProvider = 'coupang';
-        if (!requestedProduct || !findProduct(requestedProduct, false)) {
-          selectProvider(providers[requested] ? requested : newestProvider, false);
+        catalog = (Array.isArray(items) ? items : [])
+          .filter(item => isCoupang(item) && codeNumber(item.productCode) && item.productUrl)
+          .sort((a, b) => Number(codeNumber(b.productCode)) - Number(codeNumber(a.productCode)));
+        resultCount.textContent = catalog.length ? `${catalog.length}개` : '';
+        grid.replaceChildren(...catalog.map(renderCard));
+        if (!catalog.length) {
+          spotlight.replaceChildren();
+          const empty = el('div', 'empty');
+          empty.append(el('strong', '', '제품을 준비하고 있어요'), document.createTextNode('곧 새 제품을 소개할게요.'));
+          grid.replaceChildren(empty);
+          return;
         }
+        const requested = new URLSearchParams(location.search).get('product');
+        if (!requested || !find(requested, false)) renderSpotlight(catalog[0], false);
       })
       .catch(() => {
-        productsRoot.innerHTML = '<div class="empty"><strong>잠시 후 다시 확인해주세요</strong>상품 목록을 불러오지 못했습니다.</div>';
+        spotlight.replaceChildren();
+        const empty = el('div', 'empty');
+        empty.append(el('strong', '', '잠시 후 다시 확인해주세요'), document.createTextNode('제품 목록을 불러오지 못했어요.'));
+        grid.replaceChildren(empty);
         resultCount.textContent = '';
       });
   </script>

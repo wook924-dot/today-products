@@ -60,11 +60,9 @@
 
     /* Top bar */
     .bar { display: flex; align-items: center; gap: 10px; height: 60px; }
-    .brand { display: flex; align-items: center; gap: 9px; color: inherit; text-decoration: none; font-weight: 800; letter-spacing: -.02em; }
-    .brand-mark {
-      display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px;
-      color: var(--on-accent); background: var(--accent); font-size: 16px; font-weight: 900;
-    }
+    .brand { display: inline-flex; align-items: center; }
+    .brand img { width: auto; height: 22px; }
+    @media (min-width: 900px) { .brand img { height: 26px; } }
 
     /* Hero: title + number search, fits the first screen on phones */
     .hero { padding: 18px 0 8px; }
@@ -206,9 +204,8 @@
 <body>
   <div class="wrap">
     <header class="bar">
-      <a class="brand" href="./" aria-label="오늘 소개한 제품 처음으로">
-        <span class="brand-mark" aria-hidden="true">P</span>
-        <span>PetitFul</span>
+      <a class="brand" href="./" aria-label="PETIT.FUL 오늘 소개한 제품 처음으로">
+        <img src="./media/brand/petitful-logo.png" alt="PETIT.FUL" width="703" height="96">
       </a>
     </header>
 

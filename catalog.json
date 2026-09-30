@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9626638026",
+    "productName": "안전 손잡이가 있는 배터리 작동식 자동 전동 캔따개, 과일, 야채 병에 사용 가능, 컴팩트한 주방 도구",
+    "productCode": "쿠팡-68",
+    "productSequence": 68,
+    "productImage": "./media/products/coupang-9626638026.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9626638026&itemId=28750172959&vendorItemId=95689121350&traceid=V0-153-0b8ed7cb33ca00e6&requestid=20261001080810416136243846&token=31850C%7CMIXED&pt=0&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 13640.0,
+    "title": "버튼 하나로 따지는 캔 #shorts",
+    "videoId": "lj0TFfKqnMs",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-30T23:09:39.102770+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9446082030",
     "productName": "TOYM 무선 전동 믹스컵  자동 회오리 스텐 텀블러 믹서컵 선식 커피 다이어트 쉐이크컵",
     "productCode": "쿠팡-67",

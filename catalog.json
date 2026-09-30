@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9719025271",
+    "productName": "모아픽 초강력 자석형 양면 창문 닦이 스퀴즈 3-10mm, 2개",
+    "productCode": "쿠팡-69",
+    "productSequence": 69,
+    "productImage": "./media/products/coupang-9719025271.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9719025271&itemId=29084083850&vendorItemId=96009815250&traceid=V0-153-44d851a5bdd34913&clickBeacon=201363d0-bd24-11f1-a7ba-4ced215838d1%7E3&requestid=20261001081027901118569318&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "반려동물용품",
+    "priceSnapshot": 21400,
+    "title": "바깥 유리창 안에서 닦기 #shorts",
+    "videoId": "nETz8ApUA6c",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-30T23:10:37.777227+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9626638026",
     "productName": "안전 손잡이가 있는 배터리 작동식 자동 전동 캔따개, 과일, 야채 병에 사용 가능, 컴팩트한 주방 도구",
     "productCode": "쿠팡-68",

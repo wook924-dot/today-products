@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8519876149",
+    "productName": "[프링고 휴대용 AI 감열 프린터세트] 잉크없는 미니 무선 핸드폰 오답노트 프린터기 A4",
+    "productCode": "쿠팡-66",
+    "productSequence": 66,
+    "productImage": "./media/products/coupang-8519876149.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8519876149&itemId=25271920783&vendorItemId=92328508531&traceid=V0-153-103159231539776e&requestid=20260930101206472207218544&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 170900,
+    "title": "학습지, 이제 책상에서 바로 뽑아요 #shorts",
+    "videoId": "-8-TBxoIAm8",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-30T01:13:34.464177+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8238776085",
     "productName": "국내발송 VoltMate 무선 고압세척기 고압세차기 휴대용 세차기 6in1 다기능 4000mAh 듀얼 배터리 5m 호스, 접이식 물통 등 세트 포함, 블랙, 8107",
     "productCode": "쿠팡-65",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9446082030",
+    "productName": "TOYM 무선 전동 믹스컵  자동 회오리 스텐 텀블러 믹서컵 선식 커피 다이어트 쉐이크컵",
+    "productCode": "쿠팡-67",
+    "productSequence": 67,
+    "productImage": "./media/products/coupang-9446082030.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9446082030&itemId=29110935151&vendorItemId=95436299063&traceid=V0-153-b532442b49fef0da&requestid=20260930132100028134358654&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 20000,
+    "title": "숟가락 없이 저어지는 컵 #shorts",
+    "videoId": "GUemOvUAD48",
+    "designVersion": "v62",
+    "publishedAt": "2026-09-30T04:22:48.583193+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8519876149",
     "productName": "[프링고 휴대용 AI 감열 프린터세트] 잉크없는 미니 무선 핸드폰 오답노트 프린터기 A4",
     "productCode": "쿠팡-66",

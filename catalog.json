@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9653054750",
+    "productName": "뽀송스 전동 스퀴지 욕실 거울 유리 물기 흡입 청소기, 뽀송스 세트(고무블레이드2개), 1개",
+    "productCode": "쿠팡-70",
+    "productSequence": 70,
+    "productImage": "./media/products/coupang-9653054750.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9653054750&itemId=28853353233&vendorItemId=94482900570&traceid=V0-153-6eb5e1d35cc72932&clickBeacon=8aae7d40-bd3a-11f1-ac80-d4553131cc20%7E3&requestid=20261001105055693099010126&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 50400,
+    "title": "물기 빨아들이는 스퀴지 #shorts",
+    "videoId": "YXWsypuorKE",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-01T01:52:22.589513+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9719025271",
     "productName": "모아픽 초강력 자석형 양면 창문 닦이 스퀴즈 3-10mm, 2개",
     "productCode": "쿠팡-69",

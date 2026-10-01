@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9150902363",
+    "productName": "FDUCE 미니 밀봉 실링기",
+    "productCode": "쿠팡-71",
+    "productSequence": 71,
+    "productImage": "./media/products/coupang-9150902363.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9150902363&itemId=26945741685&vendorItemId=93914873832&traceid=V0-153-4ca7f70451553a45&requestid=20261001105320875099015165&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "생활용품",
+    "priceSnapshot": 2980,
+    "title": "과자봉지 다시 붙이기 #shorts",
+    "videoId": "zQsFTSwrvok",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-01T01:53:31.938088+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9653054750",
     "productName": "뽀송스 전동 스퀴지 욕실 거울 유리 물기 흡입 청소기, 뽀송스 세트(고무블레이드2개), 1개",
     "productCode": "쿠팡-70",

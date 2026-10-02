@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9735119532",
+    "productName": "BOSSBELLE 순수 티타늄 도마 99.84% 순수 티타늄 양면 도마 식품 등급 TA1 가정용 주방 도마, 은색, 1개",
+    "productCode": "쿠팡-73",
+    "productSequence": 73,
+    "productImage": "./media/products/coupang-9735119532.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9735119532&itemId=29133751714&vendorItemId=96057623832&traceid=V0-153-1230a05365c34c3a&clickBeacon=792124d0-be37-11f1-ba9d-c2ede51dd688%7E3&requestid=20261002170128929186138477&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 299000,
+    "title": "스텐 말고 티타늄 도마 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-02T08:01:36.859954+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "6946836636",
     "productName": "풍선자동펌프 풍선바람넣는기계 인플레이터 부는기계 pumpy301 올더스탬",
     "productCode": "쿠팡-72",

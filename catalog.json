@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "6946836636",
+    "productName": "풍선자동펌프 풍선바람넣는기계 인플레이터 부는기계 pumpy301 올더스탬",
+    "productCode": "쿠팡-72",
+    "productSequence": 72,
+    "productImage": "./media/products/coupang-6946836636.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=6946836636&itemId=16864381576&vendorItemId=93546542527&traceid=V0-153-49294fcd5f911f25&requestid=20261002165918168272250963&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 24900,
+    "title": "풍선 2초 만에 불기 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-02T08:00:41.356505+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9150902363",
     "productName": "FDUCE 미니 밀봉 실링기",
     "productCode": "쿠팡-71",

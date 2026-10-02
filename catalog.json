@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9705682679",
+    "productName": "RichMagic 다용도 가정용 패브릭 진공청소기 흡수식 패브릭 청소기 카펫 매트리스 소파 창문 등 건습식 진공청소기, 흰색, 1세트",
+    "productCode": "쿠팡-74",
+    "productSequence": 74,
+    "productImage": "./media/products/coupang-9705682679.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9705682679&itemId=29036375993&vendorItemId=95963721380&traceid=V0-153-450d2041ef417224&clickBeacon=2f5f0b40-be38-11f1-9ee7-626d742b179e%7E3&requestid=20261002170634677325001447&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 132850,
+    "title": "카펫 얼룩 빨아들이는 청소기 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-02T08:06:42.930148+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9735119532",
     "productName": "BOSSBELLE 순수 티타늄 도마 99.84% 순수 티타늄 양면 도마 식품 등급 TA1 가정용 주방 도마, 은색, 1개",
     "productCode": "쿠팡-73",

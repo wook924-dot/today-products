@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8776075928",
+    "productName": "에브리봇 침구 로봇청소기, 화이트, X1",
+    "productCode": "쿠팡-75",
+    "productSequence": 75,
+    "productImage": "./media/products/coupang-8776075928.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8776075928&itemId=25531765275&vendorItemId=95250959997&traceid=V0-153-6bcfa8964bc3a3e1&clickBeacon=a9812ae0-bec7-11f1-8581-70efc8d580b5%7E3&requestid=20261003101337572003854059&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 288000,
+    "title": "침대 위를 혼자 청소하는 로봇 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-03T01:15:07.056787+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9705682679",
     "productName": "RichMagic 다용도 가정용 패브릭 진공청소기 흡수식 패브릭 청소기 카펫 매트리스 소파 창문 등 건습식 진공청소기, 흰색, 1세트",
     "productCode": "쿠팡-74",

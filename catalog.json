@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9449601990",
+    "productName": "Lemorele USB-C HDMI 무선 비디오 익스텐더 1080P@60Hz 50미터 5GHz, 1개, P400",
+    "productCode": "쿠팡-77",
+    "productSequence": 77,
+    "productImage": "./media/products/coupang-9449601990.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9449601990&itemId=28110682883&vendorItemId=95066680351&traceid=V0-153-e02b22cb54091c99&clickBeacon=af0da500-bf72-11f1-930c-47f288923044%7E3&requestid=20261004063750858000667341&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 120000,
+    "title": "폰 화면을 TV로, 꽂기만 하면 끝 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-03T21:39:09.368156+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9520185506",
     "productName": "모아람 산패방지 오일스프레이 디스펜서 자동개폐 차광유리 오일병 초록병 듀얼 오일픽 딥그린 500ml, 1개, 500ml",
     "productCode": "쿠팡-76",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9548731826",
+    "productName": "파이골프2 Flex  홈 스크린골프 시뮬레이터",
+    "productCode": "쿠팡-79",
+    "productSequence": 79,
+    "productImage": "./media/products/coupang-9548731826.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9548731826&itemId=25938386139&vendorItemId=92921671067&traceid=V0-153-805c03288875d73c&requestid=20261004064530544267821185&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "스포츠/레저용품",
+    "priceSnapshot": 268000.0,
+    "title": "거실이 골프장이 되는 법 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-03T21:45:39.220302+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9679009339",
     "productName": "책상 밑 무선 충전기, 책상 밑 0-30mm 무선 충전기, 초박형 디자인, 다양한 유형의 데스크탑과 호환용",
     "productCode": "쿠팡-78",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9679009339",
+    "productName": "책상 밑 무선 충전기, 책상 밑 0-30mm 무선 충전기, 초박형 디자인, 다양한 유형의 데스크탑과 호환용",
+    "productCode": "쿠팡-78",
+    "productSequence": 78,
+    "productImage": "./media/products/coupang-9679009339.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9679009339&itemId=28942350096&vendorItemId=96095011581&traceid=V0-153-8b49c647521c4cb2&requestid=20261004063956798004467341&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 28450.0,
+    "title": "충전기를 책상 밑에 숨겼어요 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-03T21:40:04.763606+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9449601990",
     "productName": "Lemorele USB-C HDMI 무선 비디오 익스텐더 1080P@60Hz 50미터 5GHz, 1개, P400",
     "productCode": "쿠팡-77",

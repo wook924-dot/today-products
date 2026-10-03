@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9520185506",
+    "productName": "모아람 산패방지 오일스프레이 디스펜서 자동개폐 차광유리 오일병 초록병 듀얼 오일픽 딥그린 500ml, 1개, 500ml",
+    "productCode": "쿠팡-76",
+    "productSequence": 76,
+    "productImage": "./media/products/coupang-9520185506.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9520185506&itemId=28379241804&vendorItemId=95330957090&traceid=V0-153-8e545cc88f6f6ad2&clickBeacon=f634c860-bf71-11f1-bbe4-5dcad4add070%7E3&requestid=20261004063240738197904245&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 33900,
+    "title": "뿌리고 붓는 오일병 하나 #shorts",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-03T21:34:08.215602+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8776075928",
     "productName": "에브리봇 침구 로봇청소기, 화이트, X1",
     "productCode": "쿠팡-75",

@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8978453945",
+    "productName": "YINOLIFE 다기능 습식청소기 스팀 패브릭 청소기 15kPa 쇼파 카펫 침구 다용도 가정용 스팀 가열가능, 화이트, VCW94110",
+    "productCode": "쿠팡-80",
+    "productSequence": 80,
+    "productImage": "./media/products/coupang-8978453945.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8978453945&itemId=26284853813&vendorItemId=93262819338&traceid=V0-153-4862c103b8a85129&clickBeacon=d9e05140-c041-11f1-b5c0-dceeedb24175%7E3&requestid=20261005072048506052503273&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 227000,
+    "title": "소파 얼룩, 스팀으로 쏙 #shorts",
+    "videoId": "XTC61GvjOvo",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-04T22:22:31.679162+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9548731826",
     "productName": "파이골프2 Flex  홈 스크린골프 시뮬레이터",
     "productCode": "쿠팡-79",

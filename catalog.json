@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9479090057",
+    "productName": "[2+1] 루시아이 무타공 흡착 스텐 후크 2colors, 실버, 3개",
+    "productCode": "쿠팡-83",
+    "productSequence": 83,
+    "productImage": "./media/products/coupang-9479090057.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9479090057&itemId=28983965257&vendorItemId=95224259261&traceid=V0-153-fd780c47d765429e&clickBeacon=945f3cc0-c042-11f1-9cc3-e79d4f16a0b6%7E3&requestid=20261005072601390319311201&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 12790,
+    "title": "구멍 없이 후크 다는 법 #shorts",
+    "videoId": "rorwvTA8kzk",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-04T22:26:11.416011+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9266401286",
     "productName": "코쿠요 하리낙스 프레스 5매용 침 없는 스테이플러 스테플러 하리나쿠스",
     "productCode": "쿠팡-82",

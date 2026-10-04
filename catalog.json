@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9266401286",
+    "productName": "코쿠요 하리낙스 프레스 5매용 침 없는 스테이플러 스테플러 하리나쿠스",
+    "productCode": "쿠팡-82",
+    "productSequence": 82,
+    "productImage": "./media/products/coupang-9266401286.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9266401286&itemId=27421241919&vendorItemId=75364113277&traceid=V0-153-e3e7a4a55d3f8618&requestid=20261005072429708317257364&token=31850C%7CGM&pt=0&slot=3",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 16500,
+    "title": "철심 없이 종이를 묶는 법 #shorts",
+    "videoId": "dYsLNBq-aOU",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-04T22:24:40.278521+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8101846659",
     "productName": "님봇 B1 휴대용 블루투스 라벨프린터 (라벨지1개포함)",
     "productCode": "쿠팡-81",

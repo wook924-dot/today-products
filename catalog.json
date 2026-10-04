@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "8101846659",
+    "productName": "님봇 B1 휴대용 블루투스 라벨프린터 (라벨지1개포함)",
+    "productCode": "쿠팡-81",
+    "productSequence": 81,
+    "productImage": "./media/products/coupang-8101846659.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8101846659&itemId=23184465998&vendorItemId=90217146470&traceid=V0-153-1a7a06bb605c1c00&requestid=20261005072322612256187464&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 38000.0,
+    "title": "반찬통 이름표, 1초면 끝 #shorts",
+    "videoId": "dAAZhjdbbHA",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-04T22:23:32.719209+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8978453945",
     "productName": "YINOLIFE 다기능 습식청소기 스팀 패브릭 청소기 15kPa 쇼파 카펫 침구 다용도 가정용 스팀 가열가능, 화이트, VCW94110",
     "productCode": "쿠팡-80",

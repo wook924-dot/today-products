@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9649748930",
+    "productName": "휴대용 의류건조기 미니 의류건조기 의류 건조기 텐트 휴대용 의류관리기, 화이트 호스트, AM-600",
+    "productCode": "쿠팡-87",
+    "productSequence": 87,
+    "productImage": "./media/products/coupang-9649748930.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9649748930&itemId=28841282965&vendorItemId=95125522154&traceid=V0-153-997aa624d6851b13&clickBeacon=1e6c6d00-c176-11f1-89bd-5a73db2934f0%7E3&requestid=20261006200728453190621974&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 28900,
+    "title": "빨래 안 마를 때 이거 #shorts",
+    "videoId": "zn4Lu-PNdV8",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-06T11:07:37.711591+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9180005489",
     "productName": "자동 등때밀이 벽걸이형 기계 전동 가정용 등밀이 때밀이 목욕 욕실 셀프등밀이 세신기",
     "productCode": "쿠팡-86",

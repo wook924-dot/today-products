@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9612995074",
+    "productName": "픽노바 자동 샌드아트 테이블 DIY 패턴생성 샌드로봇 미니 디자인 장식용 모래멍",
+    "productCode": "쿠팡-84",
+    "productSequence": 84,
+    "productImage": "./media/products/coupang-9612995074.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9612995074&itemId=28701082734&vendorItemId=95642116531&traceid=V0-153-b45a48928fd995d3&requestid=20261006195511677158350539&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "완구/취미",
+    "priceSnapshot": 355900.0,
+    "title": "모래 위에 저절로 그림이 #shorts",
+    "videoId": "hsOz-CKRePc",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-06T10:56:36.994902+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9479090057",
     "productName": "[2+1] 루시아이 무타공 흡착 스텐 후크 2colors, 실버, 3개",
     "productCode": "쿠팡-83",

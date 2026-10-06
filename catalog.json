@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9180005489",
+    "productName": "자동 등때밀이 벽걸이형 기계 전동 가정용 등밀이 때밀이 목욕 욕실 셀프등밀이 세신기",
+    "productCode": "쿠팡-86",
+    "productSequence": 86,
+    "productImage": "./media/products/coupang-9180005489.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9180005489&itemId=27070506739&vendorItemId=96056451342&traceid=V0-153-fa5acd016178f726&requestid=20261006200226451012514134&token=31850C%7CMIXED&pt=0&slot=10",
+    "categoryName": "생활용품",
+    "priceSnapshot": 61750.0,
+    "title": "등 밀어줄 사람 없을 때 #shorts",
+    "videoId": "EzUhTMMyG7I",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-06T11:02:34.451941+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9448910136",
     "productName": "데일리빗 완전개폐 자동우산 전동 자동 3단 접이식 우산 양산 겸용 Type-C 충전 자외선차단",
     "productCode": "쿠팡-85",

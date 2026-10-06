@@ -1,6 +1,21 @@
 [
   {
     "provider": "coupang",
+    "productId": "9448910136",
+    "productName": "데일리빗 완전개폐 자동우산 전동 자동 3단 접이식 우산 양산 겸용 Type-C 충전 자외선차단",
+    "productCode": "쿠팡-85",
+    "productSequence": 85,
+    "productImage": "./media/products/coupang-9448910136.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9448910136&itemId=29123887688&vendorItemId=96048116634&traceid=V0-153-be936df52e7e6e1a&requestid=20261006195724373155496902&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "패션잡화",
+    "priceSnapshot": 66400.0,
+    "title": "우산 접다가 손 젖으셨죠 #shorts",
+    "videoId": "N6O6n60JjC4",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-06T10:57:33.129220+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9612995074",
     "productName": "픽노바 자동 샌드아트 테이블 DIY 패턴생성 샌드로봇 미니 디자인 장식용 모래멍",
     "productCode": "쿠팡-84",

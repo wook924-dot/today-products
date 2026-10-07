@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9179103041",
+    "productName": "리히트 랩 1권으로도 쓰러지지 않는 북 스탠드 북 엔드 A4 블랙 A357724",
+    "productCode": "쿠팡-88",
+    "productSequence": 88,
+    "productImage": "./media/products/coupang-9179103041.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9179103041&itemId=27066445419&vendorItemId=94034792019&traceid=V0-153-2899387b7b25ecff&requestid=20261007195443694054937571&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 29110.0,
+    "title": "한 권 빼면 다 쓰러지는 책 #shorts",
+    "shortName": "리히트랩 북엔드",
+    "videoId": "y33UiFuDtm4",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-07T10:56:19.323432+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9649748930",
     "productName": "휴대용 의류건조기 미니 의류건조기 의류 건조기 텐트 휴대용 의류관리기, 화이트 호스트, AM-600",
     "productCode": "쿠팡-87",

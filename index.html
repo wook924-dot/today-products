@@ -291,8 +291,13 @@
       return Number.isFinite(n) && n > 0 ? `${Math.round(n).toLocaleString('ko-KR')}원` : '가격은 판매처에서 확인';
     }
 
-    function hook(item) {
-      return String(item.title || '').replace(/#shorts/gi, '').replace(/\s+/g, ' ').trim() || item.productName;
+    // 2026-10-07: show the product name (not the video hook). Coupang names carry
+    // option tails after the first comma and [tags] in front, so drop those.
+    function productName(item) {
+      const name = String(item.productName || '')
+        .replace(/^\s*\[([^\]]*)\]\s*/, (_, tag) => (tag.length > 8 ? `${tag} ` : ''))
+        .split(',')[0].replace(/\s+/g, ' ').trim();
+      return name || String(item.title || '').replace(/#shorts/gi, '').trim();
     }
 
     function el(tag, className, text) {
@@ -336,8 +341,7 @@
       const body = el('div', 'spot-body');
       body.append(el('p', 'spot-label', found ? '찾은 제품' : '가장 최근에 소개한 제품'));
       body.append(codeLine('spot-code', item));
-      body.append(el('h2', 'spot-title', hook(item)));
-      body.append(el('p', 'spot-name', item.productName));
+      body.append(el('h2', 'spot-title', productName(item)));
       body.append(el('p', 'spot-price num', price(item.priceSnapshot)));
 
       const actions = el('div', 'spot-actions');
@@ -369,7 +373,7 @@
       img.loading = 'lazy';
       media.append(img);
       const body = el('div', 'card-body');
-      body.append(codeLine('card-code', item), el('p', 'card-title', hook(item)), el('p', 'card-price num', price(item.priceSnapshot)));
+      body.append(codeLine('card-code', item), el('p', 'card-title', productName(item)), el('p', 'card-price num', price(item.priceSnapshot)));
       link.append(media, body);
       return link;
     }

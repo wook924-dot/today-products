@@ -291,9 +291,10 @@
       return Number.isFinite(n) && n > 0 ? `${Math.round(n).toLocaleString('ko-KR')}원` : '가격은 판매처에서 확인';
     }
 
-    // 2026-10-07: show the product name (not the video hook). Coupang names carry
+    // 2026-10-07: show the product name (not the video hook): shortName when set. Coupang names carry
     // option tails after the first comma and [tags] in front, so drop those.
     function productName(item) {
+      if (item.shortName) return String(item.shortName).trim();
       const name = String(item.productName || '')
         .replace(/^\s*\[([^\]]*)\]\s*/, (_, tag) => (tag.length > 8 ? `${tag} ` : ''))
         .split(',')[0].replace(/\s+/g, ' ').trim();

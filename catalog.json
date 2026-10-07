@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9724888154",
+    "productName": "위드라이프 구글 43인치 스마트TV 삼탠바이미 세트 무빙라이프 1등급 이동식 안드로이드티비, 109cm(43인치), WITH43SMARTW(모니터), WLTSTW2(스탠드), 스탠드형, 고객직접설치",
+    "productCode": "쿠팡-89",
+    "productSequence": 89,
+    "productImage": "./media/products/coupang-9724888154.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9724888154&itemId=24798541983&vendorItemId=93556176144&traceid=V0-153-3313ddf74cac5bea&clickBeacon=d705c830-c23d-11f1-83a0-c0262ace636f%7E3&requestid=20261007195708051249504120&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 359000,
+    "title": "TV를 원하는 방으로 옮겨 보세요 #shorts",
+    "shortName": "위드라이프 무빙 스마트TV",
+    "videoId": "stdeHlgaOjM",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-07T10:57:15.931824+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9179103041",
     "productName": "리히트 랩 1권으로도 쓰러지지 않는 북 스탠드 북 엔드 A4 블랙 A357724",
     "productCode": "쿠팡-88",

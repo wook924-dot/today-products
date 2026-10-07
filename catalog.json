@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9536044630",
+    "productName": "Aimbuck 발로 꾹 원터치 밀대걸레 가정용 바닥청소 물걸레 청소포 바닥걸레, 1개",
+    "productCode": "쿠팡-92",
+    "productSequence": 92,
+    "productImage": "./media/products/coupang-9536044630.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9536044630&itemId=28441835650&vendorItemId=95379274722&traceid=V0-153-c9d7be1a6b2faa77&clickBeacon=dcbfe340-c23e-11f1-835e-c07d329ea3af%7E3&requestid=20261007200427231119628641&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 15500,
+    "title": "걸레 손으로 끼우지 마세요 #shorts",
+    "shortName": "에임벅 원터치 밀대",
+    "videoId": "wNhDEQu6Yxo",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-07T11:05:57.413685+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8618408912",
     "productName": "레꼴뜨 무선 캡슐 커터 본느 초퍼 RCP-7",
     "productCode": "쿠팡-90",

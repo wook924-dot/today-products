@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8618408912",
+    "productName": "레꼴뜨 무선 캡슐 커터 본느 초퍼 RCP-7",
+    "productCode": "쿠팡-90",
+    "productSequence": 90,
+    "productImage": "./media/products/coupang-8618408912.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8618408912&itemId=25002835737&vendorItemId=93196320227&traceid=V0-153-5db66eef943a2d72&requestid=20261007195852144193756263&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 98000,
+    "title": "얼음까지 가는 예쁜 무선 초퍼 #shorts",
+    "shortName": "레꼴뜨 무선 캡슐 커터",
+    "videoId": "kd6puU-WHu4",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-07T10:59:00.004816+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9724888154",
     "productName": "위드라이프 구글 43인치 스마트TV 삼탠바이미 세트 무빙라이프 1등급 이동식 안드로이드티비, 109cm(43인치), WITH43SMARTW(모니터), WLTSTW2(스탠드), 스탠드형, 고객직접설치",
     "productCode": "쿠팡-89",

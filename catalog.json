@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9659928754",
+    "productName": "iFLYTEK 전자노트 필기 태블릿 AINOTE 2 + 전용펜 세트",
+    "productCode": "쿠팡-93",
+    "productSequence": 93,
+    "productImage": "./media/products/coupang-9659928754.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9659928754&itemId=28877588733&vendorItemId=95945667409&traceid=V0-153-d71043492f250412&requestid=20261008195534536218757835&token=31850C%7CGM&pt=0&slot=10",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 843600,
+    "title": "회의 녹음하면 AI가 요약까지 #shorts",
+    "shortName": "아이플라이텍 AI노트 2",
+    "videoId": "76Z4MFKT9Z0",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-08T10:57:46.832982+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9536044630",
     "productName": "Aimbuck 발로 꾹 원터치 밀대걸레 가정용 바닥청소 물걸레 청소포 바닥걸레, 1개",
     "productCode": "쿠팡-92",

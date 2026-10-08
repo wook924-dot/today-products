@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8882973914",
+    "productName": "묘향가 진공 스마트 자동급식기 1구",
+    "productCode": "쿠팡-95",
+    "productSequence": 95,
+    "productImage": "./media/products/coupang-8882973914.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8882973914&itemId=25926564253&vendorItemId=92911966907&traceid=V0-153-4db058f06beac4c3&requestid=20261008200324524246673670&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "반려/애완용품",
+    "priceSnapshot": 149000,
+    "title": "사료 눅눅해지지 않는 급식기 #shorts",
+    "shortName": "묘향가 진공 자동급식기",
+    "videoId": "XE55K1d2VJs",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-08T11:03:34.603232+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9352662498",
     "productName": "다이내믹 해파리 가습기 음악 연동 점핑 칠색 조명 힐링 동반자",
     "productCode": "쿠팡-94",

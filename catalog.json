@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9592086409",
+    "productName": "주방 자석스푼 양념통세트  조미료보관함 스푼일체형 밀폐양념통 그레이 3개+트레이 세트",
+    "productCode": "쿠팡-96",
+    "productSequence": 96,
+    "productImage": "./media/products/coupang-9592086409.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9592086409&itemId=28634127636&vendorItemId=95577084158&traceid=V0-153-7f718aa7c2d635bf&requestid=20261008200909142119629638&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 40800.0,
+    "title": "스푼이 뚜껑에 착 붙는 양념통 #shorts",
+    "shortName": "자석 스푼 양념통",
+    "videoId": "_go2VtyQeiE",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-08T11:09:17.846958+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8882973914",
     "productName": "묘향가 진공 스마트 자동급식기 1구",
     "productCode": "쿠팡-95",

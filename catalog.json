@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9352662498",
+    "productName": "다이내믹 해파리 가습기 음악 연동 점핑 칠색 조명 힐링 동반자",
+    "productCode": "쿠팡-94",
+    "productSequence": 94,
+    "productImage": "./media/products/coupang-9352662498.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9352662498&itemId=27746318853&vendorItemId=95709504993&traceid=V0-153-cf8395690c85298d&requestid=20261008195834277062483655&token=31850C%7CMIXED&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 52000,
+    "title": "책상 위 해파리 힐링템 #shorts",
+    "shortName": "해파리 무드등 가습기",
+    "videoId": "Cm7rHUBYjkM",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-08T10:58:42.485932+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9659928754",
     "productName": "iFLYTEK 전자노트 필기 태블릿 AINOTE 2 + 전용펜 세트",
     "productCode": "쿠팡-93",

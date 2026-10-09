@@ -1,0 +1,46 @@
+{
+ "issue": "2026-10-12",
+ "title": "2026 디자인 어워드가 고른 집에 두고 싶은 5가지",
+ "items": [
+  {
+   "no": 1,
+   "name": "쿠첸 123 밥솥 6인용",
+   "award": "레드닷 2026 본상",
+   "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9146331136&itemId=26927357213&vendorItemId=94933393514&traceid=V0-153-f3e2dd5e6ab3c23b&requestid=20261009085029521160578890&token=31850C%7CGM&pt=0&slot=9",
+   "productImage": "./media/news/coupang-9146331136.jpg",
+   "priceSnapshot": 347990
+  },
+  {
+   "no": 2,
+   "name": "파나소닉 슬림 공기청정기",
+   "award": "레드닷 최우수상 · iF 2026",
+   "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9204480017&itemId=27180752351&vendorItemId=95103709617&traceid=V0-153-73874ce909d19e60&requestid=20261009084326458246676170&token=31850C%7CMIXED&pt=0&slot=6",
+   "productImage": "./media/news/coupang-9204480017.jpg",
+   "priceSnapshot": 471560
+  },
+  {
+   "no": 3,
+   "name": "자일리스 수지 4 마늘 다지기",
+   "award": "레드닷 · iF 2026 본상",
+   "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9642211732&itemId=28811896136&vendorItemId=95746885212&traceid=V0-153-a68eaf9602cf6dd6&requestid=20261009085851344293863491&token=31850C%7CMIXED&pt=0&slot=7",
+   "productImage": "./media/news/coupang-9642211732.jpg",
+   "priceSnapshot": 67300
+  },
+  {
+   "no": 4,
+   "name": "삼성 뮤직 스튜디오 5",
+   "award": "iF 디자인 어워드 2026 금상",
+   "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9544349504&itemId=28472784054&vendorItemId=95423054613&traceid=V0-153-e20bf58e2a04420e&requestid=20261009084340162119629048&token=31850C%7CMIXED&pt=0&slot=6",
+   "productImage": "./media/news/coupang-9544349504.jpg",
+   "priceSnapshot": 406390
+  },
+  {
+   "no": 5,
+   "name": "나비엔 숙면매트 사계절 Pro",
+   "award": "레드닷 · iF 2026 본상",
+   "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9594071919&itemId=28640327367&vendorItemId=95583071706&traceid=V0-153-d45c3bdacd89936a&requestid=20261009085043788091185920&token=31850C%7CMIXED&pt=0&slot=8",
+   "productImage": "./media/news/coupang-9594071919.jpg",
+   "priceSnapshot": 748460
+  }
+ ]
+}

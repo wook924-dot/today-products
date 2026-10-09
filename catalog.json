@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9761569642",
+    "productName": "개폐기 스마트 오프너 커튼 자동 로봇 컨트롤러",
+    "productCode": "쿠팡-98",
+    "productSequence": 98,
+    "productImage": "./media/products/coupang-9761569642.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9761569642&itemId=29219816784&vendorItemId=96139517480&traceid=V0-153-c9306522fc06cfeb&requestid=20261009195739989192114627&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 49700.0,
+    "title": "커튼이 알아서 열려요 #shorts",
+    "shortName": "스마트 커튼 로봇",
+    "videoId": "pOsEFhY1p7k",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-09T10:57:47.605097+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9617688223",
     "productName": "오틀리 퍼펙트핏 가로높이조절 주방 슬라이딩 선반, 1개, 화이트",
     "productCode": "쿠팡-97",

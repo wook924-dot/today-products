@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9617688223",
+    "productName": "오틀리 퍼펙트핏 가로높이조절 주방 슬라이딩 선반, 1개, 화이트",
+    "productCode": "쿠팡-97",
+    "productSequence": 97,
+    "productImage": "./media/products/coupang-9617688223.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9617688223&itemId=28718123184&vendorItemId=95670516268&traceid=V0-153-0272b9586acfbb44&clickBeacon=f270ee90-c3cf-11f1-bc1d-3c2231247452%7E3&requestid=20261009195531759004073519&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 39800,
+    "title": "하부장 안쪽까지 쏙 꺼내 쓰세요 #shorts",
+    "shortName": "오틀리 하부장 슬라이딩 정리대",
+    "videoId": "wd9YuQTc73Q",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-09T10:57:03.021346+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9592086409",
     "productName": "주방 자석스푼 양념통세트  조미료보관함 스푼일체형 밀폐양념통 그레이 3개+트레이 세트",
     "productCode": "쿠팡-96",

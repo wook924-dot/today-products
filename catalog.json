@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8350965868",
+    "productName": "리빙가감법 철제 와이어 빨래 바구니 이동식 빨래통 세탁바구니 수거함 보관함 대용량 2단 빨래바구니 철재, 화이트",
+    "productCode": "쿠팡-100",
+    "productSequence": 100,
+    "productImage": "./media/products/coupang-8350965868.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8350965868&itemId=24125994256&vendorItemId=91145095217&traceid=V0-153-6882dd521f5b4d98&clickBeacon=f9f9fd40-c3d0-11f1-9ba2-cb7258fb4091%7E3&requestid=20261009200253909124310690&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 49850,
+    "title": "빨래 분리도 한 번에 끝 #shorts",
+    "shortName": "리빙가감법 2단 빨래바구니",
+    "videoId": "gbl3bfGkFiM",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-09T11:03:00.747260+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8017882057",
     "productName": "홈비 업그레이드 바퀴형 이동식 접이식 폴딩 책상 컴퓨터 공부 책상",
     "productCode": "쿠팡-99",

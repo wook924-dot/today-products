@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8017882057",
+    "productName": "홈비 업그레이드 바퀴형 이동식 접이식 폴딩 책상 컴퓨터 공부 책상",
+    "productCode": "쿠팡-99",
+    "productSequence": 99,
+    "productImage": "./media/products/coupang-8017882057.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8017882057&itemId=22395739090&vendorItemId=91749528029&traceid=V0-153-4b06c23563b50f16&requestid=20261009195825108278991503&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 122900,
+    "title": "접으면 한 뼘 펴면 책상 #shorts",
+    "shortName": "홈비 바퀴형 접이식 책상",
+    "videoId": "Sch9LXdin8g",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-09T10:58:32.391919+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9761569642",
     "productName": "개폐기 스마트 오프너 커튼 자동 로봇 컨트롤러",
     "productCode": "쿠팡-98",

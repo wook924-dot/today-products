@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9269896988",
+    "productName": "신발장 슬라이딩 트레이 현관용 수납 서랍 다기능 푸쉬오픈 숨김수납장 정리용",
+    "productCode": "쿠팡-102",
+    "productSequence": 102,
+    "productImage": "./media/products/coupang-9269896988.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9269896988&itemId=28231236410&vendorItemId=95293768858&traceid=V0-153-31ab92d0c74b2752&requestid=20261012084354565061527166&token=31850C%7CMIXED&pt=0&slot=7",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 47200.0,
+    "title": "발로 툭 누르면 서랍이 나와요 #shorts",
+    "shortName": "푸쉬오픈 신발장 슬라이딩 서랍",
+    "videoId": "K0KvyyXiIMg",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-11T23:45:14.518085+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8350965868",
     "productName": "리빙가감법 철제 와이어 빨래 바구니 이동식 빨래통 세탁바구니 수거함 보관함 대용량 2단 빨래바구니 철재, 화이트",
     "productCode": "쿠팡-100",

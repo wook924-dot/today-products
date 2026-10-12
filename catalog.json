@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9268779058",
+    "productName": "렌가드 주방 후드 필터 600 + 기본 필터 세트",
+    "productCode": "쿠팡-105",
+    "productSequence": 105,
+    "productImage": "./media/products/coupang-9268779058.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9268779058&itemId=27430176177&vendorItemId=94395637935&traceid=V0-153-f00daf59bf1e3449&requestid=20261012132759705299463084&token=31850C%7CMIXED&pt=0&slot=9",
+    "categoryName": "주방용품",
+    "priceSnapshot": 35000,
+    "title": "후드 청소 이제 안 해요 #shorts",
+    "shortName": "렌가드 주방 후드 필터",
+    "videoId": "uazdiFk0MaI",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-12T04:28:07.022654+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9351980852",
     "productName": "매직쉐프 전동그라인더 소금 후추 2in1(본체+팟2P+트레이) 스텐실버, 1세트, 50ml",
     "productCode": "쿠팡-104",

@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9351980852",
+    "productName": "매직쉐프 전동그라인더 소금 후추 2in1(본체+팟2P+트레이) 스텐실버, 1세트, 50ml",
+    "productCode": "쿠팡-104",
+    "productSequence": 104,
+    "productImage": "./media/products/coupang-9351980852.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9351980852&itemId=27744184385&vendorItemId=94704154561&traceid=V0-153-dc0a19f2de47a23a&clickBeacon=03131e40-c5f5-11f1-83b6-a763580388ab%7E3&requestid=20261012132553358086991620&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 59800,
+    "title": "버튼 하나로 소금 후추 갈아요 #shorts",
+    "shortName": "매직쉐프 전동 그라인더",
+    "videoId": "gtXeVk4-0Tk",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-12T04:27:09.603933+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9110192447",
     "productName": "MACH 대포 무드등 가습기 물멍 안전한 연기 특이하고 심쿵한 집뜰이선물 7가지 LED 무드등 초음파 대용량 가습기",
     "productCode": "쿠팡-103",

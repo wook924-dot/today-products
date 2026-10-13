@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9765493776",
+    "productName": "WRITECH 0.5mm 젤펜 8개입 블랙 잉크 그라데이션 바디 저소음 노크식 볼펜 세트",
+    "productCode": "쿠팡-106",
+    "productSequence": 106,
+    "productImage": "./media/products/coupang-9765493776.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9765493776&itemId=29227718402&vendorItemId=96146973204&traceid=V0-153-f2e405cfa45aeaf0&requestid=20261013200023086236304058&token=31850C%7CMIXED&pt=0&slot=9",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 38920.0,
+    "title": "병원에서 쓴다는 무소음 젤펜 #shorts",
+    "shortName": "라이텍 무소음 젤펜",
+    "videoId": "upguok9YJU8",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-13T11:01:58.781965+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9268779058",
     "productName": "렌가드 주방 후드 필터 600 + 기본 필터 세트",
     "productCode": "쿠팡-105",

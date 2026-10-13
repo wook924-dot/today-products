@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9768037272",
+    "productName": "미니 캡슐 우산 2026 신형 초슬림 동전형 펜슬형 양산 겸용 햇빛 가리개 우산 UV 차단",
+    "productCode": "쿠팡-107",
+    "productSequence": 107,
+    "productImage": "./media/products/coupang-9768037272.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9768037272&itemId=29237090572&vendorItemId=96155800905&traceid=V0-153-7ecb5f19c334fd92&requestid=20261013200248464216319199&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 20000.0,
+    "title": "동전만큼 얇은 우산 #shorts",
+    "shortName": "초슬림 캡슐 우산",
+    "videoId": "3XqvhPhAAzw",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-13T11:02:57.652810+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9765493776",
     "productName": "WRITECH 0.5mm 젤펜 8개입 블랙 잉크 그라데이션 바디 저소음 노크식 볼펜 세트",
     "productCode": "쿠팡-106",

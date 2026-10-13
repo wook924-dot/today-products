@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9673433252",
+    "productName": "세라믹 자석 안전칼 택배 칼",
+    "productCode": "쿠팡-108",
+    "productSequence": 108,
+    "productImage": "./media/products/coupang-9673433252.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9673433252&itemId=29079666218&vendorItemId=96005540886&traceid=V0-153-a8094a0c8dcd789d&requestid=20261013200737784031666612&token=31850C%7CGM&pt=0&slot=4",
+    "categoryName": "생활용품",
+    "priceSnapshot": 5800.0,
+    "title": "택배 뜯을 때 손 안 베여요 #shorts",
+    "shortName": "자석 세라믹 택배칼",
+    "videoId": "BnWzcMSIGho",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-13T11:07:47.913335+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9768037272",
     "productName": "미니 캡슐 우산 2026 신형 초슬림 동전형 펜슬형 양산 겸용 햇빛 가리개 우산 UV 차단",
     "productCode": "쿠팡-107",

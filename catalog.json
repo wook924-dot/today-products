@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9680669853",
+    "productName": "회전식 과일세척기 야채세척기 수동 스피너 브러시 채소 과일 세척 탈수기 핑크",
+    "productCode": "쿠팡-109",
+    "productSequence": 109,
+    "productImage": "./media/products/coupang-9680669853.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9680669853&itemId=28947786555&vendorItemId=95878484693&traceid=V0-153-e04cca0537ba2f4c&requestid=20261013201251996184748925&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 26200.0,
+    "title": "딸기 씻을 때 손 안 넣어요 #shorts",
+    "shortName": "회전 솔 과일 세척기",
+    "videoId": "ZYV2Y9cjrJQ",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-13T11:13:01.152276+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9673433252",
     "productName": "세라믹 자석 안전칼 택배 칼",
     "productCode": "쿠팡-108",

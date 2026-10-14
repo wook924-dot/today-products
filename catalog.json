@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9713831489",
+    "productName": "발뮤다 더 클락 알루미늄 알람 시계 DSC01-SV",
+    "productCode": "쿠팡-111",
+    "productSequence": 111,
+    "productImage": "./media/products/coupang-9713831489.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9713831489&itemId=29064973907&vendorItemId=95991333831&traceid=V0-153-8f95eb37d984895f&requestid=20261014195742323173277143&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 646900.0,
+    "title": "시계가 빛으로 시간을 그려요 #shorts",
+    "shortName": "발뮤다 더 클락",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-14T10:57:45.908119+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8161378833",
     "productName": "라이온 룩 욕실 곰팡이 방지 훈증제 플로랄향",
     "productCode": "쿠팡-110",

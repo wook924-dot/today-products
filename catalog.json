@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9357518116",
+    "productName": "샤크 스테인포스 얼룩 제거 핸디 청소기 패브릭 클리너 HX100JNC",
+    "productCode": "쿠팡-113",
+    "productSequence": 113,
+    "productImage": "./media/products/coupang-9357518116.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9357518116&itemId=27762905499&vendorItemId=95674460883&traceid=V0-153-da25508d98c8add3&requestid=20261014200001678284271853&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 319400,
+    "title": "소파 얼룩 쓱 빨아들여요 #shorts",
+    "shortName": "샤크 스테인포스",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-14T11:00:06.708801+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9516198283",
     "productName": "스마트폰 배터리 고출력 휴대용 건전지 보조 어댑터 고속충전",
     "productCode": "쿠팡-112",

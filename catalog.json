@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9516198283",
+    "productName": "스마트폰 배터리 고출력 휴대용 건전지 보조 어댑터 고속충전",
+    "productCode": "쿠팡-112",
+    "productSequence": 112,
+    "productImage": "./media/products/coupang-9516198283.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9516198283&itemId=28363239145&vendorItemId=95315443803&traceid=V0-153-d47096e819c907f9&requestid=20261014195853263222277167&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 55600.0,
+    "title": "배터리만 갈아 끼우는 보조배터리 #shorts",
+    "shortName": "교체형 배터리 보조배터리",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-14T10:58:58.801537+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9713831489",
     "productName": "발뮤다 더 클락 알루미늄 알람 시계 DSC01-SV",
     "productCode": "쿠팡-111",

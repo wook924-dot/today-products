@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8161378833",
+    "productName": "라이온 룩 욕실 곰팡이 방지 훈증제 플로랄향",
+    "productCode": "쿠팡-110",
+    "productSequence": 110,
+    "productImage": "./media/products/coupang-8161378833.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8161378833&itemId=23269427686&vendorItemId=90301776929&traceid=V0-153-745a684b4dd9d7b5&requestid=20261014195612114027591853&token=31850C%7CGM&pt=0&slot=3",
+    "categoryName": "생활용품",
+    "priceSnapshot": 18200.0,
+    "title": "욕실 곰팡이 연기로 막아요 #shorts",
+    "shortName": "라이온 욕실 곰팡이 훈증제",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-14T10:56:51.711114+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9680669853",
     "productName": "회전식 과일세척기 야채세척기 수동 스피너 브러시 채소 과일 세척 탈수기 핑크",
     "productCode": "쿠팡-109",

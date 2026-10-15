@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9483728627",
+    "productName": "씽크대 수납장 코너 슬라이딩 선반 하부장 정리대 정리랙 700 S급 강화유리 33cm 2단 코너 도어 개폐",
+    "productCode": "쿠팡-114",
+    "productSequence": 114,
+    "productImage": "./media/products/coupang-9483728627.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9483728627&itemId=28239210942&vendorItemId=95192807913&traceid=V0-153-cc08b8f119c10362&requestid=20261015195623578065055236&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "주방용품",
+    "priceSnapshot": 265600.0,
+    "title": "싱크대 구석 당기면 나와요 #shorts",
+    "shortName": "하부장 코너 슬라이딩 선반",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-15T10:57:24.989407+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9357518116",
     "productName": "샤크 스테인포스 얼룩 제거 핸디 청소기 패브릭 클리너 HX100JNC",
     "productCode": "쿠팡-113",

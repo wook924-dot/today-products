@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8032886599",
+    "productName": "바이탭 충전 전동 와인 오프너 C타입, 1개",
+    "productCode": "쿠팡-117",
+    "productSequence": 117,
+    "productImage": "./media/products/coupang-8032886599.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8032886599&itemId=22466388115&vendorItemId=93979551326&traceid=V0-153-800ef066710fec8c&clickBeacon=b8a69b70-c888-11f1-af9f-231c8e59d296%7E3&requestid=20261015200816363009250884&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 16500,
+    "title": "와인 코르크 버튼으로 뽑아요 #shorts",
+    "shortName": "충전식 전동 와인오프너",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-15T11:08:23.689759+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9757458617",
     "productName": "RichMagic 2in1 발난로 신발건조기 겸용 분리형 탈부착 온열 발매트 빠른온열 3단계 온도조절 스마트 항온 마사지롤러 접이식 보관 사무실 가정용 겨울 발난방, 베이지, MF009",
     "productCode": "쿠팡-116",

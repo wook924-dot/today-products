@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9036798570",
+    "productName": "ERANSTAR 브론즈 캔들워머 전기 향초 램프 빈티지 무드등 레트로 인테리어 조명, 브론즈 블랙",
+    "productCode": "쿠팡-115",
+    "productSequence": 115,
+    "productImage": "./media/products/coupang-9036798570.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9036798570&itemId=26511164113&vendorItemId=95233229341&traceid=V0-153-4511955f53780261&clickBeacon=57c626a0-c887-11f1-a35e-816ebb2b4bc6%7E3&requestid=20261015195824316104881956&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 38900,
+    "title": "향초에 불 없이 향만 퍼져요 #shorts",
+    "shortName": "브론즈 캔들워머 램프",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-15T10:58:31.359525+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9483728627",
     "productName": "씽크대 수납장 코너 슬라이딩 선반 하부장 정리대 정리랙 700 S급 강화유리 33cm 2단 코너 도어 개폐",
     "productCode": "쿠팡-114",

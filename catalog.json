@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9438530030",
+    "productName": "자성유체스피커 음악 베놈 오디오 감성 리듬 장식",
+    "productCode": "쿠팡-120",
+    "productSequence": 120,
+    "productImage": "./media/products/coupang-9438530030.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9438530030&itemId=28070855565&vendorItemId=91093094723&traceid=V0-153-a784592a79039036&requestid=20261016200136719186514954&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 102000.0,
+    "title": "음악 따라 춤추는 자성유체 스피커 #shorts",
+    "shortName": "자성유체 블루투스 스피커",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-16T11:01:42.828847+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9645218273",
     "productName": "에떼르노 RF-1001NB 아기비데기능 필터세면수전 회전 무광니켈, 1개",
     "productCode": "쿠팡-119",

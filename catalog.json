@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9728230979",
+    "productName": "가열 보온 무선 충전식 전기보온도시락 휴대용 스테인리스 304 물주입 불필요 야외용 전열 도시락통 SUOSER",
+    "productCode": "쿠팡-118",
+    "productSequence": 118,
+    "productImage": "./media/products/coupang-9728230979.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9728230979&itemId=29111688810&vendorItemId=96184439920&traceid=V0-153-ddecd3214d8dfbee&requestid=20261016195506145058008858&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 28700,
+    "title": "물 없이 데워 먹는 도시락 #shorts",
+    "shortName": "무선 충전 전기 보온도시락",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-16T10:55:50.938513+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8032886599",
     "productName": "바이탭 충전 전동 와인 오프너 C타입, 1개",
     "productCode": "쿠팡-117",

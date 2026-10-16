@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9685125419",
+    "productName": "레이란 뜯어쓰는 달력 2027년 입체달력 신년 캘린더 3D 선물 메모지 찢는 트리 뜯는달력",
+    "productCode": "쿠팡-121",
+    "productSequence": 121,
+    "productImage": "./media/products/coupang-9685125419.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9685125419&itemId=28963425639&vendorItemId=93829440240&traceid=V0-153-95ebb88b1b4e205f&requestid=20261016200626642217876959&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "문구/사무용품",
+    "priceSnapshot": 28900,
+    "title": "뜯을수록 벚꽃나무가 나오는 달력 #shorts",
+    "shortName": "3D 뜯어쓰는 입체 달력",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-16T11:06:34.564431+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9438530030",
     "productName": "자성유체스피커 음악 베놈 오디오 감성 리듬 장식",
     "productCode": "쿠팡-120",

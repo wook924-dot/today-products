@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9230506994",
+    "productName": "Aurzen ZIP 3단 접이식 DLP 무선 미니 빔프로젝터 휴대용 캠핑용",
+    "productCode": "쿠팡-123",
+    "productSequence": 123,
+    "productImage": "./media/products/coupang-9230506994.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9230506994&itemId=27285140867&vendorItemId=94251783251&traceid=V0-153-ac2a94eb35c1501f&requestid=20261017195813375231559036&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 549000,
+    "title": "폰보다 작은데 100인치, Aurzen ZIP 빔프로젝터 #shorts",
+    "shortName": "Aurzen ZIP 접이식 빔프로젝터",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-17T10:58:17.578239+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9710669698",
     "productName": "탁상용 감성 무드등 선라이즈 일출 기상 알람 시계 무선 블루투스 스피커 테이블 백색소음 수면 사운드 램프 디밍 밝기 조절 가능 우정 신혼부부 집들이 자녀 독립 선물용(리모컨 포함)",
     "productCode": "쿠팡-122",

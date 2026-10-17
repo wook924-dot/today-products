@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9710669698",
+    "productName": "탁상용 감성 무드등 선라이즈 일출 기상 알람 시계 무선 블루투스 스피커 테이블 백색소음 수면 사운드 램프 디밍 밝기 조절 가능 우정 신혼부부 집들이 자녀 독립 선물용(리모컨 포함)",
+    "productCode": "쿠팡-122",
+    "productSequence": 122,
+    "productImage": "./media/products/coupang-9710669698.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9710669698&itemId=29053963904&vendorItemId=95980601386&traceid=V0-153-a9ec3757503d41ba&requestid=20261017195640006030032117&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "가구/홈인테리어",
+    "priceSnapshot": 77000.0,
+    "title": "알람 대신 창 속에 해가 떠요 #shorts",
+    "shortName": "창문형 일출 알람 무드등",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-17T10:57:21.762280+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9685125419",
     "productName": "레이란 뜯어쓰는 달력 2027년 입체달력 신년 캘린더 3D 선물 메모지 찢는 트리 뜯는달력",
     "productCode": "쿠팡-121",

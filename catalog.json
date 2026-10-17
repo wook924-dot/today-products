@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9711577994",
+    "productName": "지티스 올스텐 FOLD 접이식 프리볼트 여행용 전기포트, GT-115037KR",
+    "productCode": "쿠팡-125",
+    "productSequence": 125,
+    "productImage": "./media/products/coupang-9711577994.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9711577994&itemId=29056975249&vendorItemId=95902915209&traceid=V0-153-2ad14a90110af198&clickBeacon=528870f0-ca1a-11f1-acf8-1f437c41e4e7%7E3&requestid=20261017200302729194852613&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 65800,
+    "title": "지티스 접이식 포트, 접으면 반으로 줄어요 #shorts",
+    "shortName": "지티스 접이식 전기포트",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-17T11:03:07.730921+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9141714139",
     "productName": "[SMTONE] 대용량 탁상용 벽걸이 비접촉 자동 핸드워시 거품 디스펜서 자동 손세정기  소프트버블 벽걸이형 자동손세정기 핸드워시 거품비누 디스펜서",
     "productCode": "쿠팡-124",

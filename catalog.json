@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9141714139",
+    "productName": "[SMTONE] 대용량 탁상용 벽걸이 비접촉 자동 핸드워시 거품 디스펜서 자동 손세정기  소프트버블 벽걸이형 자동손세정기 핸드워시 거품비누 디스펜서",
+    "productCode": "쿠팡-124",
+    "productSequence": 124,
+    "productImage": "./media/products/coupang-9141714139.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9141714139&itemId=26892637879&vendorItemId=93862121875&traceid=V0-153-942f79d51a36b2e1&requestid=20261017195903709266396754&token=31850C%7CGM&pt=0&slot=3",
+    "categoryName": "뷰티",
+    "priceSnapshot": 22900.0,
+    "title": "손만 대면 거품이 톡, 벽난로 모양 손세정기 #shorts",
+    "shortName": "벽난로 모양 자동 손세정기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-17T10:59:09.137479+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9230506994",
     "productName": "Aurzen ZIP 3단 접이식 DLP 무선 미니 빔프로젝터 휴대용 캠핑용",
     "productCode": "쿠팡-123",

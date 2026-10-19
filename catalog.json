@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9749167621",
+    "productName": "싱크대 리프트 선반 주방 상부장 하강식 수납장 접이식 다운 폴다운 400장 2단",
+    "productCode": "쿠팡-128",
+    "productSequence": 128,
+    "productImage": "./media/products/coupang-9749167621.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9749167621&itemId=29190892248&vendorItemId=96111802433&traceid=V0-153-ec1e888d118bc8b1&requestid=20261019212215117305649619&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 173500.0,
+    "title": "손잡이 당기면 내려오는 상부장 선반 #shorts",
+    "shortName": "상부장 하강식 선반",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-19T12:22:21.297214+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8436489470",
     "productName": "르메이드 스테인레스 슬라이서 다용도 마그넷 만능 채칼 세트, 아이보리, 1개",
     "productCode": "쿠팡-127",

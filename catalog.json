@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9768025633",
+    "productName": "에잇홈 여행용 휴대용 수도꼭지 필터 50매+벨크로 10개",
+    "productCode": "쿠팡-126",
+    "productSequence": 126,
+    "productImage": "./media/products/coupang-9768025633.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9768025633&itemId=29237041316&vendorItemId=96155756343&traceid=V0-153-02dfcfab5ab4ff2b&requestid=20261019211543180124725245&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 6900.0,
+    "title": "숙소 수도꼭지에 씌우는 여행용 필터 #shorts",
+    "shortName": "여행용 수도꼭지 필터",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-19T12:16:23.167842+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9711577994",
     "productName": "지티스 올스텐 FOLD 접이식 프리볼트 여행용 전기포트, GT-115037KR",
     "productCode": "쿠팡-125",

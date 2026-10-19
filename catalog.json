@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8436489470",
+    "productName": "르메이드 스테인레스 슬라이서 다용도 마그넷 만능 채칼 세트, 아이보리, 1개",
+    "productCode": "쿠팡-127",
+    "productSequence": 127,
+    "productImage": "./media/products/coupang-8436489470.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8436489470&itemId=24399926141&vendorItemId=91463739528&traceid=V0-153-3d6f429025a7a07e&clickBeacon=040cafb0-cbb7-11f1-a662-e1bf165c26d4%7E3&requestid=20261019211713158182299995&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 15900,
+    "title": "썰면 바로 통에 담기는 채칼 세트 #shorts",
+    "shortName": "통 일체형 만능 채칼",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-19T12:17:19.732773+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9768025633",
     "productName": "에잇홈 여행용 휴대용 수도꼭지 필터 50매+벨크로 10개",
     "productCode": "쿠팡-126",

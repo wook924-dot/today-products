@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9767233676",
+    "productName": "[최대 80% 절수]미니 자동 접이식 세탁기 휴대용 미니 세탁기 미니 세탁기 탈수 기능 포함 간편 보관/설치 장소자유/전과정 15분완료",
+    "productCode": "쿠팡-129",
+    "productSequence": 129,
+    "productImage": "./media/products/coupang-9767233676.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9767233676&itemId=29233991852&vendorItemId=95812191393&traceid=V0-153-35d98fd1cb63ff9f&requestid=20261021085359442092103045&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 54500.0,
+    "title": "접었다 펴는 미니 세탁기, 탈수까지 #shorts",
+    "shortName": "접이식 미니 세탁기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-20T23:54:34.357019+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9749167621",
     "productName": "싱크대 리프트 선반 주방 상부장 하강식 수납장 접이식 다운 폴다운 400장 2단",
     "productCode": "쿠팡-128",

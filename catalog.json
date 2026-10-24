@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7991950650",
+    "productName": "제이라이프 브렌 스웨이드 클리너 구두 솔",
+    "productCode": "쿠팡-132",
+    "productSequence": 132,
+    "productImage": "./media/products/coupang-7991950650.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7991950650&itemId=29207287639&vendorItemId=96127342011&traceid=V0-153-7fa4d756c1d48c04&requestid=20261024232804033201681651&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "생활용품",
+    "priceSnapshot": 29040.0,
+    "title": "어그부츠 물로 빨지 마세요, 스웨이드 브러시 #shorts",
+    "shortName": "스웨이드 생고무 브러시",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-24T14:28:09.690613+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9698220810",
     "productName": "젠이드 6세대 만능 무선 청소솔 욕실 청소 6in1 화장실 청소솔, 1개, 화이트 블랙",
     "productCode": "쿠팡-131",

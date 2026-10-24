@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9698220810",
+    "productName": "젠이드 6세대 만능 무선 청소솔 욕실 청소 6in1 화장실 청소솔, 1개, 화이트 블랙",
+    "productCode": "쿠팡-131",
+    "productSequence": 131,
+    "productImage": "./media/products/coupang-9698220810.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9698220810&itemId=29010037636&vendorItemId=95943159855&traceid=V0-153-6f35fb4c30370593&clickBeacon=635f1810-cfb6-11f1-a17c-d2980fec226b%7E3&requestid=20261024232248262026027404&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 58900,
+    "title": "허리 안 숙이는 무선 회전 청소솔 #shorts",
+    "shortName": "무선 회전 청소솔",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-24T14:22:54.066311+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9786240547",
     "productName": "스테인리스 전동 소금 후추 그라인더 세트 충전식 자동 분쇄기 가정용 원터치 조미 304 강철 충전 그라인더",
     "productCode": "쿠팡-130",

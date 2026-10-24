@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9786240547",
+    "productName": "스테인리스 전동 소금 후추 그라인더 세트 충전식 자동 분쇄기 가정용 원터치 조미 304 강철 충전 그라인더",
+    "productCode": "쿠팡-130",
+    "productSequence": 130,
+    "productImage": "./media/products/coupang-9786240547.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9786240547&itemId=29299981033&vendorItemId=96215647209&traceid=V0-153-34507e59e87a71e3&requestid=20261024232121866229625345&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 51300.0,
+    "title": "버튼 하나로 갈리는 전동 후추 그라인더 #shorts",
+    "shortName": "전동 소금·후추 그라인더",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-24T14:21:58.641589+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9767233676",
     "productName": "[최대 80% 절수]미니 자동 접이식 세탁기 휴대용 미니 세탁기 미니 세탁기 탈수 기능 포함 간편 보관/설치 장소자유/전과정 15분완료",
     "productCode": "쿠팡-129",

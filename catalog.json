@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9772754542",
+    "productName": "헤어브러쉬 머리카락 제거망 빗 청소 거름망 클리너 50입",
+    "productCode": "쿠팡-133",
+    "productSequence": 133,
+    "productImage": "./media/products/coupang-9772754542.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9772754542&itemId=29253377173&vendorItemId=96171474099&traceid=V0-153-bb15cd633267ba9d&requestid=20261026130352802114527408&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "뷰티",
+    "priceSnapshot": 3000.0,
+    "title": "빗에 낀 머리카락, 망만 벗기면 끝 #shorts",
+    "shortName": "빗 청소망",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-26T04:04:32.003073+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7991950650",
     "productName": "제이라이프 브렌 스웨이드 클리너 구두 솔",
     "productCode": "쿠팡-132",

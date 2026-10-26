@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9785913590",
+    "productName": "플로업 13L 가열식 가습기 대용량 Ai 자동습도조절 316스텐 신생아 아기",
+    "productCode": "쿠팡-135",
+    "productSequence": 135,
+    "productImage": "./media/products/coupang-9785913590.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9785913590&itemId=29298947053&vendorItemId=96214675678&traceid=V0-153-9e94ab8d14f055d9&requestid=20261026130613488173222387&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 199000,
+    "title": "물 끓여주는 13L 가열식 가습기 #shorts",
+    "shortName": "가열식 가습기 13L",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-26T04:06:19.972934+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7000787435",
     "productName": "보스틱 블루택 점토점착제 90G 블루",
     "productCode": "쿠팡-134",

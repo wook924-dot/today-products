@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7000787435",
+    "productName": "보스틱 블루택 점토점착제 90G 블루",
+    "productCode": "쿠팡-134",
+    "productSequence": 134,
+    "productImage": "./media/products/coupang-7000787435.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7000787435&itemId=24667890382&vendorItemId=91678212866&traceid=V0-153-2ac4b9b8905fce9e&requestid=20261026130517796287783533&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 10000,
+    "title": "못 없이 벽에 붙이는 점착 고무 #shorts",
+    "shortName": "블루택 점착 고무",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-26T04:05:24.691320+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9772754542",
     "productName": "헤어브러쉬 머리카락 제거망 빗 청소 거름망 클리너 50입",
     "productCode": "쿠팡-133",

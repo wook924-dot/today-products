@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7626719641",
+    "productName": "체르니 가정용 UVC 자외선 살균기 변기 수저 칫솔 핸드폰 살균(CU1000)",
+    "productCode": "쿠팡-137",
+    "productSequence": 137,
+    "productImage": "./media/products/coupang-7626719641.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7626719641&itemId=26349359424&vendorItemId=94321744195&traceid=V0-153-f3bad7a9ec22c19b&requestid=20261027195752271174486674&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 26010.0,
+    "title": "뚜껑만 닫으면 끝, 변기 UV 살균기 #shorts",
+    "shortName": "변기 UV 살균기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-27T10:57:59.294475+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9727938894",
     "productName": "라이플럭스 미니 여행용 샤워기 헤드 + 필터 5p + 파우치 세트, 핑크, 1개",
     "productCode": "쿠팡-136",

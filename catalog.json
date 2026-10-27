@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9727938894",
+    "productName": "라이플럭스 미니 여행용 샤워기 헤드 + 필터 5p + 파우치 세트, 핑크, 1개",
+    "productCode": "쿠팡-136",
+    "productSequence": 136,
+    "productImage": "./media/products/coupang-9727938894.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9727938894&itemId=29110904466&vendorItemId=96035629468&traceid=V0-153-39dc681d3cb136e6&clickBeacon=09a35d90-d1f5-11f1-b02a-609aa03721e5%7E3&requestid=20261027195618340074442595&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 12900,
+    "title": "숙소 샤워기 찝찝할 때, 미니 샤워기 #shorts",
+    "shortName": "미니 여행용 샤워기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-27T10:57:00.859247+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9785913590",
     "productName": "플로업 13L 가열식 가습기 대용량 Ai 자동습도조절 316스텐 신생아 아기",
     "productCode": "쿠팡-135",

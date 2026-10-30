@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "5824850968",
+    "productName": "차내부습기 겨울 차습기 제거 자동차성애제거장치 안티포그 김서림 방지",
+    "productCode": "쿠팡-141",
+    "productSequence": 141,
+    "productImage": "./media/products/coupang-5824850968.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=5824850968&itemId=20913692357&vendorItemId=87980617260&traceid=V0-153-9901df425398964e&requestid=20261030132915622019311867&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 12410.0,
+    "title": "차 앞유리 안쪽, 손 안 뻗고 닦기 #shorts",
+    "shortName": "차량용 앞유리 닦이",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-30T04:29:23.224322+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9326450980",
     "productName": "SMTONE Zemkon휴대용 물병 전자동 가정용 전기포트 보온 일체형 전열 항온 비커 800ml",
     "productCode": "쿠팡-140",

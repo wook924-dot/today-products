@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9326450980",
+    "productName": "SMTONE Zemkon휴대용 물병 전자동 가정용 전기포트 보온 일체형 전열 항온 비커 800ml",
+    "productCode": "쿠팡-140",
+    "productSequence": 140,
+    "productImage": "./media/products/coupang-9326450980.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9326450980&itemId=27646666373&vendorItemId=94609201405&traceid=V0-153-60cc0fdc6b5e9629&requestid=20261030132425687325710506&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 28500,
+    "title": "물 끓이는 텀블러, 숙소 포트 대신 #shorts",
+    "shortName": "휴대용 전기 텀블러",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-30T04:24:34.121437+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9682117448",
     "productName": "Anbelstyle 원터치 평탄화 에어매트 무선 자동펌프 공기주입 차량용 침대 자동차 뒷좌석 캠핑 차박, 카키색, 다양한 차종에 적용 가능",
     "productCode": "쿠팡-139",

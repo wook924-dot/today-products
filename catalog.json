@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9785687725",
+    "productName": "굿프랩 와이퍼밀착기 와이퍼 암 부스터 스프링 밀착 보조 클립",
+    "productCode": "쿠팡-143",
+    "productSequence": 143,
+    "productImage": "./media/products/coupang-9785687725.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9785687725&itemId=29298141654&vendorItemId=96213912502&traceid=V0-153-2cfed9c86b2af7f3&requestid=20261031195611220060735132&token=31850C%7CMIXED&pt=0&slot=3",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 7930.0,
+    "title": "비 오는 날 와이퍼 번짐, 이걸로 해결 #shorts",
+    "shortName": "와이퍼 밀착 스프링",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-31T10:56:18.403578+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9684548614",
     "productName": "VEXON 차량용 컵홀더 휴대폰 거치대 창문 걸이형 수납함, 블랙, 1개",
     "productCode": "쿠팡-142",

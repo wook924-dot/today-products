@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9636018477",
+    "productName": "수도 연결 호스 분배기 Y형 2구 커넥터 밸브 수도꼭지 분배기 물호스 연결기 유량조절, 2개",
+    "productCode": "쿠팡-145",
+    "productSequence": 145,
+    "productImage": "./media/products/coupang-9636018477.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9636018477&itemId=28788011299&vendorItemId=95724117520&traceid=V0-153-7e9bc0881ca8bd4c&clickBeacon=63104540-d51b-11f1-8d33-164294702c50%7E3&requestid=20261031200822749279720232&token=31850C%7CMIXED&pt=1&slot=5",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 11100,
+    "title": "수도꼭지 하나로 호스 두 개 #shorts",
+    "shortName": "수도 Y자 분배기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-31T11:09:02.482514+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9785687725",
     "productName": "굿프랩 와이퍼밀착기 와이퍼 암 부스터 스프링 밀착 보조 클립",
     "productCode": "쿠팡-143",

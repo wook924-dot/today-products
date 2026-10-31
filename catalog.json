@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9684548614",
+    "productName": "VEXON 차량용 컵홀더 휴대폰 거치대 창문 걸이형 수납함, 블랙, 1개",
+    "productCode": "쿠팡-142",
+    "productSequence": 142,
+    "productImage": "./media/products/coupang-9684548614.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9684548614&itemId=28961243808&vendorItemId=95929394341&traceid=V0-153-2648ea00474d3ce9&clickBeacon=7a740ac0-d519-11f1-a30d-b92f4da4e42e%7E3&requestid=20261031195442969199886396&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 15500,
+    "title": "창문 틈에 끼우는 차량용 컵홀더 #shorts",
+    "shortName": "차량용 창문 걸이 컵홀더",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-10-31T10:55:23.849447+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "5824850968",
     "productName": "차내부습기 겨울 차습기 제거 자동차성애제거장치 안티포그 김서림 방지",
     "productCode": "쿠팡-141",

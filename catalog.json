@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9293732923",
+    "productName": "케이블타이형 차량용 스노우체인, 60개",
+    "productCode": "쿠팡-148",
+    "productSequence": 148,
+    "productImage": "./media/products/coupang-9293732923.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9293732923&itemId=27526939590&vendorItemId=94489703306&traceid=V0-153-addf471acecac1a3&clickBeacon=f4e9ede0-d5e3-11f1-b797-ce9c68566511%7E3&requestid=20261101200406791019303656&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 17100,
+    "title": "감고 당기면 끝, 케이블타이 스노우체인 #shorts",
+    "shortName": "케이블타이 스노우체인",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-01T11:04:13.806156+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9507561831",
     "productName": "GLEWIFIT 대용량 8륜 접이식 쇼핑카트 계단오르는 핸드카트, 1개, 크림색 8륜 계단오르는 타입",
     "productCode": "쿠팡-147",

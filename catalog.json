@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9507561831",
+    "productName": "GLEWIFIT 대용량 8륜 접이식 쇼핑카트 계단오르는 핸드카트, 1개, 크림색 8륜 계단오르는 타입",
+    "productCode": "쿠팡-147",
+    "productSequence": 147,
+    "productImage": "./media/products/coupang-9507561831.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9507561831&itemId=28330140486&vendorItemId=95282537396&traceid=V0-153-39e968de0381db8c&clickBeacon=c5eaade0-d5e3-11f1-94e0-c342de22ef38%7E3&requestid=20261101200247937315189386&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 99000,
+    "title": "계단도 스르륵 오르는 접이식 카트 #shorts",
+    "shortName": "계단 오르는 접이식 카트",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-01T11:03:19.249893+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9550243289",
     "productName": "휴대폰 화면 확대기 독서 보조기 작업용 거치대 스마트폰",
     "productCode": "쿠팡-144",

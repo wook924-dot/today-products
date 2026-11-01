@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9550243289",
+    "productName": "휴대폰 화면 확대기 독서 보조기 작업용 거치대 스마트폰",
+    "productCode": "쿠팡-144",
+    "productSequence": 144,
+    "productImage": "./media/products/coupang-9550243289.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9550243289&itemId=28494166930&vendorItemId=95444101061&traceid=V0-153-ad30008da0673bb0&requestid=20261101195915318195461781&token=31850C%7CMIXED&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 13800,
+    "title": "폰 화면을 태블릿처럼, 화면 확대경 #shorts",
+    "shortName": "스마트폰 화면 확대경",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-01T11:00:04.622585+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9636018477",
     "productName": "수도 연결 호스 분배기 Y형 2구 커넥터 밸브 수도꼭지 분배기 물호스 연결기 유량조절, 2개",
     "productCode": "쿠팡-145",

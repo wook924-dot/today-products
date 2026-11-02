@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9798100418",
+    "productName": "전동 그릴 청소솔 휴대용 브러시 바비큐 충전식 스테인리스 캠핑용 롤러",
+    "productCode": "쿠팡-150",
+    "productSequence": 150,
+    "productImage": "./media/products/coupang-9798100418.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9798100418&itemId=29338628423&vendorItemId=96260843113&traceid=V0-153-efcd7682247c79ce&requestid=20261102195622597158505732&token=31850C%7CMIXED&pt=0&slot=9",
+    "categoryName": "스포츠/레저용품",
+    "priceSnapshot": 43000.0,
+    "title": "그릴 기름때, 롤러로 쓱 #shorts",
+    "shortName": "전동 그릴 청소 롤러",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-02T10:56:29.012716+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7574945817",
     "productName": "3단 폴딩 벽걸이 빨래건조대(블랙)",
     "productCode": "쿠팡-149",

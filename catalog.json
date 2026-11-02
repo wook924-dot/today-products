@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7574945817",
+    "productName": "3단 폴딩 벽걸이 빨래건조대(블랙)",
+    "productCode": "쿠팡-149",
+    "productSequence": 149,
+    "productImage": "./media/products/coupang-7574945817.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7574945817&itemId=19984906218&vendorItemId=94630154571&traceid=V0-153-0304076302738b91&requestid=20261102195502234025799251&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "생활용품",
+    "priceSnapshot": 64200.0,
+    "title": "벽에 다는 접이식 빨래건조대 #shorts",
+    "shortName": "벽걸이 접이식 빨래건조대",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-02T10:55:35.064001+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9293732923",
     "productName": "케이블타이형 차량용 스노우체인, 60개",
     "productCode": "쿠팡-148",

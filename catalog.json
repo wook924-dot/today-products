@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8495300395",
+    "productName": "MOMFANN 목욕 제트 스파, 버블 메이커/목욕 모드, 3단계 조절 속도가 가능한 무선 휴대용 욕조 액세서리, 홈 스파용 제트, 휴식(파란색)",
+    "productCode": "쿠팡-151",
+    "productSequence": 151,
+    "productImage": "./media/products/coupang-8495300395.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8495300395&itemId=24586396460&vendorItemId=93334770770&traceid=V0-153-50802eb53a3f326a&requestid=20261102195811421020806354&token=31850C%7CGM&pt=0&slot=8",
+    "categoryName": "생활용품",
+    "priceSnapshot": 132300,
+    "title": "욕조에 붙이면 홈스파 완성 #shorts",
+    "shortName": "무선 욕조 제트 스파",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-02T10:58:16.364354+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9798100418",
     "productName": "전동 그릴 청소솔 휴대용 브러시 바비큐 충전식 스테인리스 캠핑용 롤러",
     "productCode": "쿠팡-150",

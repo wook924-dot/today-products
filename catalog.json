@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9738826803",
+    "productName": "HULULU 무선 유리창 청소기 전동 물기 흡입 스퀴지 창문 욕실 거울 청소기, 화이트, 1개",
+    "productCode": "쿠팡-154",
+    "productSequence": 154,
+    "productImage": "./media/products/coupang-9738826803.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9738826803&itemId=29147210591&vendorItemId=96070516534&traceid=V0-153-b823150171ee6908&clickBeacon=08f38d70-d8b7-11f1-ac02-26dd39e0d485%7E3&requestid=20261105102006533102663877&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 55000,
+    "title": "밀기만 하면 물기 끝, 전동 스퀴지 #shorts",
+    "shortName": "무선 전동 스퀴지",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-05T01:20:11.564036+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9303498361",
     "productName": "아후니 힘안들이는 만능 오프너 조절형 병따개 뚜껑따개 주방용품, 1개, 실버메탈",
     "productCode": "쿠팡-153",

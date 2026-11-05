@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "6062183060",
+    "productName": "수입 5중날 파칼 김칼 파썰기 김썰기",
+    "productCode": "쿠팡-152",
+    "productSequence": 152,
+    "productImage": "./media/products/coupang-6062183060.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=6062183060&itemId=11152469999&vendorItemId=78430788650&traceid=V0-153-7205c6b0836a294c&requestid=20261105101720690109230684&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 13900.0,
+    "title": "파 썰기 한 번에, 5중날 가위 #shorts",
+    "shortName": "5중날 파 가위",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-05T01:17:55.771231+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8495300395",
     "productName": "MOMFANN 목욕 제트 스파, 버블 메이커/목욕 모드, 3단계 조절 속도가 가능한 무선 휴대용 욕조 액세서리, 홈 스파용 제트, 휴식(파란색)",
     "productCode": "쿠팡-151",

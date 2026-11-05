@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9303498361",
+    "productName": "아후니 힘안들이는 만능 오프너 조절형 병따개 뚜껑따개 주방용품, 1개, 실버메탈",
+    "productCode": "쿠팡-153",
+    "productSequence": 153,
+    "productImage": "./media/products/coupang-9303498361.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9303498361&itemId=27562041791&vendorItemId=94526056327&traceid=V0-153-1375ac4b8b519886&clickBeacon=e60b8c40-d8b6-11f1-9708-7a9ad4716d59%7E3&requestid=20261105101907955050968155&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 9800,
+    "title": "안 열리는 뚜껑, 이걸로 돌려요 #shorts",
+    "shortName": "조절식 병뚜껑 오프너",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-05T01:19:13.027213+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "6062183060",
     "productName": "수입 5중날 파칼 김칼 파썰기 김썰기",
     "productCode": "쿠팡-152",

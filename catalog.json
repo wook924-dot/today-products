@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9637105759",
+    "productName": "밀슨 샤워부스 걸이형 선반 2단 욕실선반 타월걸이 화장실 수납선반 욕실정리, 블랙, 1개",
+    "productCode": "쿠팡-155",
+    "productSequence": 155,
+    "productImage": "./media/products/coupang-9637105759.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9637105759&itemId=28792181918&vendorItemId=95969844703&traceid=V0-153-b382e0fc870d6056&clickBeacon=252ef100-d9d9-11f1-976f-8dbb11be31fc%7E3&requestid=20261106205647943061900853&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 19500,
+    "title": "샤워부스에 거는 수납 선반 #shorts",
+    "shortName": "샤워부스 걸이 선반",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-06T11:58:06.172899+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9738826803",
     "productName": "HULULU 무선 유리창 청소기 전동 물기 흡입 스퀴지 창문 욕실 거울 청소기, 화이트, 1개",
     "productCode": "쿠팡-154",

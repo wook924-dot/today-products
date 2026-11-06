@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9496717549",
+    "productName": "RichMagic 3in1 휴대용 미니 건조기 의류, 이불, 신발까지 한번에  완벽 건조 여행 필수템 UV 살균 가능 빠른 건조",
+    "productCode": "쿠팡-157",
+    "productSequence": 157,
+    "productImage": "./media/products/coupang-9496717549.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9496717549&itemId=28288808377&vendorItemId=95907478213&traceid=V0-153-e25e4460c1d50bfd&requestid=20261106205956518050099155&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 53100,
+    "title": "여행지 젖은 옷, 걸어서 말려요 #shorts",
+    "shortName": "휴대용 옷 건조기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-06T12:00:04.275476+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9629090072",
     "productName": "로라쉐 무빙마스터 만능지렛대  가구이동 바닥보호",
     "productCode": "쿠팡-156",

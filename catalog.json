@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9629090072",
+    "productName": "로라쉐 무빙마스터 만능지렛대  가구이동 바닥보호",
+    "productCode": "쿠팡-156",
+    "productSequence": 156,
+    "productImage": "./media/products/coupang-9629090072.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9629090072&itemId=28759635448&vendorItemId=95072794973&traceid=V0-153-fb03878612950be3&requestid=20261106205856873168285730&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 15800,
+    "title": "무거운 소파, 혼자 들어 올려요 #shorts",
+    "shortName": "가구 들어올리는 지렛대",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-06T11:59:02.810661+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9637105759",
     "productName": "밀슨 샤워부스 걸이형 선반 2단 욕실선반 타월걸이 화장실 수납선반 욕실정리, 블랙, 1개",
     "productCode": "쿠팡-155",

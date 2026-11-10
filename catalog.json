@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9787306908",
+    "productName": "프롬팩토리 자동차 성에제거기 전동 눈제거기 USB 충전식 차량 유리 얼음제거기 겨울철 제설 도구",
+    "productCode": "쿠팡-158",
+    "productSequence": 158,
+    "productImage": "./media/products/coupang-9787306908.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9787306908&itemId=29303803521&vendorItemId=96219302553&traceid=V0-153-d6465a8adf20d3fc&requestid=20261110102623072295929556&token=31850C%7CGM&pt=0&slot=3",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 30900.0,
+    "title": "버튼 하나로 성에 끝, 전동 제빙기 #shorts",
+    "shortName": "전동 성에 제거기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-10T01:27:03.858641+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9496717549",
     "productName": "RichMagic 3in1 휴대용 미니 건조기 의류, 이불, 신발까지 한번에  완벽 건조 여행 필수템 UV 살균 가능 빠른 건조",
     "productCode": "쿠팡-157",

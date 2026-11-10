@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8558761316",
+    "productName": "[쎈사] EL와이어 감성 무드등 앰비언트 라이트 줄타입",
+    "productCode": "쿠팡-160",
+    "productSequence": 160,
+    "productImage": "./media/products/coupang-8558761316.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8558761316&itemId=14152022506&vendorItemId=81398527566&traceid=V0-153-6373b98da64c84f5&requestid=20261110103013522212375826&token=31850C%7CGM&pt=0&slot=6",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 15200.0,
+    "title": "틈에 꾹 넣는 셀프 무드등 #shorts",
+    "shortName": "차량 엠비언트 무드등",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-10T01:33:11.696768+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9787306908",
     "productName": "프롬팩토리 자동차 성에제거기 전동 눈제거기 USB 충전식 차량 유리 얼음제거기 겨울철 제설 도구",
     "productCode": "쿠팡-158",

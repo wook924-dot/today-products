@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9776725556",
+    "productName": "데일리탁 차량용 와이드 룸미러 클립형 사각지대 광각",
+    "productCode": "쿠팡-159",
+    "productSequence": 159,
+    "productImage": "./media/products/coupang-9776725556.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9776725556&itemId=29267339483&vendorItemId=96184800366&traceid=V0-153-4b2014565e5e4569&requestid=20261111195431833147514955&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 15540,
+    "title": "룸미러에 끼우면 사각지대가 보여요 #shorts",
+    "shortName": "사각지대 와이드 룸미러",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-11T10:55:12.908886+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9115634098",
     "productName": "Mochae 휴대용 비상라디오 수동라디오 자가발전손전등 재난라디오 태양열 발전라디오 유선라디오fm 재난용품",
     "productCode": "쿠팡-161",

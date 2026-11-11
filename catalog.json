@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7689390836",
+    "productName": "[보스위즈] 올인원 노트북 거치형 가죽 파우치 가방 케이스 스탠드 거치대 마우스패드 BOS-PUC",
+    "productCode": "쿠팡-163",
+    "productSequence": 163,
+    "productImage": "./media/products/coupang-7689390836.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7689390836&itemId=20559051379&vendorItemId=87634983908&traceid=V0-153-7f9a67b5aef38455&requestid=20261111200108492254263524&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 37000.0,
+    "title": "펼치면 거치대, 접으면 파우치 #shorts",
+    "shortName": "노트북 거치형 파우치",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-11T11:01:15.938153+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9767986438",
     "productName": "여행용 금고 휴대용 미니금고 와이어 잠금 비밀번호 귀중품 보관함, 그레이",
     "productCode": "쿠팡-162",

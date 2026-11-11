@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9767986438",
+    "productName": "여행용 금고 휴대용 미니금고 와이어 잠금 비밀번호 귀중품 보관함, 그레이",
+    "productCode": "쿠팡-162",
+    "productSequence": 162,
+    "productImage": "./media/products/coupang-9767986438.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9767986438&itemId=29236917534&vendorItemId=96184744139&traceid=V0-153-52f4887ab0cdacda&clickBeacon=7cbef490-ddbe-11f1-a65d-00a7b85d28c0%7E3&requestid=20261111195603056299498539&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "문구/오피스",
+    "priceSnapshot": 36800,
+    "title": "수영장 갈 때 폰은 여기에 #shorts",
+    "shortName": "휴대용 여행 금고",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-11T10:56:11.645537+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9776725556",
     "productName": "데일리탁 차량용 와이드 룸미러 클립형 사각지대 광각",
     "productCode": "쿠팡-159",

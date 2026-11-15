@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9699792993",
+    "productName": "모디라이프 휴대용 미니 헤어브러쉬 거울 내장 접이식 머리빗 데일리",
+    "productCode": "쿠팡-167",
+    "productSequence": 167,
+    "productImage": "./media/products/coupang-9699792993.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9699792993&itemId=29015674583&vendorItemId=95943654384&traceid=V0-153-727bb21b8ae49d40&requestid=20261115152151466006166975&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "뷰티",
+    "priceSnapshot": 6680.0,
+    "title": "펼치면 빗, 열면 거울 #shorts",
+    "shortName": "거울 달린 접이식 빗",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-15T06:21:58.218540+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8578530274",
     "productName": "이음모음 가죽 리폼 보수 스티커, 블랙",
     "productCode": "쿠팡-166",

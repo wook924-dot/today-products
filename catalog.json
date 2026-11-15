@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8578530274",
+    "productName": "이음모음 가죽 리폼 보수 스티커, 블랙",
+    "productCode": "쿠팡-166",
+    "productSequence": 166,
+    "productImage": "./media/products/coupang-8578530274.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8578530274&itemId=24862610877&vendorItemId=91869887919&traceid=V0-153-5f62f94533ad1a6f&clickBeacon=46f8cce0-e0bc-11f1-906b-30ebbb293da8%7E3&requestid=20261115151747336286751176&token=31850C%7CMIXED&pt=1&slot=4",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 7900,
+    "title": "찢어진 시트, 붙이면 감쪽같이 #shorts",
+    "shortName": "가죽 보수 스티커",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-15T06:17:54.765562+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9804832863",
     "productName": "누출 방지 타이어 공기압 밸브 캡, 디지털 디스플레이 게이지 표시기 및 경고 기능, 차량 안전 모니터링에 적합",
     "productCode": "쿠팡-165",

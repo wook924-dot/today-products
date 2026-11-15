@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9804832863",
+    "productName": "누출 방지 타이어 공기압 밸브 캡, 디지털 디스플레이 게이지 표시기 및 경고 기능, 차량 안전 모니터링에 적합",
+    "productCode": "쿠팡-165",
+    "productSequence": 165,
+    "productImage": "./media/products/coupang-9804832863.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9804832863&itemId=29361359186&vendorItemId=96273987863&traceid=V0-153-095fd002c4581d33&requestid=20261115151521920305464264&token=31850C%7CMIXED&pt=0&slot=9",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 6780.0,
+    "title": "캡 색깔로 타이어 바람 확인 #shorts",
+    "shortName": "타이어 공기압 표시 밸브캡",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-15T06:15:59.643580+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7689390836",
     "productName": "[보스위즈] 올인원 노트북 거치형 가죽 파우치 가방 케이스 스탠드 거치대 마우스패드 BOS-PUC",
     "productCode": "쿠팡-163",

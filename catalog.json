@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "6976280145",
+    "productName": "더클래스 안티포그 김서림 방지제, 120ml, 5개",
+    "productCode": "쿠팡-169",
+    "productSequence": 169,
+    "productImage": "./media/products/coupang-6976280145.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=6976280145&itemId=29197795561&vendorItemId=96118306015&traceid=V0-153-9ce3f9fa87d7cadc&clickBeacon=83d2c990-e1ac-11f1-b0be-56db15801cae%7E3&requestid=20261116195728661291615965&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 41000,
+    "title": "뿌리고 닦으면 김서림 끝 #shorts",
+    "shortName": "김서림 방지 코팅제",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-16T10:57:33.804867+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9223206935",
     "productName": "한손으로 뜯어쓰는 키친타올 일회용행주 걸이 홀더 꽂이 거치대 원터치",
     "productCode": "쿠팡-168",

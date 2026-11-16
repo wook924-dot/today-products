@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9716574469",
+    "productName": "자동차 유리 복원제 앞유리 돌빵 크랙 복원 키트 금간유리 셀프 보수 복원액, 2개, 50ml",
+    "productCode": "쿠팡-164",
+    "productSequence": 164,
+    "productImage": "./media/products/coupang-9716574469.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9716574469&itemId=29075254540&vendorItemId=96001288784&traceid=V0-153-2e83b6fdf5f404ba&clickBeacon=24a8c1e0-e1ac-11f1-9b56-5ee49aa12083%7E3&requestid=20261116195448980256995232&token=31850C%7CMIXED&pt=1&slot=2",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 15900,
+    "title": "돌빵 자국, 한 방울로 메꿔요 #shorts",
+    "shortName": "앞유리 돌빵 복원제",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-16T10:55:31.376493+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9699792993",
     "productName": "모디라이프 휴대용 미니 헤어브러쉬 거울 내장 접이식 머리빗 데일리",
     "productCode": "쿠팡-167",

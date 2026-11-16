@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9223206935",
+    "productName": "한손으로 뜯어쓰는 키친타올 일회용행주 걸이 홀더 꽂이 거치대 원터치",
+    "productCode": "쿠팡-168",
+    "productSequence": 168,
+    "productImage": "./media/products/coupang-9223206935.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9223206935&itemId=27257006352&vendorItemId=94223860754&traceid=V0-153-f5494905cbc6ace9&requestid=20261116195621464035030741&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "주방용품",
+    "priceSnapshot": 15870.0,
+    "title": "한 손으로 뚝, 키친타올 걸이 #shorts",
+    "shortName": "한손 키친타올 걸이",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-16T10:56:29.127700+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9716574469",
     "productName": "자동차 유리 복원제 앞유리 돌빵 크랙 복원 키트 금간유리 셀프 보수 복원액, 2개, 50ml",
     "productCode": "쿠팡-164",

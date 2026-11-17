@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9771047812",
+    "productName": "적층가능 슬라이딩 서랍식 의류정리함, 1세트, 흰색 스몰 낮은 사이즈.28cm*44cm*13cm",
+    "productCode": "쿠팡-170",
+    "productSequence": 170,
+    "productImage": "./media/products/coupang-9771047812.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9771047812&itemId=29246930423&vendorItemId=96165182787&traceid=V0-153-622a5299a5144d4c&clickBeacon=5b37ca70-e275-11f1-bf3f-14dc9e53004e%7E3&requestid=20261117195509396083543329&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 23540,
+    "title": "옷장 공간 두 배, 서랍 정리함 #shorts",
+    "shortName": "슬라이딩 서랍 의류정리함",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-17T10:55:44.225963+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "6976280145",
     "productName": "더클래스 안티포그 김서림 방지제, 120ml, 5개",
     "productCode": "쿠팡-169",

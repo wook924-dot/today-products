@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8385100875",
+    "productName": "차량용충전케이블 자동감김 릴타입USB 핸드폰연결잭",
+    "productCode": "쿠팡-172",
+    "productSequence": 172,
+    "productImage": "./media/products/coupang-8385100875.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8385100875&itemId=24234360311&vendorItemId=91251485669&traceid=V0-153-e7dcdbcefb6929fe&requestid=20261119230403034193054049&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 7920.0,
+    "title": "쓸 때만 쭉, 놓으면 쏙 #shorts",
+    "shortName": "자동 감김 차량 충전 케이블",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-19T14:04:10.884268+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9776963594",
     "productName": "차량용 미니 온풍기 다기능 전기 히터 온풍기 12V/24V 휴대용 전기 히터 열풍기 대형차 화물차 승용차 시거잭 히터 안개 및 서리 제거",
     "productCode": "쿠팡-171",

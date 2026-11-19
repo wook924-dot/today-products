@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9708777504",
+    "productName": "일본기술 [5/5+5] 패딩 얼룩제거 티슈 물세탁불필요 패딩 클리닝 물티슈 화장품 지우는 물티슈 의류 얼룩 제거제 패딩 오염 김치 국물 커피얼룩 기름 얼룩 제거",
+    "productCode": "쿠팡-173",
+    "productSequence": 173,
+    "productImage": "./media/products/coupang-9708777504.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9708777504&itemId=29047298180&vendorItemId=96304367505&traceid=V0-153-4daebb1c090dd9de&requestid=20261119230906225042420828&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "생활용품",
+    "priceSnapshot": 10600.0,
+    "title": "패딩 목깃 얼룩, 닦기만 하세요 #shorts",
+    "shortName": "패딩 얼룩 제거 티슈",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-19T14:09:13.410910+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8385100875",
     "productName": "차량용충전케이블 자동감김 릴타입USB 핸드폰연결잭",
     "productCode": "쿠팡-172",

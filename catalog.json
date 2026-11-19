@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9776963594",
+    "productName": "차량용 미니 온풍기 다기능 전기 히터 온풍기 12V/24V 휴대용 전기 히터 열풍기 대형차 화물차 승용차 시거잭 히터 안개 및 서리 제거",
+    "productCode": "쿠팡-171",
+    "productSequence": 171,
+    "productImage": "./media/products/coupang-9776963594.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9776963594&itemId=29268233701&vendorItemId=96185583211&traceid=V0-153-770a056223ff9ebc&requestid=20261119230235259042420351&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 18900,
+    "title": "시동 걸자마자 따뜻한 바람 #shorts",
+    "shortName": "차량용 미니 온풍기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-19T14:03:13.369622+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9771047812",
     "productName": "적층가능 슬라이딩 서랍식 의류정리함, 1세트, 흰색 스몰 낮은 사이즈.28cm*44cm*13cm",
     "productCode": "쿠팡-170",

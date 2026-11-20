@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9009686159",
+    "productName": "플라스틱간장병 용기 1000ml 간장 주전자 이지 클 빛깔이 환하다 양념통 부스러지지 않다/무독무해/중력 참기름병",
+    "productCode": "쿠팡-175",
+    "productSequence": 175,
+    "productImage": "./media/products/coupang-9009686159.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9009686159&itemId=26408154827&vendorItemId=93384256237&traceid=V0-153-214b87bfb257c4d9&requestid=20261120195608955238287091&token=31850C%7CMIXED&pt=0&slot=8",
+    "categoryName": "주방용품",
+    "priceSnapshot": 15900.0,
+    "title": "기울이면 열리는 기름병 #shorts",
+    "shortName": "자동 개폐 유리 기름병",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-20T10:56:16.058650+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9801976943",
     "productName": "GBED 1+1 신발 접착제 초강력 신발본드 운동화 구두 캔버스화 가죽 신발 밑창 수선 접착제 소파 가방 보수용 투명 방수 60ml",
     "productCode": "쿠팡-174",

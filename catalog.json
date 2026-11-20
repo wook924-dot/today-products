@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9811673083",
+    "productName": "욕실 거울장 걸이형 선반 무타공 수납바구니 공중부양 수납함, 1개, 블랙",
+    "productCode": "쿠팡-176",
+    "productSequence": 176,
+    "productImage": "./media/products/coupang-9811673083.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9811673083&itemId=29384097710&vendorItemId=96295697028&traceid=V0-153-166db16eec4aaea1&clickBeacon=44f10520-e4d1-11f1-b142-430389a469ac%7E3&requestid=20261120195808019298394531&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 20800,
+    "title": "거울장에 걸면 수납이 두 배 #shorts",
+    "shortName": "거울장 걸이 수납바구니",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-20T10:58:16.833689+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9009686159",
     "productName": "플라스틱간장병 용기 1000ml 간장 주전자 이지 클 빛깔이 환하다 양념통 부스러지지 않다/무독무해/중력 참기름병",
     "productCode": "쿠팡-175",

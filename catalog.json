@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9801976943",
+    "productName": "GBED 1+1 신발 접착제 초강력 신발본드 운동화 구두 캔버스화 가죽 신발 밑창 수선 접착제 소파 가방 보수용 투명 방수 60ml",
+    "productCode": "쿠팡-174",
+    "productSequence": 174,
+    "productImage": "./media/products/coupang-9801976943.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9801976943&itemId=29351544147&vendorItemId=96311272324&traceid=V0-153-573837b832a09302&requestid=20261120195442342135103162&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "생활용품",
+    "priceSnapshot": 11000.0,
+    "title": "벌어진 밑창, 짜고 누르면 끝 #shorts",
+    "shortName": "신발 밑창 접착제",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-20T10:55:20.953462+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9708777504",
     "productName": "일본기술 [5/5+5] 패딩 얼룩제거 티슈 물세탁불필요 패딩 클리닝 물티슈 화장품 지우는 물티슈 의류 얼룩 제거제 패딩 오염 김치 국물 커피얼룩 기름 얼룩 제거",
     "productCode": "쿠팡-173",

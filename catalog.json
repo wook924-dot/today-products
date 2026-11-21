@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9720779887",
+    "productName": "자동차 도어실 보호테이프 카본무늬 흠집방지 자가접착 재단가능 차량발판 보호필름, 2개, 검은색",
+    "productCode": "쿠팡-179",
+    "productSequence": 179,
+    "productImage": "./media/products/coupang-9720779887.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9720779887&itemId=29090428363&vendorItemId=96015928748&traceid=V0-153-d212e7463ad124f9&clickBeacon=3b1d5b60-e59a-11f1-9eff-4675c76102b8%7E3&requestid=20261121195640395243440172&token=31850C%7CMIXED&pt=1&slot=5",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 15000,
+    "title": "붙이기만 하면 흠집 방지 #shorts",
+    "shortName": "카본 보호 테이프",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-21T10:56:44.649202+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9153829739",
     "productName": "SK ZIC 로얄 구리스 다목적 윤활 베어링 자전거 기계 관리 소음방지, 1개",
     "productCode": "쿠팡-178",

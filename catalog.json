@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9153829739",
+    "productName": "SK ZIC 로얄 구리스 다목적 윤활 베어링 자전거 기계 관리 소음방지, 1개",
+    "productCode": "쿠팡-178",
+    "productSequence": 178,
+    "productImage": "./media/products/coupang-9153829739.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9153829739&itemId=26957346542&vendorItemId=94870802483&traceid=V0-153-0f147f3986d55d55&clickBeacon=1bfc2630-e59a-11f1-85c5-770122a63d1e%7E3&requestid=20261121195548174180396476&token=31850C%7CMIXED&pt=1&slot=3",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 14730,
+    "title": "끼익 소리 나는 차 문, 이걸로 #shorts",
+    "shortName": "차 문 소음 잡는 구리스",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-21T10:55:53.451669+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9312526360",
     "productName": "스마텍 갤럭시 아이폰 워치 호환 3 in 1 접이식 맥세이프 무선 충전 거치대, 실버블랙, 1개",
     "productCode": "쿠팡-177",

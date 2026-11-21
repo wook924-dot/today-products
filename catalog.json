@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9312526360",
+    "productName": "스마텍 갤럭시 아이폰 워치 호환 3 in 1 접이식 맥세이프 무선 충전 거치대, 실버블랙, 1개",
+    "productCode": "쿠팡-177",
+    "productSequence": 177,
+    "productImage": "./media/products/coupang-9312526360.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9312526360&itemId=27595404444&vendorItemId=94558803517&traceid=V0-153-c7eee7a2d9a68d5e&clickBeacon=ec3688f0-e599-11f1-a67d-1e224538784f%7E3&requestid=20261121195428020244475259&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 29800,
+    "title": "충전기 세 개를 하나로 #shorts",
+    "shortName": "접이식 3in1 무선충전기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-21T10:54:59.287073+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9811673083",
     "productName": "욕실 거울장 걸이형 선반 무타공 수납바구니 공중부양 수납함, 1개, 블랙",
     "productCode": "쿠팡-176",

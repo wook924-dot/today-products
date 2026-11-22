@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7369636777",
+    "productName": "제이엑스 차량용 자석타입 암막커튼 세트, 은색+블랙, 1세트",
+    "productCode": "쿠팡-180",
+    "productSequence": 180,
+    "productImage": "./media/products/coupang-7369636777.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7369636777&itemId=19007815295&vendorItemId=86132617364&traceid=V0-153-35445a3305767a5e&clickBeacon=43bdd0a0-e663-11f1-a2c3-ffd948eda8e5%7E3&requestid=20261122195543711018713828&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 14900,
+    "title": "차 창문에 다는 셀프 커튼 #shorts",
+    "shortName": "차량용 암막커튼",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-22T10:56:19.055793+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9720779887",
     "productName": "자동차 도어실 보호테이프 카본무늬 흠집방지 자가접착 재단가능 차량발판 보호필름, 2개, 검은색",
     "productCode": "쿠팡-179",

@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9719056170",
+    "productName": "온티오 초간편측정 휴대용 수하물 저울 캐리어 디지털 50kg 스트랩형 손저울, 1개",
+    "productCode": "쿠팡-181",
+    "productSequence": 181,
+    "productImage": "./media/products/coupang-9719056170.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9719056170&itemId=29084203112&vendorItemId=96009930544&traceid=V0-153-a2e4219a7ec94590&clickBeacon=a02b2950-e663-11f1-9e57-eb62ab55fcad%7E3&requestid=20261122195818749011017970&token=31850C%7CMIXED&pt=1&slot=4",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 14800,
+    "title": "공항 가기 전 캐리어 무게 확인 #shorts",
+    "shortName": "휴대용 수하물 저울",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-22T10:58:24.283651+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7369636777",
     "productName": "제이엑스 차량용 자석타입 암막커튼 세트, 은색+블랙, 1세트",
     "productCode": "쿠팡-180",

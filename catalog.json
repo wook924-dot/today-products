@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9798554053",
+    "productName": "플라픽 펌프 필요없는 진공 압축팩 의류 이불 대용량, 3세트, 3매입",
+    "productCode": "쿠팡-182",
+    "productSequence": 182,
+    "productImage": "./media/products/coupang-9798554053.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9798554053&itemId=29340172074&vendorItemId=96254365143&traceid=V0-153-242fe1fc8765ea3c&clickBeacon=29d2b970-e664-11f1-98aa-9a065abbc789%7E3&requestid=20261122200209737176701944&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "홈인테리어",
+    "priceSnapshot": 24790,
+    "title": "겨울옷도 캐리어에 쏙 #shorts",
+    "shortName": "펌프 없는 압축팩",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-22T11:02:15.499245+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9719056170",
     "productName": "온티오 초간편측정 휴대용 수하물 저울 캐리어 디지털 50kg 스트랩형 손저울, 1개",
     "productCode": "쿠팡-181",

@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9831763184",
+    "productName": "높이 조절이 주방 싱크대 배수대 스펀지 보관대 수도꼭지 거치대 비누 받침대 선반 바구니 정리함 욕실",
+    "productCode": "쿠팡-185",
+    "productSequence": 185,
+    "productImage": "./media/products/coupang-9831763184.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9831763184&itemId=29448507290&vendorItemId=96357738623&traceid=V0-153-d940f1785209c0db&requestid=20261123200802119067584173&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "주방용품",
+    "priceSnapshot": 14800.0,
+    "title": "수세미 축축할 때 수도꼭지에 #shorts",
+    "shortName": "수도꼭지 수세미 바구니",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-23T11:08:39.233855+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "7051385371",
     "productName": "자동 회수 벽걸이 빨래줄 TPU 분리형 걸이홀 빨래 건조줄 4.2m 베란다 욕실 실내외",
     "productCode": "쿠팡-183",

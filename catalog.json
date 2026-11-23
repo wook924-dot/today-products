@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9830593730",
+    "productName": "송히어로 부착식 볼 바퀴 미니 360도 스텐볼 화이트 수납함 가구 볼캐스터",
+    "productCode": "쿠팡-186",
+    "productSequence": 186,
+    "productImage": "./media/products/coupang-9830593730.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9830593730&itemId=29444676676&vendorItemId=96354085484&traceid=V0-153-ab874a6c48d2745a&requestid=20261123200929270153326252&token=31850C%7CGM&pt=0&slot=1",
+    "categoryName": "생활용품",
+    "priceSnapshot": 1120.0,
+    "title": "무거운 가구 밑에 붙이는 바퀴 #shorts",
+    "shortName": "부착식 360도 볼 바퀴",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-23T11:09:34.577877+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9831763184",
     "productName": "높이 조절이 주방 싱크대 배수대 스펀지 보관대 수도꼭지 거치대 비누 받침대 선반 바구니 정리함 욕실",
     "productCode": "쿠팡-185",

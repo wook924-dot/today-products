@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "7051385371",
+    "productName": "자동 회수 벽걸이 빨래줄 TPU 분리형 걸이홀 빨래 건조줄 4.2m 베란다 욕실 실내외",
+    "productCode": "쿠팡-183",
+    "productSequence": 183,
+    "productImage": "./media/products/coupang-7051385371.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=7051385371&itemId=13555146722&vendorItemId=95792690699&traceid=V0-153-7e80112c5e7fd7a1&requestid=20261123200343548175631550&token=31850C%7CGM&pt=0&slot=2",
+    "categoryName": "생활용품",
+    "priceSnapshot": 13900.0,
+    "title": "쓸 때만 쭉, 숨기는 빨래줄 #shorts",
+    "shortName": "자동 회수 벽걸이 빨래줄",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-23T11:04:56.699551+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9798554053",
     "productName": "플라픽 펌프 필요없는 진공 압축팩 의류 이불 대용량, 3세트, 3매입",
     "productCode": "쿠팡-182",

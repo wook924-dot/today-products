@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9807867641",
+    "productName": "차량용 고속 무선충전기 Z폴드 플립 대화면 호환 송풍구형 핸드폰 거치대",
+    "productCode": "쿠팡-184",
+    "productSequence": 184,
+    "productImage": "./media/products/coupang-9807867641.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9807867641&itemId=29371569666&vendorItemId=96283689599&traceid=V0-153-7358d0ea9aaf8d13&requestid=20261124195519244218417030&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 23800,
+    "title": "폴더블폰 펼친 채로 내비 보기 #shorts",
+    "shortName": "폴더블폰 차량 무선충전 거치대",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-24T10:55:52.632355+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9830593730",
     "productName": "송히어로 부착식 볼 바퀴 미니 360도 스텐볼 화이트 수납함 가구 볼캐스터",
     "productCode": "쿠팡-186",

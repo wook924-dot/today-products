@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "8431147830",
+    "productName": "젤센 불멍 벽난로 무드등 초음파 가습기",
+    "productCode": "쿠팡-188",
+    "productSequence": 188,
+    "productImage": "./media/products/coupang-8431147830.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=8431147830&itemId=24387749813&vendorItemId=91569885078&traceid=V0-153-471d24f636716030&requestid=20261124200139162048433636&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "가전디지털",
+    "priceSnapshot": 38900,
+    "title": "텐트 안에서 불멍하는 법 #shorts",
+    "shortName": "불멍 벽난로 가습기",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-24T11:01:43.343749+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9727969536",
     "productName": "러빈홈 싱크대 하부장 슬라이딩 수납 트레이 무타공 인출식 서랍 정리대, 1개, 화이트",
     "productCode": "쿠팡-187",

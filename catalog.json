@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9727969536",
+    "productName": "러빈홈 싱크대 하부장 슬라이딩 수납 트레이 무타공 인출식 서랍 정리대, 1개, 화이트",
+    "productCode": "쿠팡-187",
+    "productSequence": 187,
+    "productImage": "./media/products/coupang-9727969536.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9727969536&itemId=29146717603&vendorItemId=96070054610&traceid=V0-153-92311aa62b7215e7&clickBeacon=ba9a8a90-e7f5-11f1-93e0-cf94aa9b0761%7E3&requestid=20261124195640814027372925&token=31850C%7CMIXED&pt=1&slot=1",
+    "categoryName": "주방용품",
+    "priceSnapshot": 24900,
+    "title": "허리 안 숙이는 하부장 서랍 #shorts",
+    "shortName": "하부장 슬라이딩 서랍",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-24T10:56:45.715487+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "9807867641",
     "productName": "차량용 고속 무선충전기 Z폴드 플립 대화면 호환 송풍구형 핸드폰 거치대",
     "productCode": "쿠팡-184",

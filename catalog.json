@@ -1,6 +1,22 @@
 [
   {
     "provider": "coupang",
+    "productId": "9740320217",
+    "productName": "덴틱스 360도 회전 차량용 컵홀더 테이블 트레이 식탁 거치대",
+    "productCode": "쿠팡-189",
+    "productSequence": 189,
+    "productImage": "./media/products/coupang-9740320217.jpg",
+    "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF0545643&pageKey=9740320217&itemId=29153136447&vendorItemId=96075807784&traceid=V0-153-58310084a8ea33b2&requestid=20261125195506884011167454&token=31850C%7CMIXED&pt=0&slot=6",
+    "categoryName": "자동차용품",
+    "priceSnapshot": 41900.0,
+    "title": "컵홀더에 꽂는 차량용 테이블 #shorts",
+    "shortName": "360도 회전 차량용 컵홀더 테이블",
+    "videoId": "",
+    "designVersion": "v62",
+    "publishedAt": "2026-11-25T10:55:47.956728+00:00"
+  },
+  {
+    "provider": "coupang",
     "productId": "8431147830",
     "productName": "젤센 불멍 벽난로 무드등 초음파 가습기",
     "productCode": "쿠팡-188",
